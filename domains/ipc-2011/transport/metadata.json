@@ -1,0 +1,117 @@
+{
+  "domain_id": 6,
+  "name": "transport",
+  "collection": "IPC-2011",
+  "description": "(sat11) Each vehicle can transport some packages depending on its capacity and moving has a cost depending on the length of the road. Picking up or dropping a package costs 1.",
+  "tags": [
+    ":action-costs",
+    ":typing"
+  ],
+  "requirements": ":action-costs :typing",
+  "source_api": "https://api.planning.domains/json/classical/domain/6",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/transport-sat11-strips/domain.pddl",
+  "problems": [
+    {
+      "file": "p01.pddl",
+      "problem_id": 68,
+      "source_url": "https://www.haz.ca/planning-domains/classical/transport-sat11-strips/p01.pddl"
+    },
+    {
+      "file": "p02.pddl",
+      "problem_id": 69,
+      "source_url": "https://www.haz.ca/planning-domains/classical/transport-sat11-strips/p02.pddl"
+    },
+    {
+      "file": "p03.pddl",
+      "problem_id": 70,
+      "source_url": "https://www.haz.ca/planning-domains/classical/transport-sat11-strips/p03.pddl"
+    },
+    {
+      "file": "p04.pddl",
+      "problem_id": 71,
+      "source_url": "https://www.haz.ca/planning-domains/classical/transport-sat11-strips/p04.pddl"
+    },
+    {
+      "file": "p05.pddl",
+      "problem_id": 72,
+      "source_url": "https://www.haz.ca/planning-domains/classical/transport-sat11-strips/p05.pddl"
+    },
+    {
+      "file": "p06.pddl",
+      "problem_id": 73,
+      "source_url": "https://www.haz.ca/planning-domains/classical/transport-sat11-strips/p06.pddl"
+    },
+    {
+      "file": "p07.pddl",
+      "problem_id": 74,
+      "source_url": "https://www.haz.ca/planning-domains/classical/transport-sat11-strips/p07.pddl"
+    },
+    {
+      "file": "p08.pddl",
+      "problem_id": 75,
+      "source_url": "https://www.haz.ca/planning-domains/classical/transport-sat11-strips/p08.pddl"
+    },
+    {
+      "file": "p09.pddl",
+      "problem_id": 76,
+      "source_url": "https://www.haz.ca/planning-domains/classical/transport-sat11-strips/p09.pddl"
+    },
+    {
+      "file": "p10.pddl",
+      "problem_id": 77,
+      "source_url": "https://www.haz.ca/planning-domains/classical/transport-sat11-strips/p10.pddl"
+    },
+    {
+      "file": "p11.pddl",
+      "problem_id": 78,
+      "source_url": "https://www.haz.ca/planning-domains/classical/transport-sat11-strips/p11.pddl"
+    },
+    {
+      "file": "p12.pddl",
+      "problem_id": 79,
+      "source_url": "https://www.haz.ca/planning-domains/classical/transport-sat11-strips/p12.pddl"
+    },
+    {
+      "file": "p13.pddl",
+      "problem_id": 80,
+      "source_url": "https://www.haz.ca/planning-domains/classical/transport-sat11-strips/p13.pddl"
+    },
+    {
+      "file": "p14.pddl",
+      "problem_id": 81,
+      "source_url": "https://www.haz.ca/planning-domains/classical/transport-sat11-strips/p14.pddl"
+    },
+    {
+      "file": "p15.pddl",
+      "problem_id": 82,
+      "source_url": "https://www.haz.ca/planning-domains/classical/transport-sat11-strips/p15.pddl"
+    },
+    {
+      "file": "p16.pddl",
+      "problem_id": 83,
+      "source_url": "https://www.haz.ca/planning-domains/classical/transport-sat11-strips/p16.pddl"
+    },
+    {
+      "file": "p17.pddl",
+      "problem_id": 84,
+      "source_url": "https://www.haz.ca/planning-domains/classical/transport-sat11-strips/p17.pddl"
+    },
+    {
+      "file": "p18.pddl",
+      "problem_id": 85,
+      "source_url": "https://www.haz.ca/planning-domains/classical/transport-sat11-strips/p18.pddl"
+    },
+    {
+      "file": "p19.pddl",
+      "problem_id": 86,
+      "source_url": "https://www.haz.ca/planning-domains/classical/transport-sat11-strips/p19.pddl"
+    },
+    {
+      "file": "p20.pddl",
+      "problem_id": 87,
+      "source_url": "https://www.haz.ca/planning-domains/classical/transport-sat11-strips/p20.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-08-20T14:34:42+00:00"
+}

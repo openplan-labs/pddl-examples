@@ -1,0 +1,22 @@
+{
+  "domain_id": 4,
+  "name": "sokoban",
+  "collection": "IPC-2008",
+  "description": "(opt08) This domain models the Sokoban game. (http://en.wikipedia.org/wiki/Sokoban)",
+  "tags": [
+    ":action-costs",
+    ":typing"
+  ],
+  "requirements": ":action-costs :typing",
+  "source_api": "https://api.planning.domains/json/classical/domain/4",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/sokoban-opt08-strips/p01-domain.pddl",
+  "problems": [
+    {
+      "file": "p01.pddl",
+      "problem_id": 8,
+      "source_url": "https://www.haz.ca/planning-domains/classical/sokoban-opt08-strips/p01.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-08-20T14:34:27+00:00"
+}

@@ -1,0 +1,61 @@
+{
+  "imported": {
+    "10": {
+      "collection": "IPC-2014",
+      "fetched_at": "2026-08-20T14:35:19+00:00",
+      "name": "floortile",
+      "path": "domains/ipc-2014/floortile",
+      "problems": 20
+    },
+    "11": {
+      "collection": "IPC-2014",
+      "fetched_at": "2026-08-20T14:35:30+00:00",
+      "name": "transport",
+      "path": "domains/ipc-2014/transport",
+      "problems": 20
+    },
+    "4": {
+      "collection": "IPC-2008",
+      "fetched_at": "2026-08-20T14:34:27+00:00",
+      "name": "sokoban",
+      "path": "domains/ipc-2008/sokoban",
+      "problems": 1
+    },
+    "5": {
+      "collection": "IPC-2008",
+      "fetched_at": "2026-08-20T14:34:29+00:00",
+      "name": "sokoban",
+      "path": "domains/ipc-2008/sokoban-5",
+      "problems": 1
+    },
+    "6": {
+      "collection": "IPC-2011",
+      "fetched_at": "2026-08-20T14:34:42+00:00",
+      "name": "transport",
+      "path": "domains/ipc-2011/transport",
+      "problems": 20
+    },
+    "7": {
+      "collection": "IPC-2011",
+      "fetched_at": "2026-08-20T14:34:52+00:00",
+      "name": "parking",
+      "path": "domains/ipc-2011/parking",
+      "problems": 20
+    },
+    "8": {
+      "collection": "IPC-2011",
+      "fetched_at": "2026-08-20T14:35:03+00:00",
+      "name": "sokoban",
+      "path": "domains/ipc-2011/sokoban",
+      "problems": 20
+    },
+    "9": {
+      "collection": "IPC-2008",
+      "fetched_at": "2026-08-20T14:35:06+00:00",
+      "name": "pegsol",
+      "path": "domains/ipc-2008/pegsol",
+      "problems": 1
+    }
+  },
+  "source": "https://api.planning.domains/json/classical"
+}

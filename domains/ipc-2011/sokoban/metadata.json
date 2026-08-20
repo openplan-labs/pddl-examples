@@ -1,0 +1,117 @@
+{
+  "domain_id": 8,
+  "name": "sokoban",
+  "collection": "IPC-2011",
+  "description": "(sat11) This domain models the Sokoban game. (http://en.wikipedia.org/wiki/Sokoban)",
+  "tags": [
+    ":action-costs",
+    ":typing"
+  ],
+  "requirements": ":action-costs :typing",
+  "source_api": "https://api.planning.domains/json/classical/domain/8",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/sokoban-sat11-strips/domain.pddl",
+  "problems": [
+    {
+      "file": "p01.pddl",
+      "problem_id": 108,
+      "source_url": "https://www.haz.ca/planning-domains/classical/sokoban-sat11-strips/p01.pddl"
+    },
+    {
+      "file": "p02.pddl",
+      "problem_id": 109,
+      "source_url": "https://www.haz.ca/planning-domains/classical/sokoban-sat11-strips/p02.pddl"
+    },
+    {
+      "file": "p03.pddl",
+      "problem_id": 110,
+      "source_url": "https://www.haz.ca/planning-domains/classical/sokoban-sat11-strips/p03.pddl"
+    },
+    {
+      "file": "p04.pddl",
+      "problem_id": 111,
+      "source_url": "https://www.haz.ca/planning-domains/classical/sokoban-sat11-strips/p04.pddl"
+    },
+    {
+      "file": "p05.pddl",
+      "problem_id": 112,
+      "source_url": "https://www.haz.ca/planning-domains/classical/sokoban-sat11-strips/p05.pddl"
+    },
+    {
+      "file": "p06.pddl",
+      "problem_id": 113,
+      "source_url": "https://www.haz.ca/planning-domains/classical/sokoban-sat11-strips/p06.pddl"
+    },
+    {
+      "file": "p07.pddl",
+      "problem_id": 114,
+      "source_url": "https://www.haz.ca/planning-domains/classical/sokoban-sat11-strips/p07.pddl"
+    },
+    {
+      "file": "p08.pddl",
+      "problem_id": 115,
+      "source_url": "https://www.haz.ca/planning-domains/classical/sokoban-sat11-strips/p08.pddl"
+    },
+    {
+      "file": "p09.pddl",
+      "problem_id": 116,
+      "source_url": "https://www.haz.ca/planning-domains/classical/sokoban-sat11-strips/p09.pddl"
+    },
+    {
+      "file": "p10.pddl",
+      "problem_id": 117,
+      "source_url": "https://www.haz.ca/planning-domains/classical/sokoban-sat11-strips/p10.pddl"
+    },
+    {
+      "file": "p11.pddl",
+      "problem_id": 118,
+      "source_url": "https://www.haz.ca/planning-domains/classical/sokoban-sat11-strips/p11.pddl"
+    },
+    {
+      "file": "p12.pddl",
+      "problem_id": 119,
+      "source_url": "https://www.haz.ca/planning-domains/classical/sokoban-sat11-strips/p12.pddl"
+    },
+    {
+      "file": "p13.pddl",
+      "problem_id": 120,
+      "source_url": "https://www.haz.ca/planning-domains/classical/sokoban-sat11-strips/p13.pddl"
+    },
+    {
+      "file": "p14.pddl",
+      "problem_id": 121,
+      "source_url": "https://www.haz.ca/planning-domains/classical/sokoban-sat11-strips/p14.pddl"
+    },
+    {
+      "file": "p15.pddl",
+      "problem_id": 122,
+      "source_url": "https://www.haz.ca/planning-domains/classical/sokoban-sat11-strips/p15.pddl"
+    },
+    {
+      "file": "p16.pddl",
+      "problem_id": 123,
+      "source_url": "https://www.haz.ca/planning-domains/classical/sokoban-sat11-strips/p16.pddl"
+    },
+    {
+      "file": "p17.pddl",
+      "problem_id": 124,
+      "source_url": "https://www.haz.ca/planning-domains/classical/sokoban-sat11-strips/p17.pddl"
+    },
+    {
+      "file": "p18.pddl",
+      "problem_id": 125,
+      "source_url": "https://www.haz.ca/planning-domains/classical/sokoban-sat11-strips/p18.pddl"
+    },
+    {
+      "file": "p19.pddl",
+      "problem_id": 126,
+      "source_url": "https://www.haz.ca/planning-domains/classical/sokoban-sat11-strips/p19.pddl"
+    },
+    {
+      "file": "p20.pddl",
+      "problem_id": 127,
+      "source_url": "https://www.haz.ca/planning-domains/classical/sokoban-sat11-strips/p20.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-08-20T14:35:03+00:00"
+}
