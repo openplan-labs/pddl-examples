@@ -1,0 +1,47 @@
+name: validate
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  pddl-sanity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check every .pddl file parses at the s-expression level
+        run: |
+          python3 - <<'EOF'
+          import pathlib, sys
+
+          failed = 0
+          files = sorted(pathlib.Path(".").rglob("*.pddl"))
+          for path in files:
+              text = path.read_text(errors="replace")
+              # Strip line comments before counting parentheses.
+              code = "\n".join(line.split(";", 1)[0] for line in text.splitlines())
+              depth = 0
+              balanced = True
+              for ch in code:
+                  if ch == "(":
+                      depth += 1
+                  elif ch == ")":
+                      depth -= 1
+                      if depth < 0:
+                          balanced = False
+                          break
+              if depth != 0:
+                  balanced = False
+              if not balanced:
+                  print(f"{path}: unbalanced parentheses")
+                  failed += 1
+              if "(define" not in code:
+                  print(f"{path}: no (define ...) form")
+                  failed += 1
+          print(f"{len(files)} files checked, {failed} problems")
+          sys.exit(1 if failed else 0)
+          EOF
