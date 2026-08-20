@@ -1,0 +1,116 @@
+{
+  "domain_id": 12,
+  "name": "miconic",
+  "collection": "Fast Downward All Problem Suite",
+  "description": "A domain that models the problem of elevator control. Originally introduced by Jana Koehler and Kilian Schuster from Schindler Lifts  Ltd.",
+  "tags": [
+    ":strips"
+  ],
+  "requirements": ":strips",
+  "source_api": "https://api.planning.domains/json/classical/domain/12",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/miconic/domain.pddl",
+  "problems": [
+    {
+      "file": "s1-0.pddl",
+      "problem_id": 268,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic/s1-0.pddl"
+    },
+    {
+      "file": "s1-1.pddl",
+      "problem_id": 269,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic/s1-1.pddl"
+    },
+    {
+      "file": "s1-2.pddl",
+      "problem_id": 270,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic/s1-2.pddl"
+    },
+    {
+      "file": "s1-3.pddl",
+      "problem_id": 271,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic/s1-3.pddl"
+    },
+    {
+      "file": "s1-4.pddl",
+      "problem_id": 272,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic/s1-4.pddl"
+    },
+    {
+      "file": "s10-0.pddl",
+      "problem_id": 273,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic/s10-0.pddl"
+    },
+    {
+      "file": "s10-1.pddl",
+      "problem_id": 274,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic/s10-1.pddl"
+    },
+    {
+      "file": "s10-2.pddl",
+      "problem_id": 275,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic/s10-2.pddl"
+    },
+    {
+      "file": "s10-3.pddl",
+      "problem_id": 276,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic/s10-3.pddl"
+    },
+    {
+      "file": "s10-4.pddl",
+      "problem_id": 277,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic/s10-4.pddl"
+    },
+    {
+      "file": "s11-0.pddl",
+      "problem_id": 278,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic/s11-0.pddl"
+    },
+    {
+      "file": "s11-1.pddl",
+      "problem_id": 279,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic/s11-1.pddl"
+    },
+    {
+      "file": "s11-2.pddl",
+      "problem_id": 280,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic/s11-2.pddl"
+    },
+    {
+      "file": "s11-3.pddl",
+      "problem_id": 281,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic/s11-3.pddl"
+    },
+    {
+      "file": "s11-4.pddl",
+      "problem_id": 282,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic/s11-4.pddl"
+    },
+    {
+      "file": "s12-0.pddl",
+      "problem_id": 283,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic/s12-0.pddl"
+    },
+    {
+      "file": "s12-2.pddl",
+      "problem_id": 284,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic/s12-2.pddl"
+    },
+    {
+      "file": "s12-1.pddl",
+      "problem_id": 285,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic/s12-1.pddl"
+    },
+    {
+      "file": "s12-3.pddl",
+      "problem_id": 286,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic/s12-3.pddl"
+    },
+    {
+      "file": "s12-4.pddl",
+      "problem_id": 287,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic/s12-4.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-08-20T14:39:45+00:00"
+}

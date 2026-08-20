@@ -14,6 +14,41 @@
       "path": "domains/ipc-2014/transport",
       "problems": 20
     },
+    "12": {
+      "collection": "Fast Downward All Problem Suite",
+      "fetched_at": "2026-08-20T14:39:45+00:00",
+      "name": "miconic",
+      "path": "domains/fast-downward-all-problem-suite/miconic",
+      "problems": 20
+    },
+    "13": {
+      "collection": "IPC-2011",
+      "fetched_at": "2026-08-20T14:39:47+00:00",
+      "name": "transport",
+      "path": "domains/ipc-2011/transport-13",
+      "problems": 20
+    },
+    "14": {
+      "collection": "Fast Downward All Problem Suite",
+      "fetched_at": "2026-08-20T14:39:50+00:00",
+      "name": "pipesworld-tankage",
+      "path": "domains/fast-downward-all-problem-suite/pipesworld-tankage",
+      "problems": 20
+    },
+    "15": {
+      "collection": "Fast Downward All Problem Suite",
+      "fetched_at": "2026-08-20T14:39:52+00:00",
+      "name": "schedule",
+      "path": "domains/fast-downward-all-problem-suite/schedule",
+      "problems": 20
+    },
+    "16": {
+      "collection": "Fast Downward LM-Cut Problem Suite",
+      "fetched_at": "2026-08-20T14:39:53+00:00",
+      "name": "trucks",
+      "path": "domains/fast-downward-lm-cut-problem-suite/trucks",
+      "problems": 1
+    },
     "4": {
       "collection": "IPC-2008",
       "fetched_at": "2026-08-20T14:34:27+00:00",

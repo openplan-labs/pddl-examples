@@ -1,0 +1,21 @@
+{
+  "domain_id": 16,
+  "name": "trucks",
+  "collection": "Fast Downward LM-Cut Problem Suite",
+  "description": "Moving packages between locations by trucks under certain spatial constraints and delivering deadlines.",
+  "tags": [
+    ":strips"
+  ],
+  "requirements": ":strips",
+  "source_api": "https://api.planning.domains/json/classical/domain/16",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/trucks-strips/domain_p01.pddl",
+  "problems": [
+    {
+      "file": "p01.pddl",
+      "problem_id": 508,
+      "source_url": "https://www.haz.ca/planning-domains/classical/trucks-strips/p01.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-08-20T14:39:53+00:00"
+}

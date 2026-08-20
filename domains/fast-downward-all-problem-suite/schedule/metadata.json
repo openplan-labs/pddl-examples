@@ -1,0 +1,119 @@
+{
+  "domain_id": 15,
+  "name": "schedule",
+  "collection": "Fast Downward All Problem Suite",
+  "description": "Encodes a simple Scheduling kind of problem where a number of objects need to be processed using a collection of machines. Possible actions are polishing, punching holes, painting etc. All actions need uniform time, which is modelled by a do-time-step operator. If that operator is applied, then all busy machines are no longer busy, and all scheduled objects are no longer scheduled---this is also an example of the kind of conditional effects that are used in the representation.",
+  "tags": [
+    ":conditional-effects",
+    ":equality",
+    ":negative-preconditions",
+    ":typing"
+  ],
+  "requirements": ":adl :typing",
+  "source_api": "https://api.planning.domains/json/classical/domain/15",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/schedule/domain.pddl",
+  "problems": [
+    {
+      "file": "probschedule-10-0.pddl",
+      "problem_id": 538,
+      "source_url": "https://www.haz.ca/planning-domains/classical/schedule/probschedule-10-0.pddl"
+    },
+    {
+      "file": "probschedule-10-1.pddl",
+      "problem_id": 539,
+      "source_url": "https://www.haz.ca/planning-domains/classical/schedule/probschedule-10-1.pddl"
+    },
+    {
+      "file": "probschedule-10-2.pddl",
+      "problem_id": 540,
+      "source_url": "https://www.haz.ca/planning-domains/classical/schedule/probschedule-10-2.pddl"
+    },
+    {
+      "file": "probschedule-11-0.pddl",
+      "problem_id": 541,
+      "source_url": "https://www.haz.ca/planning-domains/classical/schedule/probschedule-11-0.pddl"
+    },
+    {
+      "file": "probschedule-11-1.pddl",
+      "problem_id": 542,
+      "source_url": "https://www.haz.ca/planning-domains/classical/schedule/probschedule-11-1.pddl"
+    },
+    {
+      "file": "probschedule-11-2.pddl",
+      "problem_id": 543,
+      "source_url": "https://www.haz.ca/planning-domains/classical/schedule/probschedule-11-2.pddl"
+    },
+    {
+      "file": "probschedule-12-0.pddl",
+      "problem_id": 544,
+      "source_url": "https://www.haz.ca/planning-domains/classical/schedule/probschedule-12-0.pddl"
+    },
+    {
+      "file": "probschedule-12-1.pddl",
+      "problem_id": 545,
+      "source_url": "https://www.haz.ca/planning-domains/classical/schedule/probschedule-12-1.pddl"
+    },
+    {
+      "file": "probschedule-12-2.pddl",
+      "problem_id": 546,
+      "source_url": "https://www.haz.ca/planning-domains/classical/schedule/probschedule-12-2.pddl"
+    },
+    {
+      "file": "probschedule-13-0.pddl",
+      "problem_id": 547,
+      "source_url": "https://www.haz.ca/planning-domains/classical/schedule/probschedule-13-0.pddl"
+    },
+    {
+      "file": "probschedule-13-1.pddl",
+      "problem_id": 548,
+      "source_url": "https://www.haz.ca/planning-domains/classical/schedule/probschedule-13-1.pddl"
+    },
+    {
+      "file": "probschedule-13-2.pddl",
+      "problem_id": 549,
+      "source_url": "https://www.haz.ca/planning-domains/classical/schedule/probschedule-13-2.pddl"
+    },
+    {
+      "file": "probschedule-14-0.pddl",
+      "problem_id": 550,
+      "source_url": "https://www.haz.ca/planning-domains/classical/schedule/probschedule-14-0.pddl"
+    },
+    {
+      "file": "probschedule-14-1.pddl",
+      "problem_id": 551,
+      "source_url": "https://www.haz.ca/planning-domains/classical/schedule/probschedule-14-1.pddl"
+    },
+    {
+      "file": "probschedule-14-2.pddl",
+      "problem_id": 552,
+      "source_url": "https://www.haz.ca/planning-domains/classical/schedule/probschedule-14-2.pddl"
+    },
+    {
+      "file": "probschedule-15-0.pddl",
+      "problem_id": 553,
+      "source_url": "https://www.haz.ca/planning-domains/classical/schedule/probschedule-15-0.pddl"
+    },
+    {
+      "file": "probschedule-15-1.pddl",
+      "problem_id": 554,
+      "source_url": "https://www.haz.ca/planning-domains/classical/schedule/probschedule-15-1.pddl"
+    },
+    {
+      "file": "probschedule-15-2.pddl",
+      "problem_id": 555,
+      "source_url": "https://www.haz.ca/planning-domains/classical/schedule/probschedule-15-2.pddl"
+    },
+    {
+      "file": "probschedule-16-0.pddl",
+      "problem_id": 556,
+      "source_url": "https://www.haz.ca/planning-domains/classical/schedule/probschedule-16-0.pddl"
+    },
+    {
+      "file": "probschedule-16-1.pddl",
+      "problem_id": 557,
+      "source_url": "https://www.haz.ca/planning-domains/classical/schedule/probschedule-16-1.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-08-20T14:39:52+00:00"
+}
