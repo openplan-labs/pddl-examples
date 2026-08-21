@@ -70,7 +70,7 @@ regenerates them and will overwrite manual changes.
 ## Provenance and licensing
 
 Files under `domains/` are fetched from the
-[planning.domains](https://planning.domains) classical collection, which
+[planning.domains](http://planning.domains) classical collection, which
 aggregates domains from the International Planning Competitions and community
 submissions. Each synced domain's `metadata.json` records the exact source
 URLs and the fetch date; consult those sources for the original authorship and
