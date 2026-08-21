@@ -1,0 +1,116 @@
+{
+  "domain_id": 17,
+  "name": "zenotravel",
+  "collection": "Fast Downward All Problem Suite",
+  "description": "The zenotravel domain involves transporting people around in planes, using different modes of movement: fast and slow. The key to this domain is that, where the expressive power of the numeric tracks is used, the fast movement consumes fuel faster than slow movement, making the search for a good quality plan (one using less fuel) much harder.",
+  "tags": [
+    ":strips"
+  ],
+  "requirements": null,
+  "source_api": "https://api.planning.domains/json/classical/domain/17",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/zenotravel/domain.pddl",
+  "problems": [
+    {
+      "file": "pfile1.pddl",
+      "problem_id": 208,
+      "source_url": "https://www.haz.ca/planning-domains/classical/zenotravel/pfile1.pddl"
+    },
+    {
+      "file": "pfile10.pddl",
+      "problem_id": 209,
+      "source_url": "https://www.haz.ca/planning-domains/classical/zenotravel/pfile10.pddl"
+    },
+    {
+      "file": "pfile11.pddl",
+      "problem_id": 210,
+      "source_url": "https://www.haz.ca/planning-domains/classical/zenotravel/pfile11.pddl"
+    },
+    {
+      "file": "pfile12.pddl",
+      "problem_id": 211,
+      "source_url": "https://www.haz.ca/planning-domains/classical/zenotravel/pfile12.pddl"
+    },
+    {
+      "file": "pfile13.pddl",
+      "problem_id": 212,
+      "source_url": "https://www.haz.ca/planning-domains/classical/zenotravel/pfile13.pddl"
+    },
+    {
+      "file": "pfile14.pddl",
+      "problem_id": 213,
+      "source_url": "https://www.haz.ca/planning-domains/classical/zenotravel/pfile14.pddl"
+    },
+    {
+      "file": "pfile15.pddl",
+      "problem_id": 214,
+      "source_url": "https://www.haz.ca/planning-domains/classical/zenotravel/pfile15.pddl"
+    },
+    {
+      "file": "pfile16.pddl",
+      "problem_id": 215,
+      "source_url": "https://www.haz.ca/planning-domains/classical/zenotravel/pfile16.pddl"
+    },
+    {
+      "file": "pfile17.pddl",
+      "problem_id": 216,
+      "source_url": "https://www.haz.ca/planning-domains/classical/zenotravel/pfile17.pddl"
+    },
+    {
+      "file": "pfile18.pddl",
+      "problem_id": 217,
+      "source_url": "https://www.haz.ca/planning-domains/classical/zenotravel/pfile18.pddl"
+    },
+    {
+      "file": "pfile19.pddl",
+      "problem_id": 218,
+      "source_url": "https://www.haz.ca/planning-domains/classical/zenotravel/pfile19.pddl"
+    },
+    {
+      "file": "pfile2.pddl",
+      "problem_id": 219,
+      "source_url": "https://www.haz.ca/planning-domains/classical/zenotravel/pfile2.pddl"
+    },
+    {
+      "file": "pfile20.pddl",
+      "problem_id": 220,
+      "source_url": "https://www.haz.ca/planning-domains/classical/zenotravel/pfile20.pddl"
+    },
+    {
+      "file": "pfile3.pddl",
+      "problem_id": 221,
+      "source_url": "https://www.haz.ca/planning-domains/classical/zenotravel/pfile3.pddl"
+    },
+    {
+      "file": "pfile4.pddl",
+      "problem_id": 222,
+      "source_url": "https://www.haz.ca/planning-domains/classical/zenotravel/pfile4.pddl"
+    },
+    {
+      "file": "pfile5.pddl",
+      "problem_id": 223,
+      "source_url": "https://www.haz.ca/planning-domains/classical/zenotravel/pfile5.pddl"
+    },
+    {
+      "file": "pfile6.pddl",
+      "problem_id": 224,
+      "source_url": "https://www.haz.ca/planning-domains/classical/zenotravel/pfile6.pddl"
+    },
+    {
+      "file": "pfile7.pddl",
+      "problem_id": 225,
+      "source_url": "https://www.haz.ca/planning-domains/classical/zenotravel/pfile7.pddl"
+    },
+    {
+      "file": "pfile8.pddl",
+      "problem_id": 226,
+      "source_url": "https://www.haz.ca/planning-domains/classical/zenotravel/pfile8.pddl"
+    },
+    {
+      "file": "pfile9.pddl",
+      "problem_id": 227,
+      "source_url": "https://www.haz.ca/planning-domains/classical/zenotravel/pfile9.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-08-21T04:53:35+00:00"
+}

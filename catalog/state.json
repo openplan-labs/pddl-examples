@@ -49,6 +49,41 @@
       "path": "domains/fast-downward-lm-cut-problem-suite/trucks",
       "problems": 1
     },
+    "17": {
+      "collection": "Fast Downward All Problem Suite",
+      "fetched_at": "2026-08-21T04:53:35+00:00",
+      "name": "zenotravel",
+      "path": "domains/fast-downward-all-problem-suite/zenotravel",
+      "problems": 20
+    },
+    "18": {
+      "collection": "IPC-2011",
+      "fetched_at": "2026-08-21T04:53:39+00:00",
+      "name": "barman",
+      "path": "domains/ipc-2011/barman",
+      "problems": 20
+    },
+    "19": {
+      "collection": "Fast Downward All Problem Suite",
+      "fetched_at": "2026-08-21T04:53:41+00:00",
+      "name": "tpp",
+      "path": "domains/fast-downward-all-problem-suite/tpp",
+      "problems": 20
+    },
+    "20": {
+      "collection": "IPC-2011",
+      "fetched_at": "2026-08-21T04:53:44+00:00",
+      "name": "floortile",
+      "path": "domains/ipc-2011/floortile",
+      "problems": 20
+    },
+    "22": {
+      "collection": "IPC-2014",
+      "fetched_at": "2026-08-21T04:53:47+00:00",
+      "name": "ged",
+      "path": "domains/ipc-2014/ged",
+      "problems": 20
+    },
     "4": {
       "collection": "IPC-2008",
       "fetched_at": "2026-08-20T14:34:27+00:00",

@@ -1,0 +1,117 @@
+{
+  "domain_id": 19,
+  "name": "tpp",
+  "collection": "Fast Downward All Problem Suite",
+  "description": "Traveling and buying goods at selected markets minimizing costs (from OR with variants, NP-hard).",
+  "tags": [
+    ":strips",
+    ":typing"
+  ],
+  "requirements": ":strips :typing",
+  "source_api": "https://api.planning.domains/json/classical/domain/19",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/tpp/domain.pddl",
+  "problems": [
+    {
+      "file": "p01.pddl",
+      "problem_id": 178,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tpp/p01.pddl"
+    },
+    {
+      "file": "p02.pddl",
+      "problem_id": 179,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tpp/p02.pddl"
+    },
+    {
+      "file": "p03.pddl",
+      "problem_id": 180,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tpp/p03.pddl"
+    },
+    {
+      "file": "p04.pddl",
+      "problem_id": 181,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tpp/p04.pddl"
+    },
+    {
+      "file": "p05.pddl",
+      "problem_id": 182,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tpp/p05.pddl"
+    },
+    {
+      "file": "p06.pddl",
+      "problem_id": 183,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tpp/p06.pddl"
+    },
+    {
+      "file": "p07.pddl",
+      "problem_id": 184,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tpp/p07.pddl"
+    },
+    {
+      "file": "p08.pddl",
+      "problem_id": 185,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tpp/p08.pddl"
+    },
+    {
+      "file": "p09.pddl",
+      "problem_id": 186,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tpp/p09.pddl"
+    },
+    {
+      "file": "p10.pddl",
+      "problem_id": 187,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tpp/p10.pddl"
+    },
+    {
+      "file": "p11.pddl",
+      "problem_id": 188,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tpp/p11.pddl"
+    },
+    {
+      "file": "p12.pddl",
+      "problem_id": 189,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tpp/p12.pddl"
+    },
+    {
+      "file": "p13.pddl",
+      "problem_id": 190,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tpp/p13.pddl"
+    },
+    {
+      "file": "p14.pddl",
+      "problem_id": 191,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tpp/p14.pddl"
+    },
+    {
+      "file": "p15.pddl",
+      "problem_id": 192,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tpp/p15.pddl"
+    },
+    {
+      "file": "p16.pddl",
+      "problem_id": 193,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tpp/p16.pddl"
+    },
+    {
+      "file": "p17.pddl",
+      "problem_id": 194,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tpp/p17.pddl"
+    },
+    {
+      "file": "p18.pddl",
+      "problem_id": 195,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tpp/p18.pddl"
+    },
+    {
+      "file": "p19.pddl",
+      "problem_id": 196,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tpp/p19.pddl"
+    },
+    {
+      "file": "p20.pddl",
+      "problem_id": 197,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tpp/p20.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-08-21T04:53:41+00:00"
+}
