@@ -1,6 +1,11 @@
 name: validate
 
 on:
+  # `push` matters as much as `pull_request` here: the daily sync commits
+  # straight to main without opening one, so a pull-request-only trigger
+  # never validates anything the sync imported -- which is most of the tree.
+  push:
+    branches: [main]
   pull_request:
   workflow_dispatch:
 

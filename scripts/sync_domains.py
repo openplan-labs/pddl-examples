@@ -22,6 +22,7 @@ import sys
 import time
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urlparse
 
 import requests
 
@@ -75,6 +76,47 @@ def slugify(name: str) -> str:
     return slug or "unnamed"
 
 
+def upstream_slug(domain_url: str) -> str | None:
+    """The directory name upstream uses, which carries the IPC track.
+
+    `domain_name` from the API is the bare family -- three different domains
+    all answer "transport". The track that distinguishes them (`opt11` vs
+    `sat11` vs `opt14`) survives only in the file URL, as
+    `.../classical/transport-sat11-strips/domain.pddl`. Mixing an
+    optimal-track and a satisficing-track instance set under one label is how
+    a benchmark comparison gets silently corrupted, so the URL wins.
+    """
+    parts = [seg for seg in urlparse(domain_url).path.split("/") if seg]
+    if len(parts) < 2:
+        return None
+    return slugify(parts[-2]) or None
+
+
+def track_of(meta: dict) -> str:
+    """The competition track, if the upstream path or description names one."""
+    slug = upstream_slug(meta.get("domain_source_url") or "") or ""
+    match = re.search(r"-((?:opt|sat|net|mco|adl)\d{2})\b", slug)
+    if match:
+        return match.group(1)
+    # The description sometimes opens with a marker. Accept it only when it
+    # looks like a track -- a bare "(2008)" is a year, not a track, and
+    # printing it in this column would invent a distinction.
+    match = re.match(r"\((\s*(?:opt|sat|net|mco|adl)\d{2}\s*)\)",
+                     (meta.get("description") or "").strip())
+    return match.group(1).strip() if match else "—"
+
+
+def per_problem_domain_file(meta: dict) -> bool:
+    """True when upstream ships a domain file per problem.
+
+    Those domains cannot be imported whole -- only the largest group sharing
+    one domain file is kept -- so their problem count collapses, often to one.
+    Detectable after the fact from the file name.
+    """
+    name = (meta.get("domain_source_url") or "").rsplit("/", 1)[-1]
+    return bool(re.search(r"(^|[-_])p\d+[-_]?domain|domain[-_]p\d+", name))
+
+
 def load_state() -> dict:
     if STATE_FILE.exists():
         return json.loads(STATE_FILE.read_text())
@@ -115,8 +157,19 @@ def import_domain(
     for p in problems:
         counts[p["domain_url"]] = counts.get(p["domain_url"], 0) + 1
     domain_url = max(counts, key=lambda u: counts[u])
-    problems = [p for p in problems if p["domain_url"] == domain_url][:max_problems]
+    n_available = len(problems)
+    problems = [p for p in problems if p["domain_url"] == domain_url]
+    n_matching = len(problems)
+    problems = problems[:max_problems]
+    if n_matching < n_available:
+        log(
+            f"  domain {domain_id}: {n_available - n_matching} of {n_available} "
+            "problems ship their own domain file and are not imported"
+        )
 
+    # Prefer upstream's own directory name: it disambiguates the IPC track,
+    # which `domain_name` does not.
+    name = upstream_slug(domain_url) or name
     target = DOMAINS_DIR / slugify(collection) / name
     if target.exists():
         meta_file = target / "metadata.json"
@@ -148,6 +201,13 @@ def import_domain(
         "requirements": domain.get("requirements"),
         "source_api": f"{API_ROOT}/domain/{domain_id}",
         "domain_source_url": domain_url,
+        # `problems_available` is what upstream lists; `problems` is what was
+        # kept. They differ when a domain ships one domain file per problem,
+        # in which case only the largest matching group is importable and the
+        # count can collapse to one. Recording both keeps a "Problems: 1" row
+        # from reading as "upstream has one problem".
+        "problems_available": n_available,
+        "problems_matching_domain_file": n_matching,
         "problems": problem_files,
         "attribution": (
             "Fetched from the planning.domains classical collection "
@@ -173,10 +233,28 @@ def regenerate_catalog() -> None:
     for meta_path in sorted(DOMAINS_DIR.glob("*/*/metadata.json")):
         meta = json.loads(meta_path.read_text())
         rel = meta_path.parent.relative_to(REPO_ROOT)
-        tags = " ".join(f"`{t}`" for t in meta.get("tags", [])) or "—"
+        # The API's `requirements` string is the domain's own declaration.
+        # `tags` is a curated label set and the two disagree, so prefer the
+        # declaration and mark the rows that only have tags to fall back on.
+        declared = (meta.get("requirements") or "").split()
+        if declared:
+            reqs = " ".join(f"`{r}`" for r in declared)
+        elif meta.get("tags"):
+            reqs = " ".join(f"`{r}`" for r in meta["tags"]) + "[^tags]"
+        else:
+            reqs = "—"
+        kept = len(meta.get("problems", []))
+        available = meta.get("problems_available")
+        matching = meta.get("problems_matching_domain_file")
+        if available is not None and matching is not None and matching < available:
+            problems = f"{kept} of {available}[^split]"
+        elif per_problem_domain_file(meta):
+            problems = f"{kept}[^split]"
+        else:
+            problems = str(kept)
         rows.append(
-            f"| [{meta.get('name') or rel.name}]({rel}/) | {meta.get('collection', '—')} "
-            f"| {tags} | {len(meta.get('problems', []))} "
+            f"| [{rel.name}]({rel}/) | {meta.get('collection', '—')} "
+            f"| {track_of(meta)} | {reqs} | {problems} "
             f"| [planning.domains]({meta.get('source_api', '')}) |"
         )
     lines = [
@@ -189,9 +267,22 @@ def regenerate_catalog() -> None:
         "",
         f"{len(rows)} synced domains.",
         "",
-        "| Domain | Collection | Requirements | Problems | Source |",
-        "| :--- | :--- | :--- | ---: | :--- |",
+        "| Domain | Collection | Track | Requirements | Problems | Source |",
+        "| :--- | :--- | :--- | :--- | ---: | :--- |",
         *rows,
+        "",
+        "[^split]: Upstream ships a separate domain file per problem for this",
+        "    domain. Only the largest group sharing one domain file is imported,",
+        "    so the rest are not here -- a count of 1 means one *importable*",
+        "    problem, not one upstream. See `metadata.json` for the full count.",
+        "",
+        "[^tags]: This domain publishes no `requirements` string, so the row",
+        "    falls back to the API's curated `tags`, which are not the same",
+        "    thing and can disagree with the domain file.",
+        "",
+        "The **Domain** column is upstream's own directory name, which carries",
+        "the competition track. `domain_name` alone does not: three different",
+        "IPC domains all answer \"transport\".",
         "",
     ]
     CATALOG_FILE.write_text("\n".join(lines))

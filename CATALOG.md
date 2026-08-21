@@ -7,23 +7,36 @@ repository root are not listed here.
 
 18 synced domains.
 
-| Domain | Collection | Requirements | Problems | Source |
-| :--- | :--- | :--- | ---: | :--- |
-| [miconic](domains/fast-downward-all-problem-suite/miconic/) | Fast Downward All Problem Suite | `:strips` | 20 | [planning.domains](https://api.planning.domains/json/classical/domain/12) |
-| [pipesworld-tankage](domains/fast-downward-all-problem-suite/pipesworld-tankage/) | Fast Downward All Problem Suite | `:strips` `:typing` | 20 | [planning.domains](https://api.planning.domains/json/classical/domain/14) |
-| [schedule](domains/fast-downward-all-problem-suite/schedule/) | Fast Downward All Problem Suite | `:conditional-effects` `:equality` `:negative-preconditions` `:typing` | 20 | [planning.domains](https://api.planning.domains/json/classical/domain/15) |
-| [tpp](domains/fast-downward-all-problem-suite/tpp/) | Fast Downward All Problem Suite | `:strips` `:typing` | 20 | [planning.domains](https://api.planning.domains/json/classical/domain/19) |
-| [zenotravel](domains/fast-downward-all-problem-suite/zenotravel/) | Fast Downward All Problem Suite | `:strips` | 20 | [planning.domains](https://api.planning.domains/json/classical/domain/17) |
-| [trucks](domains/fast-downward-lm-cut-problem-suite/trucks/) | Fast Downward LM-Cut Problem Suite | `:strips` | 1 | [planning.domains](https://api.planning.domains/json/classical/domain/16) |
-| [pegsol](domains/ipc-2008/pegsol/) | IPC-2008 | `:action-costs` `:typing` | 1 | [planning.domains](https://api.planning.domains/json/classical/domain/9) |
-| [sokoban](domains/ipc-2008/sokoban/) | IPC-2008 | `:action-costs` `:typing` | 1 | [planning.domains](https://api.planning.domains/json/classical/domain/4) |
-| [sokoban](domains/ipc-2008/sokoban-5/) | IPC-2008 | `:action-costs` `:typing` | 1 | [planning.domains](https://api.planning.domains/json/classical/domain/5) |
-| [barman](domains/ipc-2011/barman/) | IPC-2011 | `:action-costs` `:typing` | 20 | [planning.domains](https://api.planning.domains/json/classical/domain/18) |
-| [floortile](domains/ipc-2011/floortile/) | IPC-2011 | `:action-costs` `:typing` | 20 | [planning.domains](https://api.planning.domains/json/classical/domain/20) |
-| [parking](domains/ipc-2011/parking/) | IPC-2011 | `:action-costs` `:typing` | 20 | [planning.domains](https://api.planning.domains/json/classical/domain/7) |
-| [sokoban](domains/ipc-2011/sokoban/) | IPC-2011 | `:action-costs` `:typing` | 20 | [planning.domains](https://api.planning.domains/json/classical/domain/8) |
-| [transport](domains/ipc-2011/transport/) | IPC-2011 | `:action-costs` `:typing` | 20 | [planning.domains](https://api.planning.domains/json/classical/domain/6) |
-| [transport](domains/ipc-2011/transport-13/) | IPC-2011 | `:action-costs` `:typing` | 20 | [planning.domains](https://api.planning.domains/json/classical/domain/13) |
-| [floortile](domains/ipc-2014/floortile/) | IPC-2014 | `:action-costs` `:typing` | 20 | [planning.domains](https://api.planning.domains/json/classical/domain/10) |
-| [ged](domains/ipc-2014/ged/) | IPC-2014 | `:action-costs` `:equality` | 20 | [planning.domains](https://api.planning.domains/json/classical/domain/22) |
-| [transport](domains/ipc-2014/transport/) | IPC-2014 | `:action-costs` `:typing` | 20 | [planning.domains](https://api.planning.domains/json/classical/domain/11) |
+| Domain | Collection | Track | Requirements | Problems | Source |
+| :--- | :--- | :--- | :--- | ---: | :--- |
+| [miconic](domains/fast-downward-all-problem-suite/miconic/) | Fast Downward All Problem Suite | — | `:strips` | 20 | [planning.domains](https://api.planning.domains/json/classical/domain/12) |
+| [pipesworld-tankage](domains/fast-downward-all-problem-suite/pipesworld-tankage/) | Fast Downward All Problem Suite | — | `:strips` `:typing` | 20 | [planning.domains](https://api.planning.domains/json/classical/domain/14) |
+| [schedule](domains/fast-downward-all-problem-suite/schedule/) | Fast Downward All Problem Suite | — | `:adl` `:typing` | 20 | [planning.domains](https://api.planning.domains/json/classical/domain/15) |
+| [tpp](domains/fast-downward-all-problem-suite/tpp/) | Fast Downward All Problem Suite | — | `:strips` `:typing` | 20 | [planning.domains](https://api.planning.domains/json/classical/domain/19) |
+| [zenotravel](domains/fast-downward-all-problem-suite/zenotravel/) | Fast Downward All Problem Suite | — | `:strips`[^tags] | 20 | [planning.domains](https://api.planning.domains/json/classical/domain/17) |
+| [trucks](domains/fast-downward-lm-cut-problem-suite/trucks/) | Fast Downward LM-Cut Problem Suite | — | `:strips` | 1[^split] | [planning.domains](https://api.planning.domains/json/classical/domain/16) |
+| [pegsol](domains/ipc-2008/pegsol/) | IPC-2008 | — | `:action-costs` `:typing` | 1[^split] | [planning.domains](https://api.planning.domains/json/classical/domain/9) |
+| [sokoban](domains/ipc-2008/sokoban/) | IPC-2008 | opt08 | `:action-costs` `:typing` | 1[^split] | [planning.domains](https://api.planning.domains/json/classical/domain/4) |
+| [sokoban-5](domains/ipc-2008/sokoban-5/) | IPC-2008 | sat08 | `:action-costs` `:typing` | 1[^split] | [planning.domains](https://api.planning.domains/json/classical/domain/5) |
+| [barman](domains/ipc-2011/barman/) | IPC-2011 | opt11 | `:action-costs` `:strips` `:typing` | 20 | [planning.domains](https://api.planning.domains/json/classical/domain/18) |
+| [floortile](domains/ipc-2011/floortile/) | IPC-2011 | opt11 | `:typing` | 20 | [planning.domains](https://api.planning.domains/json/classical/domain/20) |
+| [parking](domains/ipc-2011/parking/) | IPC-2011 | sat11 | `:action-costs` `:strips` `:typing` | 20 | [planning.domains](https://api.planning.domains/json/classical/domain/7) |
+| [sokoban](domains/ipc-2011/sokoban/) | IPC-2011 | sat11 | `:action-costs` `:typing` | 20 | [planning.domains](https://api.planning.domains/json/classical/domain/8) |
+| [transport](domains/ipc-2011/transport/) | IPC-2011 | sat11 | `:action-costs` `:typing` | 20 | [planning.domains](https://api.planning.domains/json/classical/domain/6) |
+| [transport-13](domains/ipc-2011/transport-13/) | IPC-2011 | opt11 | `:action-costs` `:typing` | 20 | [planning.domains](https://api.planning.domains/json/classical/domain/13) |
+| [floortile](domains/ipc-2014/floortile/) | IPC-2014 | opt14 | `:action-costs` `:typing` | 20 | [planning.domains](https://api.planning.domains/json/classical/domain/10) |
+| [ged](domains/ipc-2014/ged/) | IPC-2014 | opt14 | `:action-costs` `:equality` | 20 | [planning.domains](https://api.planning.domains/json/classical/domain/22) |
+| [transport](domains/ipc-2014/transport/) | IPC-2014 | opt14 | `:action-costs` `:typing` | 20 | [planning.domains](https://api.planning.domains/json/classical/domain/11) |
+
+[^split]: Upstream ships a separate domain file per problem for this
+    domain. Only the largest group sharing one domain file is imported,
+    so the rest are not here -- a count of 1 means one *importable*
+    problem, not one upstream. See `metadata.json` for the full count.
+
+[^tags]: This domain publishes no `requirements` string, so the row
+    falls back to the API's curated `tags`, which are not the same
+    thing and can disagree with the domain file.
+
+The **Domain** column is upstream's own directory name, which carries
+the competition track. `domain_name` alone does not: three different
+IPC domains all answer "transport".
