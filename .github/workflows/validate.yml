@@ -44,7 +44,10 @@ jobs:
               if not balanced:
                   print(f"{path}: unbalanced parentheses")
                   failed += 1
-              if "(define" not in code:
+              # PDDL is case-insensitive, and the IPC-2014 ged instances are
+              # written entirely in upper case. A case-sensitive test here
+              # rejected twenty valid problem files.
+              if "(define" not in code.lower():
                   print(f"{path}: no (define ...) form")
                   failed += 1
           print(f"{len(files)} files checked, {failed} problems")
