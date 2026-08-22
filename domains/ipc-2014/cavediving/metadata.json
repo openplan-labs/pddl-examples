@@ -1,0 +1,121 @@
+{
+  "domain_id": 26,
+  "name": "cavediving",
+  "collection": "IPC-2014",
+  "description": "There are a set of divers, each of who can carry 4 tanks of air. These divers must be hired to go into an underwater cave and either take photos or prepare the way for other divers by dropping full tanks of air. The cave is too narrow for more than one diver to enter at a time. The cave system is represented by an undirected acyclic graph. Divers have a single point of entry. Certain leaf nodes of the cave branches are objectives that the divers must photograph. Swimming and photographing both consume air tanks. Divers must exit the cave and decompress at the end. They can therefore only make a single trip into the cave. Certain divers have no confidence in other divers and will refuse to work if someone they have no confidence in has already worked. Divers have hiring costs inversely proportional to how hard they are to work with.",
+  "tags": [
+    ":conditional-effects",
+    ":action-costs",
+    ":negative-preconditions",
+    ":typing"
+  ],
+  "requirements": ":action-costs :adl :typing",
+  "source_api": "https://api.planning.domains/json/classical/domain/26",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/cavediving/domain.pddl",
+  "problems_available": 20,
+  "problems_matching_domain_file": 20,
+  "problems": [
+    {
+      "file": "testing01.pddl",
+      "problem_id": 782,
+      "source_url": "https://www.haz.ca/planning-domains/classical/cavediving/testing01.pddl"
+    },
+    {
+      "file": "testing01-easy.pddl",
+      "problem_id": 783,
+      "source_url": "https://www.haz.ca/planning-domains/classical/cavediving/testing01_easy.pddl"
+    },
+    {
+      "file": "testing02-easy.pddl",
+      "problem_id": 784,
+      "source_url": "https://www.haz.ca/planning-domains/classical/cavediving/testing02_easy.pddl"
+    },
+    {
+      "file": "testing03-easy.pddl",
+      "problem_id": 785,
+      "source_url": "https://www.haz.ca/planning-domains/classical/cavediving/testing03_easy.pddl"
+    },
+    {
+      "file": "testing04-easy.pddl",
+      "problem_id": 786,
+      "source_url": "https://www.haz.ca/planning-domains/classical/cavediving/testing04_easy.pddl"
+    },
+    {
+      "file": "testing05a-easy.pddl",
+      "problem_id": 787,
+      "source_url": "https://www.haz.ca/planning-domains/classical/cavediving/testing05A_easy.pddl"
+    },
+    {
+      "file": "testing06a-easy.pddl",
+      "problem_id": 788,
+      "source_url": "https://www.haz.ca/planning-domains/classical/cavediving/testing06A_easy.pddl"
+    },
+    {
+      "file": "testing07-easy.pddl",
+      "problem_id": 789,
+      "source_url": "https://www.haz.ca/planning-domains/classical/cavediving/testing07_easy.pddl"
+    },
+    {
+      "file": "testing08-easy.pddl",
+      "problem_id": 790,
+      "source_url": "https://www.haz.ca/planning-domains/classical/cavediving/testing08_easy.pddl"
+    },
+    {
+      "file": "testing09-easy.pddl",
+      "problem_id": 791,
+      "source_url": "https://www.haz.ca/planning-domains/classical/cavediving/testing09_easy.pddl"
+    },
+    {
+      "file": "testing10-easy.pddl",
+      "problem_id": 792,
+      "source_url": "https://www.haz.ca/planning-domains/classical/cavediving/testing10_easy.pddl"
+    },
+    {
+      "file": "testing11-easy.pddl",
+      "problem_id": 793,
+      "source_url": "https://www.haz.ca/planning-domains/classical/cavediving/testing11_easy.pddl"
+    },
+    {
+      "file": "testing12-easy.pddl",
+      "problem_id": 794,
+      "source_url": "https://www.haz.ca/planning-domains/classical/cavediving/testing12_easy.pddl"
+    },
+    {
+      "file": "testing13-easy.pddl",
+      "problem_id": 795,
+      "source_url": "https://www.haz.ca/planning-domains/classical/cavediving/testing13_easy.pddl"
+    },
+    {
+      "file": "testing14-easy.pddl",
+      "problem_id": 796,
+      "source_url": "https://www.haz.ca/planning-domains/classical/cavediving/testing14_easy.pddl"
+    },
+    {
+      "file": "testing15-easy.pddl",
+      "problem_id": 797,
+      "source_url": "https://www.haz.ca/planning-domains/classical/cavediving/testing15_easy.pddl"
+    },
+    {
+      "file": "testing16-easy.pddl",
+      "problem_id": 798,
+      "source_url": "https://www.haz.ca/planning-domains/classical/cavediving/testing16_easy.pddl"
+    },
+    {
+      "file": "testing18a-easy.pddl",
+      "problem_id": 799,
+      "source_url": "https://www.haz.ca/planning-domains/classical/cavediving/testing18A_easy.pddl"
+    },
+    {
+      "file": "testing18-easy.pddl",
+      "problem_id": 800,
+      "source_url": "https://www.haz.ca/planning-domains/classical/cavediving/testing18_easy.pddl"
+    },
+    {
+      "file": "testing20a-easy.pddl",
+      "problem_id": 801,
+      "source_url": "https://www.haz.ca/planning-domains/classical/cavediving/testing20A_easy.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-08-22T04:48:49+00:00"
+}

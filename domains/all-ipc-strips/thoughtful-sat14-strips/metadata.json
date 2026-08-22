@@ -1,0 +1,119 @@
+{
+  "domain_id": 27,
+  "name": "thoughtful",
+  "collection": "All-IPC (STRIPS)",
+  "description": "This domain is original from the learning part of IPC2008. The domain represents a well-known solitaire card game.",
+  "tags": [
+    ":strips",
+    ":typing"
+  ],
+  "requirements": ":typing",
+  "source_api": "https://api.planning.domains/json/classical/domain/27",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/thoughtful-sat14-strips/domain.pddl",
+  "problems_available": 20,
+  "problems_matching_domain_file": 20,
+  "problems": [
+    {
+      "file": "bootstrap-typed-01.pddl",
+      "problem_id": 882,
+      "source_url": "https://www.haz.ca/planning-domains/classical/thoughtful-sat14-strips/bootstrap-typed-01.pddl"
+    },
+    {
+      "file": "bootstrap-typed-02.pddl",
+      "problem_id": 883,
+      "source_url": "https://www.haz.ca/planning-domains/classical/thoughtful-sat14-strips/bootstrap-typed-02.pddl"
+    },
+    {
+      "file": "bootstrap-typed-03.pddl",
+      "problem_id": 884,
+      "source_url": "https://www.haz.ca/planning-domains/classical/thoughtful-sat14-strips/bootstrap-typed-03.pddl"
+    },
+    {
+      "file": "bootstrap-typed-04.pddl",
+      "problem_id": 885,
+      "source_url": "https://www.haz.ca/planning-domains/classical/thoughtful-sat14-strips/bootstrap-typed-04.pddl"
+    },
+    {
+      "file": "bootstrap-typed-05.pddl",
+      "problem_id": 886,
+      "source_url": "https://www.haz.ca/planning-domains/classical/thoughtful-sat14-strips/bootstrap-typed-05.pddl"
+    },
+    {
+      "file": "p11-6-53-typed.pddl",
+      "problem_id": 887,
+      "source_url": "https://www.haz.ca/planning-domains/classical/thoughtful-sat14-strips/p11_6_53-typed.pddl"
+    },
+    {
+      "file": "p11-6-59-typed.pddl",
+      "problem_id": 888,
+      "source_url": "https://www.haz.ca/planning-domains/classical/thoughtful-sat14-strips/p11_6_59-typed.pddl"
+    },
+    {
+      "file": "p11-6-62-typed.pddl",
+      "problem_id": 889,
+      "source_url": "https://www.haz.ca/planning-domains/classical/thoughtful-sat14-strips/p11_6_62-typed.pddl"
+    },
+    {
+      "file": "p13-7-78-typed.pddl",
+      "problem_id": 890,
+      "source_url": "https://www.haz.ca/planning-domains/classical/thoughtful-sat14-strips/p13_7_78-typed.pddl"
+    },
+    {
+      "file": "p13-7-79-typed.pddl",
+      "problem_id": 891,
+      "source_url": "https://www.haz.ca/planning-domains/classical/thoughtful-sat14-strips/p13_7_79-typed.pddl"
+    },
+    {
+      "file": "p13-7-86-typed.pddl",
+      "problem_id": 892,
+      "source_url": "https://www.haz.ca/planning-domains/classical/thoughtful-sat14-strips/p13_7_86-typed.pddl"
+    },
+    {
+      "file": "target-typed-20.pddl",
+      "problem_id": 893,
+      "source_url": "https://www.haz.ca/planning-domains/classical/thoughtful-sat14-strips/target-typed-20.pddl"
+    },
+    {
+      "file": "target-typed-21.pddl",
+      "problem_id": 894,
+      "source_url": "https://www.haz.ca/planning-domains/classical/thoughtful-sat14-strips/target-typed-21.pddl"
+    },
+    {
+      "file": "target-typed-22.pddl",
+      "problem_id": 895,
+      "source_url": "https://www.haz.ca/planning-domains/classical/thoughtful-sat14-strips/target-typed-22.pddl"
+    },
+    {
+      "file": "target-typed-23.pddl",
+      "problem_id": 896,
+      "source_url": "https://www.haz.ca/planning-domains/classical/thoughtful-sat14-strips/target-typed-23.pddl"
+    },
+    {
+      "file": "target-typed-25.pddl",
+      "problem_id": 897,
+      "source_url": "https://www.haz.ca/planning-domains/classical/thoughtful-sat14-strips/target-typed-25.pddl"
+    },
+    {
+      "file": "target-typed-24.pddl",
+      "problem_id": 898,
+      "source_url": "https://www.haz.ca/planning-domains/classical/thoughtful-sat14-strips/target-typed-24.pddl"
+    },
+    {
+      "file": "target-typed-26.pddl",
+      "problem_id": 899,
+      "source_url": "https://www.haz.ca/planning-domains/classical/thoughtful-sat14-strips/target-typed-26.pddl"
+    },
+    {
+      "file": "target-typed-27.pddl",
+      "problem_id": 900,
+      "source_url": "https://www.haz.ca/planning-domains/classical/thoughtful-sat14-strips/target-typed-27.pddl"
+    },
+    {
+      "file": "target-typed-28.pddl",
+      "problem_id": 901,
+      "source_url": "https://www.haz.ca/planning-domains/classical/thoughtful-sat14-strips/target-typed-28.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-08-22T04:48:55+00:00"
+}
