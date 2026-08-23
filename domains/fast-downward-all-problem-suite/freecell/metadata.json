@@ -1,0 +1,118 @@
+{
+  "domain_id": 29,
+  "name": "freecell",
+  "collection": "Fast Downward All Problem Suite",
+  "description": "Freecell is the familiar solitaire game found on many computers, involving moving cards from an initial tableau, constrained by tight restrictions, to achieve a final suit-sorted collection of stacks.",
+  "tags": [
+    ":strips"
+  ],
+  "requirements": ":strips",
+  "source_api": "https://api.planning.domains/json/classical/domain/29",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/freecell/domain.pddl",
+  "problems_available": 60,
+  "problems_matching_domain_file": 60,
+  "problems": [
+    {
+      "file": "probfreecell-10-1.pddl",
+      "problem_id": 822,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/probfreecell-10-1.pddl"
+    },
+    {
+      "file": "probfreecell-10-2.pddl",
+      "problem_id": 823,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/probfreecell-10-2.pddl"
+    },
+    {
+      "file": "probfreecell-10-3.pddl",
+      "problem_id": 824,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/probfreecell-10-3.pddl"
+    },
+    {
+      "file": "probfreecell-10-4.pddl",
+      "problem_id": 825,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/probfreecell-10-4.pddl"
+    },
+    {
+      "file": "probfreecell-10-5.pddl",
+      "problem_id": 826,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/probfreecell-10-5.pddl"
+    },
+    {
+      "file": "probfreecell-11-1.pddl",
+      "problem_id": 827,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/probfreecell-11-1.pddl"
+    },
+    {
+      "file": "probfreecell-11-2.pddl",
+      "problem_id": 828,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/probfreecell-11-2.pddl"
+    },
+    {
+      "file": "probfreecell-11-3.pddl",
+      "problem_id": 829,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/probfreecell-11-3.pddl"
+    },
+    {
+      "file": "probfreecell-11-4.pddl",
+      "problem_id": 830,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/probfreecell-11-4.pddl"
+    },
+    {
+      "file": "probfreecell-11-5.pddl",
+      "problem_id": 831,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/probfreecell-11-5.pddl"
+    },
+    {
+      "file": "probfreecell-12-1.pddl",
+      "problem_id": 832,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/probfreecell-12-1.pddl"
+    },
+    {
+      "file": "probfreecell-12-2.pddl",
+      "problem_id": 833,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/probfreecell-12-2.pddl"
+    },
+    {
+      "file": "probfreecell-12-3.pddl",
+      "problem_id": 834,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/probfreecell-12-3.pddl"
+    },
+    {
+      "file": "probfreecell-12-4.pddl",
+      "problem_id": 835,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/probfreecell-12-4.pddl"
+    },
+    {
+      "file": "probfreecell-12-5.pddl",
+      "problem_id": 836,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/probfreecell-12-5.pddl"
+    },
+    {
+      "file": "probfreecell-13-1.pddl",
+      "problem_id": 837,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/probfreecell-13-1.pddl"
+    },
+    {
+      "file": "probfreecell-13-2.pddl",
+      "problem_id": 838,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/probfreecell-13-2.pddl"
+    },
+    {
+      "file": "probfreecell-13-3.pddl",
+      "problem_id": 839,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/probfreecell-13-3.pddl"
+    },
+    {
+      "file": "probfreecell-13-4.pddl",
+      "problem_id": 840,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/probfreecell-13-4.pddl"
+    },
+    {
+      "file": "probfreecell-13-5.pddl",
+      "problem_id": 841,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/probfreecell-13-5.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-08-23T04:52:06+00:00"
+}

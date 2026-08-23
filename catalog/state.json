@@ -119,6 +119,41 @@
       "path": "domains/all-ipc-strips/thoughtful-sat14-strips",
       "problems": 20
     },
+    "28": {
+      "collection": "IPC-2000",
+      "fetched_at": "2026-08-23T04:52:04+00:00",
+      "name": "elevators-00-strips",
+      "path": "domains/ipc-2000/elevators-00-strips",
+      "problems": 20
+    },
+    "29": {
+      "collection": "Fast Downward All Problem Suite",
+      "fetched_at": "2026-08-23T04:52:06+00:00",
+      "name": "freecell",
+      "path": "domains/fast-downward-all-problem-suite/freecell",
+      "problems": 20
+    },
+    "30": {
+      "collection": "Fast Downward All Problem Suite",
+      "fetched_at": "2026-08-23T04:52:08+00:00",
+      "name": "freecell",
+      "path": "domains/fast-downward-all-problem-suite/freecell-30",
+      "problems": 20
+    },
+    "31": {
+      "collection": "IPC-2008",
+      "fetched_at": "2026-08-23T04:52:09+00:00",
+      "name": "openstacks-opt08-strips",
+      "path": "domains/ipc-2008/openstacks-opt08-strips",
+      "problems": 1
+    },
+    "32": {
+      "collection": "Fast Downward All Problem Suite",
+      "fetched_at": "2026-08-23T04:52:11+00:00",
+      "name": "satellite",
+      "path": "domains/fast-downward-all-problem-suite/satellite",
+      "problems": 20
+    },
     "4": {
       "collection": "IPC-2008",
       "fetched_at": "2026-08-20T14:34:27+00:00",

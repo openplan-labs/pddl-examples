@@ -1,0 +1,118 @@
+{
+  "domain_id": 30,
+  "name": "freecell",
+  "collection": "Fast Downward All Problem Suite",
+  "description": "Freecell is the familiar solitaire game found on many computers, involving moving cards from an initial tableau, constrained by tight restrictions, to achieve a final suit-sorted collection of stacks.",
+  "tags": [
+    ":strips"
+  ],
+  "requirements": ":strips",
+  "source_api": "https://api.planning.domains/json/classical/domain/30",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/freecell/domain.pddl",
+  "problems_available": 20,
+  "problems_matching_domain_file": 20,
+  "problems": [
+    {
+      "file": "pfile1.pddl",
+      "problem_id": 802,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/pfile1.pddl"
+    },
+    {
+      "file": "pfile10.pddl",
+      "problem_id": 803,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/pfile10.pddl"
+    },
+    {
+      "file": "pfile11.pddl",
+      "problem_id": 804,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/pfile11.pddl"
+    },
+    {
+      "file": "pfile12.pddl",
+      "problem_id": 805,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/pfile12.pddl"
+    },
+    {
+      "file": "pfile13.pddl",
+      "problem_id": 806,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/pfile13.pddl"
+    },
+    {
+      "file": "pfile14.pddl",
+      "problem_id": 807,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/pfile14.pddl"
+    },
+    {
+      "file": "pfile15.pddl",
+      "problem_id": 808,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/pfile15.pddl"
+    },
+    {
+      "file": "pfile16.pddl",
+      "problem_id": 809,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/pfile16.pddl"
+    },
+    {
+      "file": "pfile17.pddl",
+      "problem_id": 810,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/pfile17.pddl"
+    },
+    {
+      "file": "pfile18.pddl",
+      "problem_id": 811,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/pfile18.pddl"
+    },
+    {
+      "file": "pfile19.pddl",
+      "problem_id": 812,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/pfile19.pddl"
+    },
+    {
+      "file": "pfile2.pddl",
+      "problem_id": 813,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/pfile2.pddl"
+    },
+    {
+      "file": "pfile20.pddl",
+      "problem_id": 814,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/pfile20.pddl"
+    },
+    {
+      "file": "pfile3.pddl",
+      "problem_id": 815,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/pfile3.pddl"
+    },
+    {
+      "file": "pfile4.pddl",
+      "problem_id": 816,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/pfile4.pddl"
+    },
+    {
+      "file": "pfile5.pddl",
+      "problem_id": 817,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/pfile5.pddl"
+    },
+    {
+      "file": "pfile6.pddl",
+      "problem_id": 818,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/pfile6.pddl"
+    },
+    {
+      "file": "pfile7.pddl",
+      "problem_id": 819,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/pfile7.pddl"
+    },
+    {
+      "file": "pfile8.pddl",
+      "problem_id": 820,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/pfile8.pddl"
+    },
+    {
+      "file": "pfile9.pddl",
+      "problem_id": 821,
+      "source_url": "https://www.haz.ca/planning-domains/classical/freecell/pfile9.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-08-23T04:52:08+00:00"
+}
