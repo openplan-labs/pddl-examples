@@ -1,0 +1,119 @@
+{
+  "domain_id": 35,
+  "name": "storage",
+  "collection": "Fast Downward All Problem Suite",
+  "description": "Moving and storing crates of goods by hoists from containers to depots with spatial maps.",
+  "tags": [
+    ":strips",
+    ":typing"
+  ],
+  "requirements": ":typing",
+  "source_api": "https://api.planning.domains/json/classical/domain/35",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/storage/domain.pddl",
+  "problems_available": 30,
+  "problems_matching_domain_file": 30,
+  "problems": [
+    {
+      "file": "p01.pddl",
+      "problem_id": 1102,
+      "source_url": "https://www.haz.ca/planning-domains/classical/storage/p01.pddl"
+    },
+    {
+      "file": "p02.pddl",
+      "problem_id": 1103,
+      "source_url": "https://www.haz.ca/planning-domains/classical/storage/p02.pddl"
+    },
+    {
+      "file": "p03.pddl",
+      "problem_id": 1104,
+      "source_url": "https://www.haz.ca/planning-domains/classical/storage/p03.pddl"
+    },
+    {
+      "file": "p04.pddl",
+      "problem_id": 1105,
+      "source_url": "https://www.haz.ca/planning-domains/classical/storage/p04.pddl"
+    },
+    {
+      "file": "p05.pddl",
+      "problem_id": 1106,
+      "source_url": "https://www.haz.ca/planning-domains/classical/storage/p05.pddl"
+    },
+    {
+      "file": "p06.pddl",
+      "problem_id": 1107,
+      "source_url": "https://www.haz.ca/planning-domains/classical/storage/p06.pddl"
+    },
+    {
+      "file": "p07.pddl",
+      "problem_id": 1108,
+      "source_url": "https://www.haz.ca/planning-domains/classical/storage/p07.pddl"
+    },
+    {
+      "file": "p08.pddl",
+      "problem_id": 1109,
+      "source_url": "https://www.haz.ca/planning-domains/classical/storage/p08.pddl"
+    },
+    {
+      "file": "p09.pddl",
+      "problem_id": 1110,
+      "source_url": "https://www.haz.ca/planning-domains/classical/storage/p09.pddl"
+    },
+    {
+      "file": "p10.pddl",
+      "problem_id": 1111,
+      "source_url": "https://www.haz.ca/planning-domains/classical/storage/p10.pddl"
+    },
+    {
+      "file": "p11.pddl",
+      "problem_id": 1112,
+      "source_url": "https://www.haz.ca/planning-domains/classical/storage/p11.pddl"
+    },
+    {
+      "file": "p12.pddl",
+      "problem_id": 1113,
+      "source_url": "https://www.haz.ca/planning-domains/classical/storage/p12.pddl"
+    },
+    {
+      "file": "p13.pddl",
+      "problem_id": 1114,
+      "source_url": "https://www.haz.ca/planning-domains/classical/storage/p13.pddl"
+    },
+    {
+      "file": "p14.pddl",
+      "problem_id": 1115,
+      "source_url": "https://www.haz.ca/planning-domains/classical/storage/p14.pddl"
+    },
+    {
+      "file": "p15.pddl",
+      "problem_id": 1116,
+      "source_url": "https://www.haz.ca/planning-domains/classical/storage/p15.pddl"
+    },
+    {
+      "file": "p16.pddl",
+      "problem_id": 1117,
+      "source_url": "https://www.haz.ca/planning-domains/classical/storage/p16.pddl"
+    },
+    {
+      "file": "p17.pddl",
+      "problem_id": 1118,
+      "source_url": "https://www.haz.ca/planning-domains/classical/storage/p17.pddl"
+    },
+    {
+      "file": "p18.pddl",
+      "problem_id": 1119,
+      "source_url": "https://www.haz.ca/planning-domains/classical/storage/p18.pddl"
+    },
+    {
+      "file": "p19.pddl",
+      "problem_id": 1120,
+      "source_url": "https://www.haz.ca/planning-domains/classical/storage/p19.pddl"
+    },
+    {
+      "file": "p20.pddl",
+      "problem_id": 1121,
+      "source_url": "https://www.haz.ca/planning-domains/classical/storage/p20.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-08-24T05:01:02+00:00"
+}

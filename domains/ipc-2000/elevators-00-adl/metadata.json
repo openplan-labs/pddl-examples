@@ -1,0 +1,120 @@
+{
+  "domain_id": 37,
+  "name": "elevators",
+  "collection": "IPC-2000",
+  "description": "The scenario is the following: There is a building with N+1 floors, numbered from 0 to N. The building can be separated in blocks of size M+1, where M divides N. Adjacent blocks have a common floor. For example, suppose N=12 and M=4, then we have 13 floors in total (ranging from 0 to 12), which form 3 blocks of 5 floors each, being 0 to 4, 4 to 8 and 8 to 12. The building has K fast (accelarating) elevators that stop only in floors that are multiple of M/2 (so M has to be an even number). Each fast elevator has a capacity of X persons. Furthermore, within each block, there are L slow elevators, that stop at every floor of the block. Each slow elevator has a capacity of Y persons (usually Y<X). There are costs associated with each elavator starting/stoping and moving. In particular, fast (accelarating) elevators have negligible cost of starting/stoping but have significant cost while moving. On the other hand, slow (constant speed) elevators have significant cost when starting/stoping and negligible cost while moving. Travelling times between floors are given for any type of elevator, taking into account the constant speed of the slow elevators and the constant acceleration of the fast elevators. There are several passengers, for which their current location (i.e. the floor they are) and their destination are given. The planning problem is to find a plan that moves the passengers to their destinations while minimizing the total cost of moving the passengers to their destinations . The total cost is increased each time an elevator starts/stops or moves.",
+  "tags": [
+    ":conditional-effects",
+    ":negative-preconditions",
+    ":typing"
+  ],
+  "requirements": ":adl :typing",
+  "source_api": "https://api.planning.domains/json/classical/domain/37",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/elevators-00-adl/domain.pddl",
+  "problems_available": 150,
+  "problems_matching_domain_file": 150,
+  "problems": [
+    {
+      "file": "s1-0.pddl",
+      "problem_id": 1189,
+      "source_url": "https://www.haz.ca/planning-domains/classical/elevators-00-adl/s1-0.pddl"
+    },
+    {
+      "file": "s1-1.pddl",
+      "problem_id": 1190,
+      "source_url": "https://www.haz.ca/planning-domains/classical/elevators-00-adl/s1-1.pddl"
+    },
+    {
+      "file": "s1-2.pddl",
+      "problem_id": 1191,
+      "source_url": "https://www.haz.ca/planning-domains/classical/elevators-00-adl/s1-2.pddl"
+    },
+    {
+      "file": "s1-3.pddl",
+      "problem_id": 1192,
+      "source_url": "https://www.haz.ca/planning-domains/classical/elevators-00-adl/s1-3.pddl"
+    },
+    {
+      "file": "s1-4.pddl",
+      "problem_id": 1193,
+      "source_url": "https://www.haz.ca/planning-domains/classical/elevators-00-adl/s1-4.pddl"
+    },
+    {
+      "file": "s10-0.pddl",
+      "problem_id": 1194,
+      "source_url": "https://www.haz.ca/planning-domains/classical/elevators-00-adl/s10-0.pddl"
+    },
+    {
+      "file": "s10-1.pddl",
+      "problem_id": 1195,
+      "source_url": "https://www.haz.ca/planning-domains/classical/elevators-00-adl/s10-1.pddl"
+    },
+    {
+      "file": "s10-2.pddl",
+      "problem_id": 1196,
+      "source_url": "https://www.haz.ca/planning-domains/classical/elevators-00-adl/s10-2.pddl"
+    },
+    {
+      "file": "s10-3.pddl",
+      "problem_id": 1197,
+      "source_url": "https://www.haz.ca/planning-domains/classical/elevators-00-adl/s10-3.pddl"
+    },
+    {
+      "file": "s10-4.pddl",
+      "problem_id": 1198,
+      "source_url": "https://www.haz.ca/planning-domains/classical/elevators-00-adl/s10-4.pddl"
+    },
+    {
+      "file": "s11-0.pddl",
+      "problem_id": 1199,
+      "source_url": "https://www.haz.ca/planning-domains/classical/elevators-00-adl/s11-0.pddl"
+    },
+    {
+      "file": "s11-1.pddl",
+      "problem_id": 1200,
+      "source_url": "https://www.haz.ca/planning-domains/classical/elevators-00-adl/s11-1.pddl"
+    },
+    {
+      "file": "s11-2.pddl",
+      "problem_id": 1201,
+      "source_url": "https://www.haz.ca/planning-domains/classical/elevators-00-adl/s11-2.pddl"
+    },
+    {
+      "file": "s11-3.pddl",
+      "problem_id": 1202,
+      "source_url": "https://www.haz.ca/planning-domains/classical/elevators-00-adl/s11-3.pddl"
+    },
+    {
+      "file": "s11-4.pddl",
+      "problem_id": 1203,
+      "source_url": "https://www.haz.ca/planning-domains/classical/elevators-00-adl/s11-4.pddl"
+    },
+    {
+      "file": "s12-0.pddl",
+      "problem_id": 1204,
+      "source_url": "https://www.haz.ca/planning-domains/classical/elevators-00-adl/s12-0.pddl"
+    },
+    {
+      "file": "s12-1.pddl",
+      "problem_id": 1205,
+      "source_url": "https://www.haz.ca/planning-domains/classical/elevators-00-adl/s12-1.pddl"
+    },
+    {
+      "file": "s12-2.pddl",
+      "problem_id": 1206,
+      "source_url": "https://www.haz.ca/planning-domains/classical/elevators-00-adl/s12-2.pddl"
+    },
+    {
+      "file": "s12-3.pddl",
+      "problem_id": 1207,
+      "source_url": "https://www.haz.ca/planning-domains/classical/elevators-00-adl/s12-3.pddl"
+    },
+    {
+      "file": "s12-4.pddl",
+      "problem_id": 1208,
+      "source_url": "https://www.haz.ca/planning-domains/classical/elevators-00-adl/s12-4.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-08-24T05:01:23+00:00"
+}

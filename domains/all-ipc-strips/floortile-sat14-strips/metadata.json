@@ -1,0 +1,119 @@
+{
+  "domain_id": 34,
+  "name": "floortile",
+  "collection": "All-IPC (STRIPS)",
+  "description": "(sat14) A set of robots use different colors to paint patterns in floor tiles. The robots can move around the floor tiles in four directions (up, down, left and right). Robots paint with one color at a time, but can change their spray guns to any available color. However, robots can only paint the tile that is in front (up) and behind (down) them, and once a tile has been painted no robot can stand on it. For the IPC set, robots need to paint a grid with black and white, where the cell color is alternated always. This particular configuration makes the domain hard because robots should only paint tiles in front of them, since painting tiles behind make the search to reach a dead-end.",
+  "tags": [
+    ":action-costs",
+    ":typing"
+  ],
+  "requirements": ":action-costs :typing",
+  "source_api": "https://api.planning.domains/json/classical/domain/34",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/floortile-sat14-strips/domain.pddl",
+  "problems_available": 20,
+  "problems_matching_domain_file": 20,
+  "problems": [
+    {
+      "file": "p01-4-3-2.pddl",
+      "problem_id": 1082,
+      "source_url": "https://www.haz.ca/planning-domains/classical/floortile-sat14-strips/p01-4-3-2.pddl"
+    },
+    {
+      "file": "p01-5-4-2.pddl",
+      "problem_id": 1083,
+      "source_url": "https://www.haz.ca/planning-domains/classical/floortile-sat14-strips/p01-5-4-2.pddl"
+    },
+    {
+      "file": "p01-5-5-2.pddl",
+      "problem_id": 1084,
+      "source_url": "https://www.haz.ca/planning-domains/classical/floortile-sat14-strips/p01-5-5-2.pddl"
+    },
+    {
+      "file": "p01-6-4-2.pddl",
+      "problem_id": 1085,
+      "source_url": "https://www.haz.ca/planning-domains/classical/floortile-sat14-strips/p01-6-4-2.pddl"
+    },
+    {
+      "file": "p01-6-5-2.pddl",
+      "problem_id": 1086,
+      "source_url": "https://www.haz.ca/planning-domains/classical/floortile-sat14-strips/p01-6-5-2.pddl"
+    },
+    {
+      "file": "p01-6-5-3.pddl",
+      "problem_id": 1087,
+      "source_url": "https://www.haz.ca/planning-domains/classical/floortile-sat14-strips/p01-6-5-3.pddl"
+    },
+    {
+      "file": "p02-5-4-2.pddl",
+      "problem_id": 1088,
+      "source_url": "https://www.haz.ca/planning-domains/classical/floortile-sat14-strips/p02-5-4-2.pddl"
+    },
+    {
+      "file": "p02-6-4-2.pddl",
+      "problem_id": 1089,
+      "source_url": "https://www.haz.ca/planning-domains/classical/floortile-sat14-strips/p02-6-4-2.pddl"
+    },
+    {
+      "file": "p02-6-5-2.pddl",
+      "problem_id": 1090,
+      "source_url": "https://www.haz.ca/planning-domains/classical/floortile-sat14-strips/p02-6-5-2.pddl"
+    },
+    {
+      "file": "p02-6-5-3.pddl",
+      "problem_id": 1091,
+      "source_url": "https://www.haz.ca/planning-domains/classical/floortile-sat14-strips/p02-6-5-3.pddl"
+    },
+    {
+      "file": "p03-6-4-2.pddl",
+      "problem_id": 1092,
+      "source_url": "https://www.haz.ca/planning-domains/classical/floortile-sat14-strips/p03-6-4-2.pddl"
+    },
+    {
+      "file": "p03-6-5-2.pddl",
+      "problem_id": 1093,
+      "source_url": "https://www.haz.ca/planning-domains/classical/floortile-sat14-strips/p03-6-5-2.pddl"
+    },
+    {
+      "file": "p03-6-5-3.pddl",
+      "problem_id": 1094,
+      "source_url": "https://www.haz.ca/planning-domains/classical/floortile-sat14-strips/p03-6-5-3.pddl"
+    },
+    {
+      "file": "p04-5-4-2.pddl",
+      "problem_id": 1095,
+      "source_url": "https://www.haz.ca/planning-domains/classical/floortile-sat14-strips/p04-5-4-2.pddl"
+    },
+    {
+      "file": "p04-5-5-2.pddl",
+      "problem_id": 1096,
+      "source_url": "https://www.haz.ca/planning-domains/classical/floortile-sat14-strips/p04-5-5-2.pddl"
+    },
+    {
+      "file": "p04-6-5-2.pddl",
+      "problem_id": 1097,
+      "source_url": "https://www.haz.ca/planning-domains/classical/floortile-sat14-strips/p04-6-5-2.pddl"
+    },
+    {
+      "file": "p04-6-5-3.pddl",
+      "problem_id": 1098,
+      "source_url": "https://www.haz.ca/planning-domains/classical/floortile-sat14-strips/p04-6-5-3.pddl"
+    },
+    {
+      "file": "p05-4-3-2.pddl",
+      "problem_id": 1099,
+      "source_url": "https://www.haz.ca/planning-domains/classical/floortile-sat14-strips/p05-4-3-2.pddl"
+    },
+    {
+      "file": "p05-6-5-2.pddl",
+      "problem_id": 1100,
+      "source_url": "https://www.haz.ca/planning-domains/classical/floortile-sat14-strips/p05-6-5-2.pddl"
+    },
+    {
+      "file": "p05-6-5-3.pddl",
+      "problem_id": 1101,
+      "source_url": "https://www.haz.ca/planning-domains/classical/floortile-sat14-strips/p05-6-5-3.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-08-24T05:00:56+00:00"
+}

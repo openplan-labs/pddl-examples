@@ -154,6 +154,41 @@
       "path": "domains/fast-downward-all-problem-suite/satellite",
       "problems": 20
     },
+    "33": {
+      "collection": "Fast Downward All Problem Suite",
+      "fetched_at": "2026-08-24T05:00:49+00:00",
+      "name": "satellite",
+      "path": "domains/fast-downward-all-problem-suite/satellite-33",
+      "problems": 20
+    },
+    "34": {
+      "collection": "All-IPC (STRIPS)",
+      "fetched_at": "2026-08-24T05:00:56+00:00",
+      "name": "floortile-sat14-strips",
+      "path": "domains/all-ipc-strips/floortile-sat14-strips",
+      "problems": 20
+    },
+    "35": {
+      "collection": "Fast Downward All Problem Suite",
+      "fetched_at": "2026-08-24T05:01:02+00:00",
+      "name": "storage",
+      "path": "domains/fast-downward-all-problem-suite/storage",
+      "problems": 20
+    },
+    "36": {
+      "collection": "IPC-2011",
+      "fetched_at": "2026-08-24T05:01:16+00:00",
+      "name": "nomystery-opt11-strips",
+      "path": "domains/ipc-2011/nomystery-opt11-strips",
+      "problems": 20
+    },
+    "37": {
+      "collection": "IPC-2000",
+      "fetched_at": "2026-08-24T05:01:23+00:00",
+      "name": "elevators-00-adl",
+      "path": "domains/ipc-2000/elevators-00-adl",
+      "problems": 20
+    },
     "4": {
       "collection": "IPC-2008",
       "fetched_at": "2026-08-20T14:34:27+00:00",
