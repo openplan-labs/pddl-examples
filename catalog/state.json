@@ -189,11 +189,46 @@
       "path": "domains/ipc-2000/elevators-00-adl",
       "problems": 20
     },
+    "38": {
+      "collection": "Fast Downward All Problem Suite",
+      "fetched_at": "2026-08-25T04:53:18+00:00",
+      "name": "logistics98",
+      "path": "domains/fast-downward-all-problem-suite/logistics98",
+      "problems": 20
+    },
+    "39": {
+      "collection": "IPC-2014",
+      "fetched_at": "2026-08-25T04:53:24+00:00",
+      "name": "tetris-opt14-strips",
+      "path": "domains/ipc-2014/tetris-opt14-strips",
+      "problems": 17
+    },
     "4": {
       "collection": "IPC-2008",
       "fetched_at": "2026-08-20T14:34:27+00:00",
       "name": "sokoban",
       "path": "domains/ipc-2008/sokoban",
+      "problems": 1
+    },
+    "40": {
+      "collection": "IPC-2002",
+      "fetched_at": "2026-08-25T04:53:30+00:00",
+      "name": "rovers-02",
+      "path": "domains/ipc-2002/rovers-02",
+      "problems": 20
+    },
+    "41": {
+      "collection": "Fast Downward All Problem Suite",
+      "fetched_at": "2026-08-25T04:53:41+00:00",
+      "name": "psr-large",
+      "path": "domains/fast-downward-all-problem-suite/psr-large",
+      "problems": 20
+    },
+    "42": {
+      "collection": "IPC-2011",
+      "fetched_at": "2026-08-25T04:53:43+00:00",
+      "name": "parcprinter-opt11-strips",
+      "path": "domains/ipc-2011/parcprinter-opt11-strips",
       "problems": 1
     },
     "5": {

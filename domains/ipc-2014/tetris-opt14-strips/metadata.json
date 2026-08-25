@@ -1,0 +1,106 @@
+{
+  "domain_id": 39,
+  "name": "tetris",
+  "collection": "IPC-2014",
+  "description": "(opt14) This is a simplified version of the well-known Tetris. All the pieces (1x1, 2x1, L) are randomly distributed on a NxN grid. The goal is to move them in order to free the upper half of the grid. The pieces can be rotated or translated. Each movement action has a different cost, accordingly to the size of the piece.",
+  "tags": [
+    ":action-costs",
+    ":equality",
+    ":negative-preconditions",
+    ":typing"
+  ],
+  "requirements": ":action-costs :equality :negative-preconditions :typing",
+  "source_api": "https://api.planning.domains/json/classical/domain/39",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/tetris-opt14-strips/domain.pddl",
+  "problems_available": 17,
+  "problems_matching_domain_file": 17,
+  "problems": [
+    {
+      "file": "p01-10.pddl",
+      "problem_id": 1374,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tetris-opt14-strips/p01-10.pddl"
+    },
+    {
+      "file": "p01-6.pddl",
+      "problem_id": 1375,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tetris-opt14-strips/p01-6.pddl"
+    },
+    {
+      "file": "p01-8.pddl",
+      "problem_id": 1376,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tetris-opt14-strips/p01-8.pddl"
+    },
+    {
+      "file": "p02-10.pddl",
+      "problem_id": 1377,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tetris-opt14-strips/p02-10.pddl"
+    },
+    {
+      "file": "p02-4.pddl",
+      "problem_id": 1378,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tetris-opt14-strips/p02-4.pddl"
+    },
+    {
+      "file": "p02-6.pddl",
+      "problem_id": 1379,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tetris-opt14-strips/p02-6.pddl"
+    },
+    {
+      "file": "p02-8.pddl",
+      "problem_id": 1380,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tetris-opt14-strips/p02-8.pddl"
+    },
+    {
+      "file": "p03-10.pddl",
+      "problem_id": 1381,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tetris-opt14-strips/p03-10.pddl"
+    },
+    {
+      "file": "p03-4.pddl",
+      "problem_id": 1382,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tetris-opt14-strips/p03-4.pddl"
+    },
+    {
+      "file": "p03-6.pddl",
+      "problem_id": 1383,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tetris-opt14-strips/p03-6.pddl"
+    },
+    {
+      "file": "p03-8.pddl",
+      "problem_id": 1384,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tetris-opt14-strips/p03-8.pddl"
+    },
+    {
+      "file": "p04-10.pddl",
+      "problem_id": 1385,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tetris-opt14-strips/p04-10.pddl"
+    },
+    {
+      "file": "p04-6.pddl",
+      "problem_id": 1386,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tetris-opt14-strips/p04-6.pddl"
+    },
+    {
+      "file": "p04-8.pddl",
+      "problem_id": 1387,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tetris-opt14-strips/p04-8.pddl"
+    },
+    {
+      "file": "p05-10.pddl",
+      "problem_id": 1388,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tetris-opt14-strips/p05-10.pddl"
+    },
+    {
+      "file": "p05-6.pddl",
+      "problem_id": 1389,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tetris-opt14-strips/p05-6.pddl"
+    },
+    {
+      "file": "p05-8.pddl",
+      "problem_id": 1390,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tetris-opt14-strips/p05-8.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-08-25T04:53:24+00:00"
+}
