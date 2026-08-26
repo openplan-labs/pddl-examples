@@ -1,0 +1,118 @@
+{
+  "domain_id": 43,
+  "name": "logistics",
+  "collection": "Fast Downward All Problem Suite",
+  "description": "There are several cities, each containing several locations, some of which are airports. There are also trucks, which can drive within a single city, and airplanes, which can fly between airports. The goal is to get some packages from various locations to various new locations. This domain was created by Bart Selman and Henry Kautz, based on an earlier domain by Manuela Veloso.",
+  "tags": [
+    ":strips"
+  ],
+  "requirements": ":strips",
+  "source_api": "https://api.planning.domains/json/classical/domain/43",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/logistics00/domain.pddl",
+  "problems_available": 202,
+  "problems_matching_domain_file": 202,
+  "problems": [
+    {
+      "file": "adl-98-prob01.pddl",
+      "problem_id": 1481,
+      "source_url": "https://www.haz.ca/planning-domains/classical/logistics00/adl-98-prob01.pddl"
+    },
+    {
+      "file": "adl-98-prob02.pddl",
+      "problem_id": 1482,
+      "source_url": "https://www.haz.ca/planning-domains/classical/logistics00/adl-98-prob02.pddl"
+    },
+    {
+      "file": "adl-98-prob03.pddl",
+      "problem_id": 1483,
+      "source_url": "https://www.haz.ca/planning-domains/classical/logistics00/adl-98-prob03.pddl"
+    },
+    {
+      "file": "adl-98-prob04.pddl",
+      "problem_id": 1484,
+      "source_url": "https://www.haz.ca/planning-domains/classical/logistics00/adl-98-prob04.pddl"
+    },
+    {
+      "file": "problogistics-10-0.pddl",
+      "problem_id": 1485,
+      "source_url": "https://www.haz.ca/planning-domains/classical/logistics00/problogistics-10-0.pddl"
+    },
+    {
+      "file": "problogistics-10-1.pddl",
+      "problem_id": 1486,
+      "source_url": "https://www.haz.ca/planning-domains/classical/logistics00/problogistics-10-1.pddl"
+    },
+    {
+      "file": "problogistics-11-0.pddl",
+      "problem_id": 1487,
+      "source_url": "https://www.haz.ca/planning-domains/classical/logistics00/problogistics-11-0.pddl"
+    },
+    {
+      "file": "problogistics-11-1.pddl",
+      "problem_id": 1488,
+      "source_url": "https://www.haz.ca/planning-domains/classical/logistics00/problogistics-11-1.pddl"
+    },
+    {
+      "file": "problogistics-12-0.pddl",
+      "problem_id": 1489,
+      "source_url": "https://www.haz.ca/planning-domains/classical/logistics00/problogistics-12-0.pddl"
+    },
+    {
+      "file": "problogistics-12-1.pddl",
+      "problem_id": 1490,
+      "source_url": "https://www.haz.ca/planning-domains/classical/logistics00/problogistics-12-1.pddl"
+    },
+    {
+      "file": "problogistics-13-0.pddl",
+      "problem_id": 1491,
+      "source_url": "https://www.haz.ca/planning-domains/classical/logistics00/problogistics-13-0.pddl"
+    },
+    {
+      "file": "problogistics-14-0.pddl",
+      "problem_id": 1492,
+      "source_url": "https://www.haz.ca/planning-domains/classical/logistics00/problogistics-14-0.pddl"
+    },
+    {
+      "file": "problogistics-14-1.pddl",
+      "problem_id": 1493,
+      "source_url": "https://www.haz.ca/planning-domains/classical/logistics00/problogistics-14-1.pddl"
+    },
+    {
+      "file": "problogistics-13-1.pddl",
+      "problem_id": 1494,
+      "source_url": "https://www.haz.ca/planning-domains/classical/logistics00/problogistics-13-1.pddl"
+    },
+    {
+      "file": "problogistics-15-0.pddl",
+      "problem_id": 1495,
+      "source_url": "https://www.haz.ca/planning-domains/classical/logistics00/problogistics-15-0.pddl"
+    },
+    {
+      "file": "problogistics-15-1.pddl",
+      "problem_id": 1496,
+      "source_url": "https://www.haz.ca/planning-domains/classical/logistics00/problogistics-15-1.pddl"
+    },
+    {
+      "file": "problogistics-4-0.pddl",
+      "problem_id": 1505,
+      "source_url": "https://www.haz.ca/planning-domains/classical/logistics00/problogistics-4-0.pddl"
+    },
+    {
+      "file": "problogistics-4-1.pddl",
+      "problem_id": 1506,
+      "source_url": "https://www.haz.ca/planning-domains/classical/logistics00/problogistics-4-1.pddl"
+    },
+    {
+      "file": "problogistics-4-2.pddl",
+      "problem_id": 1507,
+      "source_url": "https://www.haz.ca/planning-domains/classical/logistics00/problogistics-4-2.pddl"
+    },
+    {
+      "file": "problogistics-5-0.pddl",
+      "problem_id": 1508,
+      "source_url": "https://www.haz.ca/planning-domains/classical/logistics00/problogistics-5-0.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-08-26T04:55:19+00:00"
+}

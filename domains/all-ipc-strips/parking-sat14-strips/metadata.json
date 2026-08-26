@@ -1,0 +1,119 @@
+{
+  "domain_id": 46,
+  "name": "parking",
+  "collection": "All-IPC (STRIPS)",
+  "description": "(sat14) This domain is original from the learning part of IPC2008. The domain involves parking cars on a street with N curb locations, and where cars can be double-parked but not triple-parked. The goal is to find a plan to move from one configuration of parked cars to another configuration, by driving cars from one curb location to another. The problems in the competition contain 2*(N-1) cars, which allows one free curb space and guarantees solvability.",
+  "tags": [
+    ":action-costs",
+    ":typing"
+  ],
+  "requirements": ":action-costs :strips :typing",
+  "source_api": "https://api.planning.domains/json/classical/domain/46",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/parking-sat14-strips/domain.pddl",
+  "problems_available": 20,
+  "problems_matching_domain_file": 20,
+  "problems": [
+    {
+      "file": "p-28-2.pddl",
+      "problem_id": 1711,
+      "source_url": "https://www.haz.ca/planning-domains/classical/parking-sat14-strips/p_28_2.pddl"
+    },
+    {
+      "file": "p-28-3.pddl",
+      "problem_id": 1712,
+      "source_url": "https://www.haz.ca/planning-domains/classical/parking-sat14-strips/p_28_3.pddl"
+    },
+    {
+      "file": "p-30-1.pddl",
+      "problem_id": 1713,
+      "source_url": "https://www.haz.ca/planning-domains/classical/parking-sat14-strips/p_30_1.pddl"
+    },
+    {
+      "file": "p-30-2.pddl",
+      "problem_id": 1714,
+      "source_url": "https://www.haz.ca/planning-domains/classical/parking-sat14-strips/p_30_2.pddl"
+    },
+    {
+      "file": "p-30-3.pddl",
+      "problem_id": 1715,
+      "source_url": "https://www.haz.ca/planning-domains/classical/parking-sat14-strips/p_30_3.pddl"
+    },
+    {
+      "file": "p-32-1.pddl",
+      "problem_id": 1716,
+      "source_url": "https://www.haz.ca/planning-domains/classical/parking-sat14-strips/p_32_1.pddl"
+    },
+    {
+      "file": "p-32-2.pddl",
+      "problem_id": 1717,
+      "source_url": "https://www.haz.ca/planning-domains/classical/parking-sat14-strips/p_32_2.pddl"
+    },
+    {
+      "file": "p-32-3.pddl",
+      "problem_id": 1718,
+      "source_url": "https://www.haz.ca/planning-domains/classical/parking-sat14-strips/p_32_3.pddl"
+    },
+    {
+      "file": "p-34-1.pddl",
+      "problem_id": 1719,
+      "source_url": "https://www.haz.ca/planning-domains/classical/parking-sat14-strips/p_34_1.pddl"
+    },
+    {
+      "file": "p-34-2.pddl",
+      "problem_id": 1720,
+      "source_url": "https://www.haz.ca/planning-domains/classical/parking-sat14-strips/p_34_2.pddl"
+    },
+    {
+      "file": "p-34-3.pddl",
+      "problem_id": 1721,
+      "source_url": "https://www.haz.ca/planning-domains/classical/parking-sat14-strips/p_34_3.pddl"
+    },
+    {
+      "file": "p-36-1.pddl",
+      "problem_id": 1722,
+      "source_url": "https://www.haz.ca/planning-domains/classical/parking-sat14-strips/p_36_1.pddl"
+    },
+    {
+      "file": "p-36-2.pddl",
+      "problem_id": 1723,
+      "source_url": "https://www.haz.ca/planning-domains/classical/parking-sat14-strips/p_36_2.pddl"
+    },
+    {
+      "file": "p-36-3.pddl",
+      "problem_id": 1724,
+      "source_url": "https://www.haz.ca/planning-domains/classical/parking-sat14-strips/p_36_3.pddl"
+    },
+    {
+      "file": "p-38-1.pddl",
+      "problem_id": 1725,
+      "source_url": "https://www.haz.ca/planning-domains/classical/parking-sat14-strips/p_38_1.pddl"
+    },
+    {
+      "file": "p-38-2.pddl",
+      "problem_id": 1726,
+      "source_url": "https://www.haz.ca/planning-domains/classical/parking-sat14-strips/p_38_2.pddl"
+    },
+    {
+      "file": "p-38-3.pddl",
+      "problem_id": 1727,
+      "source_url": "https://www.haz.ca/planning-domains/classical/parking-sat14-strips/p_38_3.pddl"
+    },
+    {
+      "file": "p-40-1.pddl",
+      "problem_id": 1728,
+      "source_url": "https://www.haz.ca/planning-domains/classical/parking-sat14-strips/p_40_1.pddl"
+    },
+    {
+      "file": "p-40-2.pddl",
+      "problem_id": 1729,
+      "source_url": "https://www.haz.ca/planning-domains/classical/parking-sat14-strips/p_40_2.pddl"
+    },
+    {
+      "file": "p-40-3.pddl",
+      "problem_id": 1730,
+      "source_url": "https://www.haz.ca/planning-domains/classical/parking-sat14-strips/p_40_3.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-08-26T04:55:33+00:00"
+}

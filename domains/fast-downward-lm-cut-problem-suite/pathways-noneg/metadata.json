@@ -1,0 +1,24 @@
+{
+  "domain_id": 45,
+  "name": "pathways-noneg",
+  "collection": "Fast Downward LM-Cut Problem Suite",
+  "description": "Finding a sequence of biochemical (pathways) reactions in an organism producing certain substances.",
+  "tags": [
+    ":typing",
+    ":disjunctive-preconditions"
+  ],
+  "requirements": ":adl :typing",
+  "source_api": "https://api.planning.domains/json/classical/domain/45",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/pathways-noneg/domain_p01.pddl",
+  "problems_available": 30,
+  "problems_matching_domain_file": 1,
+  "problems": [
+    {
+      "file": "p01.pddl",
+      "problem_id": 1921,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pathways-noneg/p01.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-08-26T04:55:27+00:00"
+}

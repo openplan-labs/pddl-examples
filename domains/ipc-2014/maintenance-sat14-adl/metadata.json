@@ -1,0 +1,119 @@
+{
+  "domain_id": 47,
+  "name": "maintenance",
+  "collection": "IPC-2014",
+  "description": "(sat14) This is a simple planning/scheduling problem. There are mechanics/equipment who on any day may work at one of several airports (hubs) where the maintenance facilities are present. There are airplanes each of which has to be checked or repaired during the given time period. The airplanes are guaranteed to visit some of the airports on given days. The problem is to schedule the presence of the mechanics/equipment so that each plane will get maintenance once during the time period.",
+  "tags": [
+    ":conditional-effects",
+    ":typing"
+  ],
+  "requirements": ":adl :conditional-effects :typing",
+  "source_api": "https://api.planning.domains/json/classical/domain/47",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/maintenance-sat14-adl/domain.pddl",
+  "problems_available": 20,
+  "problems_matching_domain_file": 20,
+  "problems": [
+    {
+      "file": "maintenance-1-3-060-180-5-000.pddl",
+      "problem_id": 1731,
+      "source_url": "https://www.haz.ca/planning-domains/classical/maintenance-sat14-adl/maintenance.1.3.060.180.5-000.pddl"
+    },
+    {
+      "file": "maintenance-1-3-060-180-5-002.pddl",
+      "problem_id": 1732,
+      "source_url": "https://www.haz.ca/planning-domains/classical/maintenance-sat14-adl/maintenance.1.3.060.180.5-002.pddl"
+    },
+    {
+      "file": "maintenance-1-3-060-180-5-001.pddl",
+      "problem_id": 1733,
+      "source_url": "https://www.haz.ca/planning-domains/classical/maintenance-sat14-adl/maintenance.1.3.060.180.5-001.pddl"
+    },
+    {
+      "file": "maintenance-1-3-100-300-5-000.pddl",
+      "problem_id": 1734,
+      "source_url": "https://www.haz.ca/planning-domains/classical/maintenance-sat14-adl/maintenance.1.3.100.300.5-000.pddl"
+    },
+    {
+      "file": "maintenance-1-3-100-300-5-001.pddl",
+      "problem_id": 1735,
+      "source_url": "https://www.haz.ca/planning-domains/classical/maintenance-sat14-adl/maintenance.1.3.100.300.5-001.pddl"
+    },
+    {
+      "file": "maintenance-1-3-100-300-7-000.pddl",
+      "problem_id": 1736,
+      "source_url": "https://www.haz.ca/planning-domains/classical/maintenance-sat14-adl/maintenance.1.3.100.300.7-000.pddl"
+    },
+    {
+      "file": "maintenance-1-3-100-300-7-001.pddl",
+      "problem_id": 1737,
+      "source_url": "https://www.haz.ca/planning-domains/classical/maintenance-sat14-adl/maintenance.1.3.100.300.7-001.pddl"
+    },
+    {
+      "file": "maintenance-1-3-150-500-6-001.pddl",
+      "problem_id": 1738,
+      "source_url": "https://www.haz.ca/planning-domains/classical/maintenance-sat14-adl/maintenance.1.3.150.500.6-001.pddl"
+    },
+    {
+      "file": "maintenance-1-3-100-300-7-002.pddl",
+      "problem_id": 1739,
+      "source_url": "https://www.haz.ca/planning-domains/classical/maintenance-sat14-adl/maintenance.1.3.100.300.7-002.pddl"
+    },
+    {
+      "file": "maintenance-1-3-200-500-5-001.pddl",
+      "problem_id": 1740,
+      "source_url": "https://www.haz.ca/planning-domains/classical/maintenance-sat14-adl/maintenance.1.3.200.500.5-001.pddl"
+    },
+    {
+      "file": "maintenance-1-3-200-500-5-002.pddl",
+      "problem_id": 1741,
+      "source_url": "https://www.haz.ca/planning-domains/classical/maintenance-sat14-adl/maintenance.1.3.200.500.5-002.pddl"
+    },
+    {
+      "file": "maintenance-1-3-200-700-7-000.pddl",
+      "problem_id": 1742,
+      "source_url": "https://www.haz.ca/planning-domains/classical/maintenance-sat14-adl/maintenance.1.3.200.700.7-000.pddl"
+    },
+    {
+      "file": "maintenance-1-3-200-700-7-001.pddl",
+      "problem_id": 1743,
+      "source_url": "https://www.haz.ca/planning-domains/classical/maintenance-sat14-adl/maintenance.1.3.200.700.7-001.pddl"
+    },
+    {
+      "file": "maintenance-1-3-200-700-7-002.pddl",
+      "problem_id": 1744,
+      "source_url": "https://www.haz.ca/planning-domains/classical/maintenance-sat14-adl/maintenance.1.3.200.700.7-002.pddl"
+    },
+    {
+      "file": "maintenance-1-3-200-900-5-000.pddl",
+      "problem_id": 1745,
+      "source_url": "https://www.haz.ca/planning-domains/classical/maintenance-sat14-adl/maintenance.1.3.200.900.5-000.pddl"
+    },
+    {
+      "file": "maintenance-1-3-200-900-5-001.pddl",
+      "problem_id": 1746,
+      "source_url": "https://www.haz.ca/planning-domains/classical/maintenance-sat14-adl/maintenance.1.3.200.900.5-001.pddl"
+    },
+    {
+      "file": "maintenance-1-3-200-900-5-002.pddl",
+      "problem_id": 1747,
+      "source_url": "https://www.haz.ca/planning-domains/classical/maintenance-sat14-adl/maintenance.1.3.200.900.5-002.pddl"
+    },
+    {
+      "file": "maintenance-1-3-200-900-8-000.pddl",
+      "problem_id": 1748,
+      "source_url": "https://www.haz.ca/planning-domains/classical/maintenance-sat14-adl/maintenance.1.3.200.900.8-000.pddl"
+    },
+    {
+      "file": "maintenance-1-3-200-900-8-001.pddl",
+      "problem_id": 1749,
+      "source_url": "https://www.haz.ca/planning-domains/classical/maintenance-sat14-adl/maintenance.1.3.200.900.8-001.pddl"
+    },
+    {
+      "file": "maintenance-1-3-200-900-8-002.pddl",
+      "problem_id": 1750,
+      "source_url": "https://www.haz.ca/planning-domains/classical/maintenance-sat14-adl/maintenance.1.3.200.900.8-002.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-08-26T04:55:42+00:00"
+}

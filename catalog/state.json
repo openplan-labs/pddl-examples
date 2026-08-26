@@ -231,6 +231,41 @@
       "path": "domains/ipc-2011/parcprinter-opt11-strips",
       "problems": 1
     },
+    "43": {
+      "collection": "Fast Downward All Problem Suite",
+      "fetched_at": "2026-08-26T04:55:19+00:00",
+      "name": "logistics00",
+      "path": "domains/fast-downward-all-problem-suite/logistics00",
+      "problems": 20
+    },
+    "44": {
+      "collection": "Fast Downward All Problem Suite",
+      "fetched_at": "2026-08-26T04:55:25+00:00",
+      "name": "movie",
+      "path": "domains/fast-downward-all-problem-suite/movie",
+      "problems": 20
+    },
+    "45": {
+      "collection": "Fast Downward LM-Cut Problem Suite",
+      "fetched_at": "2026-08-26T04:55:27+00:00",
+      "name": "pathways-noneg",
+      "path": "domains/fast-downward-lm-cut-problem-suite/pathways-noneg",
+      "problems": 1
+    },
+    "46": {
+      "collection": "All-IPC (STRIPS)",
+      "fetched_at": "2026-08-26T04:55:33+00:00",
+      "name": "parking-sat14-strips",
+      "path": "domains/all-ipc-strips/parking-sat14-strips",
+      "problems": 20
+    },
+    "47": {
+      "collection": "IPC-2014",
+      "fetched_at": "2026-08-26T04:55:42+00:00",
+      "name": "maintenance-sat14-adl",
+      "path": "domains/ipc-2014/maintenance-sat14-adl",
+      "problems": 20
+    },
     "5": {
       "collection": "IPC-2008",
       "fetched_at": "2026-08-20T14:34:29+00:00",
