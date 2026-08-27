@@ -1,0 +1,122 @@
+{
+  "domain_id": 48,
+  "name": "psr-middle",
+  "collection": "Fast Downward All Problem Suite",
+  "description": "Developed by Sylvie Thiebaux and Jorg Hoffmann. Planners must resupply a number of lines in a faulty electricity network. The flow of electricity through the network, at any point in time, is given by a transitive closure over the network connections, subject to the states of the switches and electricity supply devices. The domain is therefore a good example of the usefulness of derived predicates in real-world applications.",
+  "tags": [
+    ":derived-predicates",
+    ":equality",
+    ":negative-preconditions",
+    ":typing",
+    ":disjunctive-preconditions"
+  ],
+  "requirements": ":adl :derived-predicates",
+  "source_api": "https://api.planning.domains/json/classical/domain/48",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/psr-middle/domain.pddl",
+  "problems_available": 50,
+  "problems_matching_domain_file": 50,
+  "problems": [
+    {
+      "file": "p01-s17-n2-l2-f30.pddl",
+      "problem_id": 1751,
+      "source_url": "https://www.haz.ca/planning-domains/classical/psr-middle/p01-s17-n2-l2-f30.pddl"
+    },
+    {
+      "file": "p02-s23-n2-l3-f70.pddl",
+      "problem_id": 1752,
+      "source_url": "https://www.haz.ca/planning-domains/classical/psr-middle/p02-s23-n2-l3-f70.pddl"
+    },
+    {
+      "file": "p03-s28-n2-l5-f10.pddl",
+      "problem_id": 1753,
+      "source_url": "https://www.haz.ca/planning-domains/classical/psr-middle/p03-s28-n2-l5-f10.pddl"
+    },
+    {
+      "file": "p04-s31-n2-l5-f70.pddl",
+      "problem_id": 1754,
+      "source_url": "https://www.haz.ca/planning-domains/classical/psr-middle/p04-s31-n2-l5-f70.pddl"
+    },
+    {
+      "file": "p05-s34-n3-l2-f50.pddl",
+      "problem_id": 1755,
+      "source_url": "https://www.haz.ca/planning-domains/classical/psr-middle/p05-s34-n3-l2-f50.pddl"
+    },
+    {
+      "file": "p06-s37-n3-l3-f30.pddl",
+      "problem_id": 1756,
+      "source_url": "https://www.haz.ca/planning-domains/classical/psr-middle/p06-s37-n3-l3-f30.pddl"
+    },
+    {
+      "file": "p07-s38-n3-l3-f50.pddl",
+      "problem_id": 1757,
+      "source_url": "https://www.haz.ca/planning-domains/classical/psr-middle/p07-s38-n3-l3-f50.pddl"
+    },
+    {
+      "file": "p08-s40-n3-l4-f10.pddl",
+      "problem_id": 1758,
+      "source_url": "https://www.haz.ca/planning-domains/classical/psr-middle/p08-s40-n3-l4-f10.pddl"
+    },
+    {
+      "file": "p09-s42-n3-l4-f50.pddl",
+      "problem_id": 1759,
+      "source_url": "https://www.haz.ca/planning-domains/classical/psr-middle/p09-s42-n3-l4-f50.pddl"
+    },
+    {
+      "file": "p10-s45-n3-l5-f30.pddl",
+      "problem_id": 1760,
+      "source_url": "https://www.haz.ca/planning-domains/classical/psr-middle/p10-s45-n3-l5-f30.pddl"
+    },
+    {
+      "file": "p11-s46-n3-l5-f50.pddl",
+      "problem_id": 1761,
+      "source_url": "https://www.haz.ca/planning-domains/classical/psr-middle/p11-s46-n3-l5-f50.pddl"
+    },
+    {
+      "file": "p12-s50-n4-l2-f50.pddl",
+      "problem_id": 1762,
+      "source_url": "https://www.haz.ca/planning-domains/classical/psr-middle/p12-s50-n4-l2-f50.pddl"
+    },
+    {
+      "file": "p13-s53-n4-l3-f30.pddl",
+      "problem_id": 1763,
+      "source_url": "https://www.haz.ca/planning-domains/classical/psr-middle/p13-s53-n4-l3-f30.pddl"
+    },
+    {
+      "file": "p14-s55-n4-l3-f70.pddl",
+      "problem_id": 1764,
+      "source_url": "https://www.haz.ca/planning-domains/classical/psr-middle/p14-s55-n4-l3-f70.pddl"
+    },
+    {
+      "file": "p15-s56-n4-l4-f10.pddl",
+      "problem_id": 1765,
+      "source_url": "https://www.haz.ca/planning-domains/classical/psr-middle/p15-s56-n4-l4-f10.pddl"
+    },
+    {
+      "file": "p16-s60-n4-l5-f10.pddl",
+      "problem_id": 1766,
+      "source_url": "https://www.haz.ca/planning-domains/classical/psr-middle/p16-s60-n4-l5-f10.pddl"
+    },
+    {
+      "file": "p17-s61-n4-l5-f30.pddl",
+      "problem_id": 1767,
+      "source_url": "https://www.haz.ca/planning-domains/classical/psr-middle/p17-s61-n4-l5-f30.pddl"
+    },
+    {
+      "file": "p18-s62-n4-l5-f50.pddl",
+      "problem_id": 1768,
+      "source_url": "https://www.haz.ca/planning-domains/classical/psr-middle/p18-s62-n4-l5-f50.pddl"
+    },
+    {
+      "file": "p19-s66-n5-l2-f50.pddl",
+      "problem_id": 1769,
+      "source_url": "https://www.haz.ca/planning-domains/classical/psr-middle/p19-s66-n5-l2-f50.pddl"
+    },
+    {
+      "file": "p20-s69-n5-l3-f30.pddl",
+      "problem_id": 1770,
+      "source_url": "https://www.haz.ca/planning-domains/classical/psr-middle/p20-s69-n5-l3-f30.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-08-27T15:14:28+00:00"
+}

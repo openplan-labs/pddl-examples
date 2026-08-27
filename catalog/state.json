@@ -266,12 +266,47 @@
       "path": "domains/ipc-2014/maintenance-sat14-adl",
       "problems": 20
     },
+    "48": {
+      "collection": "Fast Downward All Problem Suite",
+      "fetched_at": "2026-08-27T15:14:28+00:00",
+      "name": "psr-middle",
+      "path": "domains/fast-downward-all-problem-suite/psr-middle",
+      "problems": 20
+    },
+    "49": {
+      "collection": "Fast Downward All Problem Suite",
+      "fetched_at": "2026-08-27T15:14:31+00:00",
+      "name": "rovers",
+      "path": "domains/fast-downward-all-problem-suite/rovers",
+      "problems": 20
+    },
     "5": {
       "collection": "IPC-2008",
       "fetched_at": "2026-08-20T14:34:29+00:00",
       "name": "sokoban",
       "path": "domains/ipc-2008/sokoban-5",
       "problems": 1
+    },
+    "50": {
+      "collection": "All-IPC (STRIPS)",
+      "fetched_at": "2026-08-27T15:14:37+00:00",
+      "name": "visitall-sat14-strips",
+      "path": "domains/all-ipc-strips/visitall-sat14-strips",
+      "problems": 20
+    },
+    "51": {
+      "collection": "IPC-2008",
+      "fetched_at": "2026-08-27T15:14:38+00:00",
+      "name": "transport-sat08-strips",
+      "path": "domains/ipc-2008/transport-sat08-strips",
+      "problems": 1
+    },
+    "52": {
+      "collection": "All-IPC (STRIPS)",
+      "fetched_at": "2026-08-27T15:14:40+00:00",
+      "name": "ged-sat14-strips",
+      "path": "domains/all-ipc-strips/ged-sat14-strips",
+      "problems": 20
     },
     "6": {
       "collection": "IPC-2011",

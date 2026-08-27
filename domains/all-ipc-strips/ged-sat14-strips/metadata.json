@@ -1,0 +1,119 @@
+{
+  "domain_id": 52,
+  "name": "ged",
+  "collection": "All-IPC (STRIPS)",
+  "description": "(sat14) The GED problem is to find a min-cost sequence of operations that transforms one genome (signed permutation of genes) into another. The purpose of this is to use this cost as a measure of the distance between the two genomes, which is used to construct hypotheses about the evolutionary relationship between the organisms.",
+  "tags": [
+    ":action-costs",
+    ":equality"
+  ],
+  "requirements": ":action-costs :equality",
+  "source_api": "https://api.planning.domains/json/classical/domain/52",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/ged-sat14-strips/domain.pddl",
+  "problems_available": 20,
+  "problems_matching_domain_file": 20,
+  "problems": [
+    {
+      "file": "d-10-1.pddl",
+      "problem_id": 1970,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ged-sat14-strips/d-10-1.pddl"
+    },
+    {
+      "file": "d-10-2.pddl",
+      "problem_id": 1971,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ged-sat14-strips/d-10-2.pddl"
+    },
+    {
+      "file": "d-10-3.pddl",
+      "problem_id": 1972,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ged-sat14-strips/d-10-3.pddl"
+    },
+    {
+      "file": "d-10-5.pddl",
+      "problem_id": 1973,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ged-sat14-strips/d-10-5.pddl"
+    },
+    {
+      "file": "d-10-4.pddl",
+      "problem_id": 1974,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ged-sat14-strips/d-10-4.pddl"
+    },
+    {
+      "file": "d-10-6.pddl",
+      "problem_id": 1976,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ged-sat14-strips/d-10-6.pddl"
+    },
+    {
+      "file": "d-11-1.pddl",
+      "problem_id": 1977,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ged-sat14-strips/d-11-1.pddl"
+    },
+    {
+      "file": "d-11-3.pddl",
+      "problem_id": 1978,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ged-sat14-strips/d-11-3.pddl"
+    },
+    {
+      "file": "d-11-5.pddl",
+      "problem_id": 1979,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ged-sat14-strips/d-11-5.pddl"
+    },
+    {
+      "file": "d-11-6.pddl",
+      "problem_id": 1980,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ged-sat14-strips/d-11-6.pddl"
+    },
+    {
+      "file": "d-12-11.pddl",
+      "problem_id": 1981,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ged-sat14-strips/d-12-11.pddl"
+    },
+    {
+      "file": "d-12-2.pddl",
+      "problem_id": 1982,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ged-sat14-strips/d-12-2.pddl"
+    },
+    {
+      "file": "d-12-3.pddl",
+      "problem_id": 1983,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ged-sat14-strips/d-12-3.pddl"
+    },
+    {
+      "file": "d-12-5.pddl",
+      "problem_id": 1984,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ged-sat14-strips/d-12-5.pddl"
+    },
+    {
+      "file": "d-12-6.pddl",
+      "problem_id": 1985,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ged-sat14-strips/d-12-6.pddl"
+    },
+    {
+      "file": "d-12-7.pddl",
+      "problem_id": 1986,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ged-sat14-strips/d-12-7.pddl"
+    },
+    {
+      "file": "d-12-8.pddl",
+      "problem_id": 1987,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ged-sat14-strips/d-12-8.pddl"
+    },
+    {
+      "file": "d-12-9.pddl",
+      "problem_id": 1988,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ged-sat14-strips/d-12-9.pddl"
+    },
+    {
+      "file": "d-3-6.pddl",
+      "problem_id": 1989,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ged-sat14-strips/d-3-6.pddl"
+    },
+    {
+      "file": "d-9-5.pddl",
+      "problem_id": 1990,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ged-sat14-strips/d-9-5.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-08-27T15:14:40+00:00"
+}

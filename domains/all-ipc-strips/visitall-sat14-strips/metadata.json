@@ -1,0 +1,119 @@
+{
+  "domain_id": 50,
+  "name": "visitall",
+  "collection": "All-IPC (STRIPS)",
+  "description": "(sat14) An agent in the middle of a square grid nxn must visit all the cells in the grid. Solving optimally the delete relaxation h+ gives the exact goal distance as long as there exists a hamiltonian path visiting every cell. Recall that in a 1xn grid, no hamiltonian path exists.",
+  "tags": [
+    ":strips",
+    ":typing"
+  ],
+  "requirements": ":typing",
+  "source_api": "https://api.planning.domains/json/classical/domain/50",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/visitall-sat14-strips/domain.pddl",
+  "problems_available": 20,
+  "problems_matching_domain_file": 20,
+  "problems": [
+    {
+      "file": "pfile30.pddl",
+      "problem_id": 1841,
+      "source_url": "https://www.haz.ca/planning-domains/classical/visitall-sat14-strips/pfile30.pddl"
+    },
+    {
+      "file": "pfile31.pddl",
+      "problem_id": 1842,
+      "source_url": "https://www.haz.ca/planning-domains/classical/visitall-sat14-strips/pfile31.pddl"
+    },
+    {
+      "file": "pfile32.pddl",
+      "problem_id": 1843,
+      "source_url": "https://www.haz.ca/planning-domains/classical/visitall-sat14-strips/pfile32.pddl"
+    },
+    {
+      "file": "pfile33.pddl",
+      "problem_id": 1844,
+      "source_url": "https://www.haz.ca/planning-domains/classical/visitall-sat14-strips/pfile33.pddl"
+    },
+    {
+      "file": "pfile50.pddl",
+      "problem_id": 1845,
+      "source_url": "https://www.haz.ca/planning-domains/classical/visitall-sat14-strips/pfile50.pddl"
+    },
+    {
+      "file": "pfile51.pddl",
+      "problem_id": 1846,
+      "source_url": "https://www.haz.ca/planning-domains/classical/visitall-sat14-strips/pfile51.pddl"
+    },
+    {
+      "file": "pfile52.pddl",
+      "problem_id": 1847,
+      "source_url": "https://www.haz.ca/planning-domains/classical/visitall-sat14-strips/pfile52.pddl"
+    },
+    {
+      "file": "pfile53.pddl",
+      "problem_id": 1848,
+      "source_url": "https://www.haz.ca/planning-domains/classical/visitall-sat14-strips/pfile53.pddl"
+    },
+    {
+      "file": "pfile54.pddl",
+      "problem_id": 1849,
+      "source_url": "https://www.haz.ca/planning-domains/classical/visitall-sat14-strips/pfile54.pddl"
+    },
+    {
+      "file": "pfile55.pddl",
+      "problem_id": 1850,
+      "source_url": "https://www.haz.ca/planning-domains/classical/visitall-sat14-strips/pfile55.pddl"
+    },
+    {
+      "file": "pfile56.pddl",
+      "problem_id": 1851,
+      "source_url": "https://www.haz.ca/planning-domains/classical/visitall-sat14-strips/pfile56.pddl"
+    },
+    {
+      "file": "pfile57.pddl",
+      "problem_id": 1852,
+      "source_url": "https://www.haz.ca/planning-domains/classical/visitall-sat14-strips/pfile57.pddl"
+    },
+    {
+      "file": "pfile58.pddl",
+      "problem_id": 1853,
+      "source_url": "https://www.haz.ca/planning-domains/classical/visitall-sat14-strips/pfile58.pddl"
+    },
+    {
+      "file": "pfile59.pddl",
+      "problem_id": 1854,
+      "source_url": "https://www.haz.ca/planning-domains/classical/visitall-sat14-strips/pfile59.pddl"
+    },
+    {
+      "file": "pfile60.pddl",
+      "problem_id": 1855,
+      "source_url": "https://www.haz.ca/planning-domains/classical/visitall-sat14-strips/pfile60.pddl"
+    },
+    {
+      "file": "pfile61.pddl",
+      "problem_id": 1856,
+      "source_url": "https://www.haz.ca/planning-domains/classical/visitall-sat14-strips/pfile61.pddl"
+    },
+    {
+      "file": "pfile62.pddl",
+      "problem_id": 1857,
+      "source_url": "https://www.haz.ca/planning-domains/classical/visitall-sat14-strips/pfile62.pddl"
+    },
+    {
+      "file": "pfile63.pddl",
+      "problem_id": 1858,
+      "source_url": "https://www.haz.ca/planning-domains/classical/visitall-sat14-strips/pfile63.pddl"
+    },
+    {
+      "file": "pfile64.pddl",
+      "problem_id": 1859,
+      "source_url": "https://www.haz.ca/planning-domains/classical/visitall-sat14-strips/pfile64.pddl"
+    },
+    {
+      "file": "pfile65.pddl",
+      "problem_id": 1860,
+      "source_url": "https://www.haz.ca/planning-domains/classical/visitall-sat14-strips/pfile65.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-08-27T15:14:37+00:00"
+}

@@ -1,0 +1,119 @@
+{
+  "domain_id": 49,
+  "name": "rovers",
+  "collection": "Fast Downward All Problem Suite",
+  "description": "Inspired by planetary rovers problems, this domain requires that a collection of rovers navigate a planet surface, finding samples and communicating them back to a lander.",
+  "tags": [
+    ":strips",
+    ":typing"
+  ],
+  "requirements": ":typing",
+  "source_api": "https://api.planning.domains/json/classical/domain/49",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/rovers/domain.pddl",
+  "problems_available": 40,
+  "problems_matching_domain_file": 40,
+  "problems": [
+    {
+      "file": "p01.pddl",
+      "problem_id": 1801,
+      "source_url": "https://www.haz.ca/planning-domains/classical/rovers/p01.pddl"
+    },
+    {
+      "file": "p02.pddl",
+      "problem_id": 1802,
+      "source_url": "https://www.haz.ca/planning-domains/classical/rovers/p02.pddl"
+    },
+    {
+      "file": "p03.pddl",
+      "problem_id": 1803,
+      "source_url": "https://www.haz.ca/planning-domains/classical/rovers/p03.pddl"
+    },
+    {
+      "file": "p04.pddl",
+      "problem_id": 1804,
+      "source_url": "https://www.haz.ca/planning-domains/classical/rovers/p04.pddl"
+    },
+    {
+      "file": "p05.pddl",
+      "problem_id": 1805,
+      "source_url": "https://www.haz.ca/planning-domains/classical/rovers/p05.pddl"
+    },
+    {
+      "file": "p06.pddl",
+      "problem_id": 1806,
+      "source_url": "https://www.haz.ca/planning-domains/classical/rovers/p06.pddl"
+    },
+    {
+      "file": "p07.pddl",
+      "problem_id": 1807,
+      "source_url": "https://www.haz.ca/planning-domains/classical/rovers/p07.pddl"
+    },
+    {
+      "file": "p08.pddl",
+      "problem_id": 1808,
+      "source_url": "https://www.haz.ca/planning-domains/classical/rovers/p08.pddl"
+    },
+    {
+      "file": "p09.pddl",
+      "problem_id": 1809,
+      "source_url": "https://www.haz.ca/planning-domains/classical/rovers/p09.pddl"
+    },
+    {
+      "file": "p10.pddl",
+      "problem_id": 1810,
+      "source_url": "https://www.haz.ca/planning-domains/classical/rovers/p10.pddl"
+    },
+    {
+      "file": "p11.pddl",
+      "problem_id": 1811,
+      "source_url": "https://www.haz.ca/planning-domains/classical/rovers/p11.pddl"
+    },
+    {
+      "file": "p12.pddl",
+      "problem_id": 1812,
+      "source_url": "https://www.haz.ca/planning-domains/classical/rovers/p12.pddl"
+    },
+    {
+      "file": "p13.pddl",
+      "problem_id": 1813,
+      "source_url": "https://www.haz.ca/planning-domains/classical/rovers/p13.pddl"
+    },
+    {
+      "file": "p14.pddl",
+      "problem_id": 1814,
+      "source_url": "https://www.haz.ca/planning-domains/classical/rovers/p14.pddl"
+    },
+    {
+      "file": "p15.pddl",
+      "problem_id": 1815,
+      "source_url": "https://www.haz.ca/planning-domains/classical/rovers/p15.pddl"
+    },
+    {
+      "file": "p16.pddl",
+      "problem_id": 1816,
+      "source_url": "https://www.haz.ca/planning-domains/classical/rovers/p16.pddl"
+    },
+    {
+      "file": "p17.pddl",
+      "problem_id": 1817,
+      "source_url": "https://www.haz.ca/planning-domains/classical/rovers/p17.pddl"
+    },
+    {
+      "file": "p18.pddl",
+      "problem_id": 1818,
+      "source_url": "https://www.haz.ca/planning-domains/classical/rovers/p18.pddl"
+    },
+    {
+      "file": "p19.pddl",
+      "problem_id": 1819,
+      "source_url": "https://www.haz.ca/planning-domains/classical/rovers/p19.pddl"
+    },
+    {
+      "file": "p20.pddl",
+      "problem_id": 1820,
+      "source_url": "https://www.haz.ca/planning-domains/classical/rovers/p20.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-08-27T15:14:31+00:00"
+}
