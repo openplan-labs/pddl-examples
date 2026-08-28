@@ -1,0 +1,119 @@
+{
+  "domain_id": 53,
+  "name": "nomystery",
+  "collection": "IPC-2011",
+  "description": "(sat11) Nomystery is a transportation domain designed to study resource constrained planning. In this domain, a truck moves in a weighted graph; a set of packages must be transported between nodes; actions move along edges, and load/unload packages; each move consumes the edge weight in fuel. In brief, Nomystery is a straightforward problem similar to the ones contained in many IPC benchmarks. Its key feature is that it comes with a domain-specific optimal solver allowing to control the constrainedness of the resources. The generator first creates a random connected undirected graph with n nodes, and it adds k packages with random origins and destinations. The edge weights are uniformly drawn between 1 and an integer W. The optimal solver computes the minimum required amount of fuel M, and the initial fuel supply is set to [C xM], where C >=1 is a (float) input parameter of the generator. The parameter C denotes the ratio between the available fuel vs. the minimum amount required. The problem becomes more constrained when C approaches 1.",
+  "tags": [
+    ":action-costs",
+    ":typing"
+  ],
+  "requirements": ":action-costs :typing",
+  "source_api": "https://api.planning.domains/json/classical/domain/53",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/nomystery-sat11-strips/domain.pddl",
+  "problems_available": 20,
+  "problems_matching_domain_file": 20,
+  "problems": [
+    {
+      "file": "p01.pddl",
+      "problem_id": 1951,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nomystery-sat11-strips/p01.pddl"
+    },
+    {
+      "file": "p02.pddl",
+      "problem_id": 1952,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nomystery-sat11-strips/p02.pddl"
+    },
+    {
+      "file": "p03.pddl",
+      "problem_id": 1953,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nomystery-sat11-strips/p03.pddl"
+    },
+    {
+      "file": "p04.pddl",
+      "problem_id": 1954,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nomystery-sat11-strips/p04.pddl"
+    },
+    {
+      "file": "p05.pddl",
+      "problem_id": 1955,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nomystery-sat11-strips/p05.pddl"
+    },
+    {
+      "file": "p06.pddl",
+      "problem_id": 1956,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nomystery-sat11-strips/p06.pddl"
+    },
+    {
+      "file": "p07.pddl",
+      "problem_id": 1957,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nomystery-sat11-strips/p07.pddl"
+    },
+    {
+      "file": "p08.pddl",
+      "problem_id": 1958,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nomystery-sat11-strips/p08.pddl"
+    },
+    {
+      "file": "p09.pddl",
+      "problem_id": 1959,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nomystery-sat11-strips/p09.pddl"
+    },
+    {
+      "file": "p10.pddl",
+      "problem_id": 1960,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nomystery-sat11-strips/p10.pddl"
+    },
+    {
+      "file": "p11.pddl",
+      "problem_id": 1961,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nomystery-sat11-strips/p11.pddl"
+    },
+    {
+      "file": "p12.pddl",
+      "problem_id": 1962,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nomystery-sat11-strips/p12.pddl"
+    },
+    {
+      "file": "p13.pddl",
+      "problem_id": 1963,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nomystery-sat11-strips/p13.pddl"
+    },
+    {
+      "file": "p14.pddl",
+      "problem_id": 1964,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nomystery-sat11-strips/p14.pddl"
+    },
+    {
+      "file": "p15.pddl",
+      "problem_id": 1965,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nomystery-sat11-strips/p15.pddl"
+    },
+    {
+      "file": "p16.pddl",
+      "problem_id": 1966,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nomystery-sat11-strips/p16.pddl"
+    },
+    {
+      "file": "p17.pddl",
+      "problem_id": 1967,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nomystery-sat11-strips/p17.pddl"
+    },
+    {
+      "file": "p18.pddl",
+      "problem_id": 1968,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nomystery-sat11-strips/p18.pddl"
+    },
+    {
+      "file": "p20.pddl",
+      "problem_id": 1969,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nomystery-sat11-strips/p20.pddl"
+    },
+    {
+      "file": "p19.pddl",
+      "problem_id": 1975,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nomystery-sat11-strips/p19.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-08-28T16:37:59+00:00"
+}

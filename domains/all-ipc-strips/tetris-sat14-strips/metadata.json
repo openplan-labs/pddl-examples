@@ -1,0 +1,121 @@
+{
+  "domain_id": 56,
+  "name": "tetris",
+  "collection": "All-IPC (STRIPS)",
+  "description": "(sat14) This is a simplified version of the well-known Tetris. All the pieces (1x1, 2x1, L) are randomly distributed on a NxN grid. The goal is to move them in order to free the upper half of the grid. The pieces can be rotated or translated. Each movement action has a different cost, accordingly to the size of the piece.",
+  "tags": [
+    ":action-costs",
+    ":equality",
+    ":negative-preconditions",
+    ":typing"
+  ],
+  "requirements": ":action-costs :equality :negative-preconditions :typing",
+  "source_api": "https://api.planning.domains/json/classical/domain/56",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/tetris-sat14-strips/domain.pddl",
+  "problems_available": 20,
+  "problems_matching_domain_file": 20,
+  "problems": [
+    {
+      "file": "p020.pddl",
+      "problem_id": 2041,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tetris-sat14-strips/p020.pddl"
+    },
+    {
+      "file": "p021.pddl",
+      "problem_id": 2042,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tetris-sat14-strips/p021.pddl"
+    },
+    {
+      "file": "p022.pddl",
+      "problem_id": 2043,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tetris-sat14-strips/p022.pddl"
+    },
+    {
+      "file": "p023.pddl",
+      "problem_id": 2044,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tetris-sat14-strips/p023.pddl"
+    },
+    {
+      "file": "p024.pddl",
+      "problem_id": 2045,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tetris-sat14-strips/p024.pddl"
+    },
+    {
+      "file": "p025.pddl",
+      "problem_id": 2046,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tetris-sat14-strips/p025.pddl"
+    },
+    {
+      "file": "p026.pddl",
+      "problem_id": 2047,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tetris-sat14-strips/p026.pddl"
+    },
+    {
+      "file": "p027.pddl",
+      "problem_id": 2048,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tetris-sat14-strips/p027.pddl"
+    },
+    {
+      "file": "p028.pddl",
+      "problem_id": 2049,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tetris-sat14-strips/p028.pddl"
+    },
+    {
+      "file": "p029.pddl",
+      "problem_id": 2050,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tetris-sat14-strips/p029.pddl"
+    },
+    {
+      "file": "p031.pddl",
+      "problem_id": 2051,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tetris-sat14-strips/p031.pddl"
+    },
+    {
+      "file": "p032.pddl",
+      "problem_id": 2052,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tetris-sat14-strips/p032.pddl"
+    },
+    {
+      "file": "p033.pddl",
+      "problem_id": 2053,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tetris-sat14-strips/p033.pddl"
+    },
+    {
+      "file": "p034.pddl",
+      "problem_id": 2054,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tetris-sat14-strips/p034.pddl"
+    },
+    {
+      "file": "p035.pddl",
+      "problem_id": 2055,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tetris-sat14-strips/p035.pddl"
+    },
+    {
+      "file": "p036.pddl",
+      "problem_id": 2056,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tetris-sat14-strips/p036.pddl"
+    },
+    {
+      "file": "p037.pddl",
+      "problem_id": 2057,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tetris-sat14-strips/p037.pddl"
+    },
+    {
+      "file": "p038.pddl",
+      "problem_id": 2058,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tetris-sat14-strips/p038.pddl"
+    },
+    {
+      "file": "p039.pddl",
+      "problem_id": 2059,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tetris-sat14-strips/p039.pddl"
+    },
+    {
+      "file": "p040.pddl",
+      "problem_id": 2060,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tetris-sat14-strips/p040.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-08-28T16:38:13+00:00"
+}

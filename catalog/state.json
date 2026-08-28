@@ -308,6 +308,41 @@
       "path": "domains/all-ipc-strips/ged-sat14-strips",
       "problems": 20
     },
+    "53": {
+      "collection": "IPC-2011",
+      "fetched_at": "2026-08-28T16:37:59+00:00",
+      "name": "nomystery-sat11-strips",
+      "path": "domains/ipc-2011/nomystery-sat11-strips",
+      "problems": 20
+    },
+    "54": {
+      "collection": "All-IPC (STRIPS)",
+      "fetched_at": "2026-08-28T16:38:06+00:00",
+      "name": "hiking-sat14-strips",
+      "path": "domains/all-ipc-strips/hiking-sat14-strips",
+      "problems": 20
+    },
+    "55": {
+      "collection": "IPC-2008",
+      "fetched_at": "2026-08-28T16:38:07+00:00",
+      "name": "woodworking-opt08-strips",
+      "path": "domains/ipc-2008/woodworking-opt08-strips",
+      "problems": 1
+    },
+    "56": {
+      "collection": "All-IPC (STRIPS)",
+      "fetched_at": "2026-08-28T16:38:13+00:00",
+      "name": "tetris-sat14-strips",
+      "path": "domains/all-ipc-strips/tetris-sat14-strips",
+      "problems": 20
+    },
+    "57": {
+      "collection": "IPC-2008",
+      "fetched_at": "2026-08-28T16:38:14+00:00",
+      "name": "transport-opt08-strips",
+      "path": "domains/ipc-2008/transport-opt08-strips",
+      "problems": 1
+    },
     "6": {
       "collection": "IPC-2011",
       "fetched_at": "2026-08-20T14:34:42+00:00",

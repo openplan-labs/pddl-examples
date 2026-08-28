@@ -1,0 +1,119 @@
+{
+  "domain_id": 54,
+  "name": "hiking",
+  "collection": "All-IPC (STRIPS)",
+  "description": "(sat14) Imagine you want to walk with your partner a long clockwise circular route over several days (e.g. in the \"Lake District\" in NW England), and you do one \"leg\" each day. You want to start at a certain point and do the walk in one direction, without ever walking backwards. You have two cars which you must use to carry your tent/luggage and to carry you and your partner to the start/end of a leg, if necessary. Driving a car between any two points is allowed, but walking must be done with your partner and must start from the place where you left off. As you will be tired when you have walked to the end of a leg, you must have your tent up ready there so you can sleep the night before you set off to do the next leg the morning.",
+  "tags": [
+    ":equality",
+    ":typing"
+  ],
+  "requirements": ":equality :strips :typing",
+  "source_api": "https://api.planning.domains/json/classical/domain/54",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/hiking-sat14-strips/domain.pddl",
+  "problems_available": 20,
+  "problems_matching_domain_file": 20,
+  "problems": [
+    {
+      "file": "ptesting-1-2-7.pddl",
+      "problem_id": 1991,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hiking-sat14-strips/ptesting-1-2-7.pddl"
+    },
+    {
+      "file": "ptesting-1-2-8.pddl",
+      "problem_id": 1992,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hiking-sat14-strips/ptesting-1-2-8.pddl"
+    },
+    {
+      "file": "ptesting-2-2-6.pddl",
+      "problem_id": 1993,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hiking-sat14-strips/ptesting-2-2-6.pddl"
+    },
+    {
+      "file": "ptesting-2-2-7.pddl",
+      "problem_id": 1994,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hiking-sat14-strips/ptesting-2-2-7.pddl"
+    },
+    {
+      "file": "ptesting-2-2-8.pddl",
+      "problem_id": 1995,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hiking-sat14-strips/ptesting-2-2-8.pddl"
+    },
+    {
+      "file": "ptesting-2-3-6.pddl",
+      "problem_id": 1996,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hiking-sat14-strips/ptesting-2-3-6.pddl"
+    },
+    {
+      "file": "ptesting-2-3-7.pddl",
+      "problem_id": 1997,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hiking-sat14-strips/ptesting-2-3-7.pddl"
+    },
+    {
+      "file": "ptesting-2-3-8.pddl",
+      "problem_id": 1998,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hiking-sat14-strips/ptesting-2-3-8.pddl"
+    },
+    {
+      "file": "ptesting-2-4-5.pddl",
+      "problem_id": 1999,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hiking-sat14-strips/ptesting-2-4-5.pddl"
+    },
+    {
+      "file": "ptesting-2-4-6.pddl",
+      "problem_id": 2000,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hiking-sat14-strips/ptesting-2-4-6.pddl"
+    },
+    {
+      "file": "ptesting-2-4-7.pddl",
+      "problem_id": 2001,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hiking-sat14-strips/ptesting-2-4-7.pddl"
+    },
+    {
+      "file": "ptesting-2-4-8.pddl",
+      "problem_id": 2002,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hiking-sat14-strips/ptesting-2-4-8.pddl"
+    },
+    {
+      "file": "ptesting-3-3-5.pddl",
+      "problem_id": 2003,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hiking-sat14-strips/ptesting-3-3-5.pddl"
+    },
+    {
+      "file": "ptesting-3-3-6.pddl",
+      "problem_id": 2004,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hiking-sat14-strips/ptesting-3-3-6.pddl"
+    },
+    {
+      "file": "ptesting-3-3-7.pddl",
+      "problem_id": 2005,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hiking-sat14-strips/ptesting-3-3-7.pddl"
+    },
+    {
+      "file": "ptesting-3-3-8.pddl",
+      "problem_id": 2006,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hiking-sat14-strips/ptesting-3-3-8.pddl"
+    },
+    {
+      "file": "ptesting-3-4-5.pddl",
+      "problem_id": 2007,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hiking-sat14-strips/ptesting-3-4-5.pddl"
+    },
+    {
+      "file": "ptesting-3-4-6.pddl",
+      "problem_id": 2008,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hiking-sat14-strips/ptesting-3-4-6.pddl"
+    },
+    {
+      "file": "ptesting-3-4-7.pddl",
+      "problem_id": 2009,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hiking-sat14-strips/ptesting-3-4-7.pddl"
+    },
+    {
+      "file": "ptesting-3-4-8.pddl",
+      "problem_id": 2010,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hiking-sat14-strips/ptesting-3-4-8.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-08-28T16:38:06+00:00"
+}
