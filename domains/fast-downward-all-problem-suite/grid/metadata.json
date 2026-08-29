@@ -1,0 +1,43 @@
+{
+  "domain_id": 62,
+  "name": "grid",
+  "collection": "Fast Downward All Problem Suite",
+  "description": "There is a square grid of locations. A robot can move one grid square at a time horizontally and vertically. If a square is locked, the robot can move to it only by unlocking it, which requires having a key of the same shape as the lock. The goal is to get keys from various locations to various new locations. This domain was created by Jana Koehler, based on an earlier domain by Drew McDermott.",
+  "tags": [
+    ":strips"
+  ],
+  "requirements": ":strips",
+  "source_api": "https://api.planning.domains/json/classical/domain/62",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/grid/domain.pddl",
+  "problems_available": 5,
+  "problems_matching_domain_file": 5,
+  "problems": [
+    {
+      "file": "prob01.pddl",
+      "problem_id": 2251,
+      "source_url": "https://www.haz.ca/planning-domains/classical/grid/prob01.pddl"
+    },
+    {
+      "file": "prob02.pddl",
+      "problem_id": 2252,
+      "source_url": "https://www.haz.ca/planning-domains/classical/grid/prob02.pddl"
+    },
+    {
+      "file": "prob03.pddl",
+      "problem_id": 2253,
+      "source_url": "https://www.haz.ca/planning-domains/classical/grid/prob03.pddl"
+    },
+    {
+      "file": "prob04.pddl",
+      "problem_id": 2254,
+      "source_url": "https://www.haz.ca/planning-domains/classical/grid/prob04.pddl"
+    },
+    {
+      "file": "prob05.pddl",
+      "problem_id": 2255,
+      "source_url": "https://www.haz.ca/planning-domains/classical/grid/prob05.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-08-29T11:04:38+00:00"
+}

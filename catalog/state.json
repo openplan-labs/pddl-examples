@@ -343,12 +343,47 @@
       "path": "domains/ipc-2008/transport-opt08-strips",
       "problems": 1
     },
+    "58": {
+      "collection": "IPC-2008",
+      "fetched_at": "2026-08-29T11:04:31+00:00",
+      "name": "elevators-opt08-strips",
+      "path": "domains/ipc-2008/elevators-opt08-strips",
+      "problems": 1
+    },
+    "59": {
+      "collection": "IPC-2008",
+      "fetched_at": "2026-08-29T11:04:32+00:00",
+      "name": "openstacks-opt08-adl",
+      "path": "domains/ipc-2008/openstacks-opt08-adl",
+      "problems": 1
+    },
     "6": {
       "collection": "IPC-2011",
       "fetched_at": "2026-08-20T14:34:42+00:00",
       "name": "transport",
       "path": "domains/ipc-2011/transport",
       "problems": 20
+    },
+    "60": {
+      "collection": "Fast Downward All Problem Suite",
+      "fetched_at": "2026-08-29T11:04:33+00:00",
+      "name": "psr-small",
+      "path": "domains/fast-downward-all-problem-suite/psr-small",
+      "problems": 1
+    },
+    "61": {
+      "collection": "IPC-2004",
+      "fetched_at": "2026-08-29T11:04:37+00:00",
+      "name": "airport-adl",
+      "path": "domains/ipc-2004/airport-adl",
+      "problems": 20
+    },
+    "62": {
+      "collection": "Fast Downward All Problem Suite",
+      "fetched_at": "2026-08-29T11:04:38+00:00",
+      "name": "grid",
+      "path": "domains/fast-downward-all-problem-suite/grid",
+      "problems": 5
     },
     "7": {
       "collection": "IPC-2011",

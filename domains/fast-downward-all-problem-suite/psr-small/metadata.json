@@ -1,0 +1,23 @@
+{
+  "domain_id": 60,
+  "name": "psr-small",
+  "collection": "Fast Downward All Problem Suite",
+  "description": "Developed by Sylvie Thiebaux and Jorg Hoffmann. Planners must resupply a number of lines in a faulty electricity network. The flow of electricity through the network, at any point in time, is given by a transitive closure over the network connections, subject to the states of the switches and electricity supply devices. The domain is therefore a good example of the usefulness of derived predicates in real-world applications.",
+  "tags": [
+    ":strips"
+  ],
+  "requirements": ":strips",
+  "source_api": "https://api.planning.domains/json/classical/domain/60",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/psr-small/p01-domain.pddl",
+  "problems_available": 50,
+  "problems_matching_domain_file": 1,
+  "problems": [
+    {
+      "file": "p01-s2-n1-l2-f50.pddl",
+      "problem_id": 2151,
+      "source_url": "https://www.haz.ca/planning-domains/classical/psr-small/p01-s2-n1-l2-f50.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-08-29T11:04:33+00:00"
+}
