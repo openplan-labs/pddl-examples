@@ -385,6 +385,41 @@
       "path": "domains/fast-downward-all-problem-suite/grid",
       "problems": 5
     },
+    "63": {
+      "collection": "IPC-2008",
+      "fetched_at": "2026-08-30T09:56:13+00:00",
+      "name": "scanalyzer-08-strips",
+      "path": "domains/ipc-2008/scanalyzer-08-strips",
+      "problems": 1
+    },
+    "64": {
+      "collection": "Fast Downward LM-Cut Problem Suite",
+      "fetched_at": "2026-08-30T09:56:14+00:00",
+      "name": "openstacks-strips",
+      "path": "domains/fast-downward-lm-cut-problem-suite/openstacks-strips",
+      "problems": 1
+    },
+    "65": {
+      "collection": "IPC-2008",
+      "fetched_at": "2026-08-30T09:56:15+00:00",
+      "name": "openstacks-sat08-adl",
+      "path": "domains/ipc-2008/openstacks-sat08-adl",
+      "problems": 1
+    },
+    "66": {
+      "collection": "IPC-2014",
+      "fetched_at": "2026-08-30T09:56:15+00:00",
+      "name": "openstacks-opt14-strips",
+      "path": "domains/ipc-2014/openstacks-opt14-strips",
+      "problems": 1
+    },
+    "67": {
+      "collection": "Fast Downward All Problem Suite",
+      "fetched_at": "2026-08-30T09:56:17+00:00",
+      "name": "depot",
+      "path": "domains/fast-downward-all-problem-suite/depot",
+      "problems": 20
+    },
     "7": {
       "collection": "IPC-2011",
       "fetched_at": "2026-08-20T14:34:52+00:00",

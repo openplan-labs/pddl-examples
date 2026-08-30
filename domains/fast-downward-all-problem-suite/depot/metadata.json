@@ -1,0 +1,118 @@
+{
+  "domain_id": 67,
+  "name": "depot",
+  "collection": "Fast Downward All Problem Suite",
+  "description": "This domain was devised in order to see what would happen if two previously well-researched domains were joined together. These were the logistics and blocks domains. They are combined to form a domain in which trucks can transport crates around and then the crates must be stacked onto pallets at their destinations. The stacking is achieved using hoists, so the stacking problem is like a blocks-world problem with hands. Trucks can behave like \"tables\", since the pallets on which crates are stacked are limited.",
+  "tags": [
+    ":strips"
+  ],
+  "requirements": null,
+  "source_api": "https://api.planning.domains/json/classical/domain/67",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/depot/domain.pddl",
+  "problems_available": 22,
+  "problems_matching_domain_file": 22,
+  "problems": [
+    {
+      "file": "pfile1.pddl",
+      "problem_id": 2336,
+      "source_url": "https://www.haz.ca/planning-domains/classical/depot/pfile1.pddl"
+    },
+    {
+      "file": "pfile10.pddl",
+      "problem_id": 2337,
+      "source_url": "https://www.haz.ca/planning-domains/classical/depot/pfile10.pddl"
+    },
+    {
+      "file": "pfile11.pddl",
+      "problem_id": 2338,
+      "source_url": "https://www.haz.ca/planning-domains/classical/depot/pfile11.pddl"
+    },
+    {
+      "file": "pfile12.pddl",
+      "problem_id": 2339,
+      "source_url": "https://www.haz.ca/planning-domains/classical/depot/pfile12.pddl"
+    },
+    {
+      "file": "pfile13.pddl",
+      "problem_id": 2340,
+      "source_url": "https://www.haz.ca/planning-domains/classical/depot/pfile13.pddl"
+    },
+    {
+      "file": "pfile14.pddl",
+      "problem_id": 2341,
+      "source_url": "https://www.haz.ca/planning-domains/classical/depot/pfile14.pddl"
+    },
+    {
+      "file": "pfile15.pddl",
+      "problem_id": 2342,
+      "source_url": "https://www.haz.ca/planning-domains/classical/depot/pfile15.pddl"
+    },
+    {
+      "file": "pfile16.pddl",
+      "problem_id": 2343,
+      "source_url": "https://www.haz.ca/planning-domains/classical/depot/pfile16.pddl"
+    },
+    {
+      "file": "pfile17.pddl",
+      "problem_id": 2344,
+      "source_url": "https://www.haz.ca/planning-domains/classical/depot/pfile17.pddl"
+    },
+    {
+      "file": "pfile18.pddl",
+      "problem_id": 2345,
+      "source_url": "https://www.haz.ca/planning-domains/classical/depot/pfile18.pddl"
+    },
+    {
+      "file": "pfile19.pddl",
+      "problem_id": 2346,
+      "source_url": "https://www.haz.ca/planning-domains/classical/depot/pfile19.pddl"
+    },
+    {
+      "file": "pfile2.pddl",
+      "problem_id": 2347,
+      "source_url": "https://www.haz.ca/planning-domains/classical/depot/pfile2.pddl"
+    },
+    {
+      "file": "pfile20.pddl",
+      "problem_id": 2348,
+      "source_url": "https://www.haz.ca/planning-domains/classical/depot/pfile20.pddl"
+    },
+    {
+      "file": "pfile21.pddl",
+      "problem_id": 2349,
+      "source_url": "https://www.haz.ca/planning-domains/classical/depot/pfile21.pddl"
+    },
+    {
+      "file": "pfile22.pddl",
+      "problem_id": 2350,
+      "source_url": "https://www.haz.ca/planning-domains/classical/depot/pfile22.pddl"
+    },
+    {
+      "file": "pfile3.pddl",
+      "problem_id": 2351,
+      "source_url": "https://www.haz.ca/planning-domains/classical/depot/pfile3.pddl"
+    },
+    {
+      "file": "pfile4.pddl",
+      "problem_id": 2352,
+      "source_url": "https://www.haz.ca/planning-domains/classical/depot/pfile4.pddl"
+    },
+    {
+      "file": "pfile5.pddl",
+      "problem_id": 2353,
+      "source_url": "https://www.haz.ca/planning-domains/classical/depot/pfile5.pddl"
+    },
+    {
+      "file": "pfile6.pddl",
+      "problem_id": 2354,
+      "source_url": "https://www.haz.ca/planning-domains/classical/depot/pfile6.pddl"
+    },
+    {
+      "file": "pfile7.pddl",
+      "problem_id": 2355,
+      "source_url": "https://www.haz.ca/planning-domains/classical/depot/pfile7.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-08-30T09:56:17+00:00"
+}
