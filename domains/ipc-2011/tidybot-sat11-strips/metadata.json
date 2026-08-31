@@ -1,0 +1,119 @@
+{
+  "domain_id": 69,
+  "name": "tidybot",
+  "collection": "IPC-2011",
+  "description": "(sat11) The Tidybot domain models a household cleaning task, in which one or more robots must pick up a set of objects and put them into goal locations. The world is structured as a 2d grid, divided into navigable locations and surfaces on which objects may lie. Robots have a gripper, which moves relative to the robot, up to some maximum radius. Existing objects block the gripper, so that it may be necessary to move one object out of the way to put another one down. Robots can carry one object at a time in the gripper, but may also make use of a cart, that can hold multiple objects. The instance generator creates worlds that contain rectangular surfaces (\"tables\"), as well as U-shaped enclosures (\"cupboards\"), which are the goal locations of objects.",
+  "tags": [
+    ":negative-preconditions",
+    ":typing"
+  ],
+  "requirements": ":equality :strips :typing",
+  "source_api": "https://api.planning.domains/json/classical/domain/69",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/tidybot-sat11-strips/domain.pddl",
+  "problems_available": 20,
+  "problems_matching_domain_file": 20,
+  "problems": [
+    {
+      "file": "p01.pddl",
+      "problem_id": 2388,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tidybot-sat11-strips/p01.pddl"
+    },
+    {
+      "file": "p02.pddl",
+      "problem_id": 2389,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tidybot-sat11-strips/p02.pddl"
+    },
+    {
+      "file": "p03.pddl",
+      "problem_id": 2390,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tidybot-sat11-strips/p03.pddl"
+    },
+    {
+      "file": "p04.pddl",
+      "problem_id": 2391,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tidybot-sat11-strips/p04.pddl"
+    },
+    {
+      "file": "p05.pddl",
+      "problem_id": 2392,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tidybot-sat11-strips/p05.pddl"
+    },
+    {
+      "file": "p06.pddl",
+      "problem_id": 2393,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tidybot-sat11-strips/p06.pddl"
+    },
+    {
+      "file": "p07.pddl",
+      "problem_id": 2394,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tidybot-sat11-strips/p07.pddl"
+    },
+    {
+      "file": "p08.pddl",
+      "problem_id": 2395,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tidybot-sat11-strips/p08.pddl"
+    },
+    {
+      "file": "p09.pddl",
+      "problem_id": 2396,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tidybot-sat11-strips/p09.pddl"
+    },
+    {
+      "file": "p10.pddl",
+      "problem_id": 2397,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tidybot-sat11-strips/p10.pddl"
+    },
+    {
+      "file": "p11.pddl",
+      "problem_id": 2398,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tidybot-sat11-strips/p11.pddl"
+    },
+    {
+      "file": "p12.pddl",
+      "problem_id": 2399,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tidybot-sat11-strips/p12.pddl"
+    },
+    {
+      "file": "p13.pddl",
+      "problem_id": 2400,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tidybot-sat11-strips/p13.pddl"
+    },
+    {
+      "file": "p14.pddl",
+      "problem_id": 2401,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tidybot-sat11-strips/p14.pddl"
+    },
+    {
+      "file": "p15.pddl",
+      "problem_id": 2402,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tidybot-sat11-strips/p15.pddl"
+    },
+    {
+      "file": "p16.pddl",
+      "problem_id": 2403,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tidybot-sat11-strips/p16.pddl"
+    },
+    {
+      "file": "p17.pddl",
+      "problem_id": 2404,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tidybot-sat11-strips/p17.pddl"
+    },
+    {
+      "file": "p18.pddl",
+      "problem_id": 2405,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tidybot-sat11-strips/p18.pddl"
+    },
+    {
+      "file": "p19.pddl",
+      "problem_id": 2406,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tidybot-sat11-strips/p19.pddl"
+    },
+    {
+      "file": "p20.pddl",
+      "problem_id": 2407,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tidybot-sat11-strips/p20.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-08-31T10:50:48+00:00"
+}

@@ -420,11 +420,46 @@
       "path": "domains/fast-downward-all-problem-suite/depot",
       "problems": 20
     },
+    "68": {
+      "collection": "Fast Downward All Problem Suite",
+      "fetched_at": "2026-08-31T10:50:41+00:00",
+      "name": "mystery",
+      "path": "domains/fast-downward-all-problem-suite/mystery",
+      "problems": 20
+    },
+    "69": {
+      "collection": "IPC-2011",
+      "fetched_at": "2026-08-31T10:50:48+00:00",
+      "name": "tidybot-sat11-strips",
+      "path": "domains/ipc-2011/tidybot-sat11-strips",
+      "problems": 20
+    },
     "7": {
       "collection": "IPC-2011",
       "fetched_at": "2026-08-20T14:34:52+00:00",
       "name": "parking",
       "path": "domains/ipc-2011/parking",
+      "problems": 20
+    },
+    "70": {
+      "collection": "All-IPC (STRIPS)",
+      "fetched_at": "2026-08-31T10:50:54+00:00",
+      "name": "childsnack-sat14-strips",
+      "path": "domains/all-ipc-strips/childsnack-sat14-strips",
+      "problems": 20
+    },
+    "71": {
+      "collection": "IPC-2014",
+      "fetched_at": "2026-08-31T10:51:02+00:00",
+      "name": "visitall-opt14-strips",
+      "path": "domains/ipc-2014/visitall-opt14-strips",
+      "problems": 20
+    },
+    "72": {
+      "collection": "IPC-2011",
+      "fetched_at": "2026-08-31T10:51:08+00:00",
+      "name": "pegsol-sat11-strips",
+      "path": "domains/ipc-2011/pegsol-sat11-strips",
       "problems": 20
     },
     "8": {
