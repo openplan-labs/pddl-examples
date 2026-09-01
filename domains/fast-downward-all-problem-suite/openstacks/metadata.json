@@ -1,0 +1,120 @@
+{
+  "domain_id": 75,
+  "name": "openstacks",
+  "collection": "Fast Downward All Problem Suite",
+  "description": "The openstacks domain is based on the \"minimum maximum simultaneous open stacks\" combinatorial optimization problem, which can be stated as follows: A manufacturer has a number of orders, each for a combination of different products, and can only make one product at a time. The total required quantity of each product is made at the same time (because changing from making one product to making another requires a production stop). From the time that the first product included in an order is made to the time that all products included in the order have been made, the order is said to be \"open\" and during this time it requires a \"stack\" (a temporary storage space). The problem is to order the making of the different products so that the maximum number of stacks that are in use simultaneously, or equivalently the number of orders that are in simultaneous production, is minimized (because each stack takes up space in the production area).",
+  "tags": [
+    ":negative-preconditions",
+    ":typing",
+    ":disjunctive-preconditions"
+  ],
+  "requirements": ":adl :typing",
+  "source_api": "https://api.planning.domains/json/classical/domain/75",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/openstacks/domain.pddl",
+  "problems_available": 30,
+  "problems_matching_domain_file": 30,
+  "problems": [
+    {
+      "file": "p01.pddl",
+      "problem_id": 2518,
+      "source_url": "https://www.haz.ca/planning-domains/classical/openstacks/p01.pddl"
+    },
+    {
+      "file": "p02.pddl",
+      "problem_id": 2519,
+      "source_url": "https://www.haz.ca/planning-domains/classical/openstacks/p02.pddl"
+    },
+    {
+      "file": "p03.pddl",
+      "problem_id": 2520,
+      "source_url": "https://www.haz.ca/planning-domains/classical/openstacks/p03.pddl"
+    },
+    {
+      "file": "p04.pddl",
+      "problem_id": 2521,
+      "source_url": "https://www.haz.ca/planning-domains/classical/openstacks/p04.pddl"
+    },
+    {
+      "file": "p05.pddl",
+      "problem_id": 2522,
+      "source_url": "https://www.haz.ca/planning-domains/classical/openstacks/p05.pddl"
+    },
+    {
+      "file": "p06.pddl",
+      "problem_id": 2523,
+      "source_url": "https://www.haz.ca/planning-domains/classical/openstacks/p06.pddl"
+    },
+    {
+      "file": "p07.pddl",
+      "problem_id": 2524,
+      "source_url": "https://www.haz.ca/planning-domains/classical/openstacks/p07.pddl"
+    },
+    {
+      "file": "p08.pddl",
+      "problem_id": 2525,
+      "source_url": "https://www.haz.ca/planning-domains/classical/openstacks/p08.pddl"
+    },
+    {
+      "file": "p09.pddl",
+      "problem_id": 2526,
+      "source_url": "https://www.haz.ca/planning-domains/classical/openstacks/p09.pddl"
+    },
+    {
+      "file": "p10.pddl",
+      "problem_id": 2527,
+      "source_url": "https://www.haz.ca/planning-domains/classical/openstacks/p10.pddl"
+    },
+    {
+      "file": "p11.pddl",
+      "problem_id": 2528,
+      "source_url": "https://www.haz.ca/planning-domains/classical/openstacks/p11.pddl"
+    },
+    {
+      "file": "p12.pddl",
+      "problem_id": 2529,
+      "source_url": "https://www.haz.ca/planning-domains/classical/openstacks/p12.pddl"
+    },
+    {
+      "file": "p13.pddl",
+      "problem_id": 2530,
+      "source_url": "https://www.haz.ca/planning-domains/classical/openstacks/p13.pddl"
+    },
+    {
+      "file": "p14.pddl",
+      "problem_id": 2531,
+      "source_url": "https://www.haz.ca/planning-domains/classical/openstacks/p14.pddl"
+    },
+    {
+      "file": "p15.pddl",
+      "problem_id": 2532,
+      "source_url": "https://www.haz.ca/planning-domains/classical/openstacks/p15.pddl"
+    },
+    {
+      "file": "p16.pddl",
+      "problem_id": 2533,
+      "source_url": "https://www.haz.ca/planning-domains/classical/openstacks/p16.pddl"
+    },
+    {
+      "file": "p17.pddl",
+      "problem_id": 2534,
+      "source_url": "https://www.haz.ca/planning-domains/classical/openstacks/p17.pddl"
+    },
+    {
+      "file": "p18.pddl",
+      "problem_id": 2535,
+      "source_url": "https://www.haz.ca/planning-domains/classical/openstacks/p18.pddl"
+    },
+    {
+      "file": "p19.pddl",
+      "problem_id": 2536,
+      "source_url": "https://www.haz.ca/planning-domains/classical/openstacks/p19.pddl"
+    },
+    {
+      "file": "p20.pddl",
+      "problem_id": 2537,
+      "source_url": "https://www.haz.ca/planning-domains/classical/openstacks/p20.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-09-01T09:24:15+00:00"
+}

@@ -462,6 +462,41 @@
       "path": "domains/ipc-2011/pegsol-sat11-strips",
       "problems": 20
     },
+    "73": {
+      "collection": "IPC-2011",
+      "fetched_at": "2026-09-01T09:24:02+00:00",
+      "name": "woodworking-sat11-strips",
+      "path": "domains/ipc-2011/woodworking-sat11-strips",
+      "problems": 20
+    },
+    "74": {
+      "collection": "IPC-2011",
+      "fetched_at": "2026-09-01T09:24:09+00:00",
+      "name": "floortile-sat11-strips",
+      "path": "domains/ipc-2011/floortile-sat11-strips",
+      "problems": 20
+    },
+    "75": {
+      "collection": "Fast Downward All Problem Suite",
+      "fetched_at": "2026-09-01T09:24:15+00:00",
+      "name": "openstacks",
+      "path": "domains/fast-downward-all-problem-suite/openstacks",
+      "problems": 20
+    },
+    "76": {
+      "collection": "IPC-2008",
+      "fetched_at": "2026-09-01T09:24:16+00:00",
+      "name": "openstacks-sat08-strips",
+      "path": "domains/ipc-2008/openstacks-sat08-strips",
+      "problems": 1
+    },
+    "77": {
+      "collection": "IPC-2011",
+      "fetched_at": "2026-09-01T09:24:29+00:00",
+      "name": "visitall-sat11-strips",
+      "path": "domains/ipc-2011/visitall-sat11-strips",
+      "problems": 20
+    },
     "8": {
       "collection": "IPC-2011",
       "fetched_at": "2026-08-20T14:35:03+00:00",
