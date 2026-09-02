@@ -1,0 +1,24 @@
+{
+  "domain_id": 79,
+  "name": "openstacks",
+  "collection": "IPC-2011",
+  "description": "(sat11) The openstacks domain is based on the \"minimum maximum simultaneous open stacks\" combinatorial optimization problem, which can be stated as follows: A manufacturer has a number of orders, each for a combination of different products, and can only make one product at a time. The total required quantity of each product is made at the same time (because changing from making one product to making another requires a production stop). From the time that the first product included in an order is made to the time that all products included in the order have been made, the order is said to be \"open\" and during this time it requires a \"stack\" (a temporary storage space). The problem is to order the making of the different products so that the maximum number of stacks that are in use simultaneously, or equivalently the number of orders that are in simultaneous production, is minimized (because each stack takes up space in the production area).",
+  "tags": [
+    ":action-costs",
+    ":typing"
+  ],
+  "requirements": ":action-costs :typing",
+  "source_api": "https://api.planning.domains/json/classical/domain/79",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/openstacks-sat11-strips/p01-domain.pddl",
+  "problems_available": 20,
+  "problems_matching_domain_file": 1,
+  "problems": [
+    {
+      "file": "p01.pddl",
+      "problem_id": 2628,
+      "source_url": "https://www.haz.ca/planning-domains/classical/openstacks-sat11-strips/p01.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-09-02T08:46:20+00:00"
+}

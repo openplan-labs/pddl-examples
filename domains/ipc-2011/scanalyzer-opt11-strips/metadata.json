@@ -1,0 +1,119 @@
+{
+  "domain_id": 82,
+  "name": "scanalyzer",
+  "collection": "IPC-2011",
+  "description": "(opt11) This domain models the problem of automatic greenhouse logistic management.",
+  "tags": [
+    ":action-costs",
+    ":typing"
+  ],
+  "requirements": ":action-costs :typing",
+  "source_api": "https://api.planning.domains/json/classical/domain/82",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/scanalyzer-opt11-strips/domain.pddl",
+  "problems_available": 20,
+  "problems_matching_domain_file": 20,
+  "problems": [
+    {
+      "file": "p01.pddl",
+      "problem_id": 2668,
+      "source_url": "https://www.haz.ca/planning-domains/classical/scanalyzer-opt11-strips/p01.pddl"
+    },
+    {
+      "file": "p02.pddl",
+      "problem_id": 2669,
+      "source_url": "https://www.haz.ca/planning-domains/classical/scanalyzer-opt11-strips/p02.pddl"
+    },
+    {
+      "file": "p03.pddl",
+      "problem_id": 2670,
+      "source_url": "https://www.haz.ca/planning-domains/classical/scanalyzer-opt11-strips/p03.pddl"
+    },
+    {
+      "file": "p04.pddl",
+      "problem_id": 2671,
+      "source_url": "https://www.haz.ca/planning-domains/classical/scanalyzer-opt11-strips/p04.pddl"
+    },
+    {
+      "file": "p05.pddl",
+      "problem_id": 2672,
+      "source_url": "https://www.haz.ca/planning-domains/classical/scanalyzer-opt11-strips/p05.pddl"
+    },
+    {
+      "file": "p06.pddl",
+      "problem_id": 2673,
+      "source_url": "https://www.haz.ca/planning-domains/classical/scanalyzer-opt11-strips/p06.pddl"
+    },
+    {
+      "file": "p07.pddl",
+      "problem_id": 2674,
+      "source_url": "https://www.haz.ca/planning-domains/classical/scanalyzer-opt11-strips/p07.pddl"
+    },
+    {
+      "file": "p08.pddl",
+      "problem_id": 2675,
+      "source_url": "https://www.haz.ca/planning-domains/classical/scanalyzer-opt11-strips/p08.pddl"
+    },
+    {
+      "file": "p09.pddl",
+      "problem_id": 2676,
+      "source_url": "https://www.haz.ca/planning-domains/classical/scanalyzer-opt11-strips/p09.pddl"
+    },
+    {
+      "file": "p10.pddl",
+      "problem_id": 2677,
+      "source_url": "https://www.haz.ca/planning-domains/classical/scanalyzer-opt11-strips/p10.pddl"
+    },
+    {
+      "file": "p11.pddl",
+      "problem_id": 2678,
+      "source_url": "https://www.haz.ca/planning-domains/classical/scanalyzer-opt11-strips/p11.pddl"
+    },
+    {
+      "file": "p12.pddl",
+      "problem_id": 2679,
+      "source_url": "https://www.haz.ca/planning-domains/classical/scanalyzer-opt11-strips/p12.pddl"
+    },
+    {
+      "file": "p14.pddl",
+      "problem_id": 2680,
+      "source_url": "https://www.haz.ca/planning-domains/classical/scanalyzer-opt11-strips/p14.pddl"
+    },
+    {
+      "file": "p13.pddl",
+      "problem_id": 2681,
+      "source_url": "https://www.haz.ca/planning-domains/classical/scanalyzer-opt11-strips/p13.pddl"
+    },
+    {
+      "file": "p15.pddl",
+      "problem_id": 2682,
+      "source_url": "https://www.haz.ca/planning-domains/classical/scanalyzer-opt11-strips/p15.pddl"
+    },
+    {
+      "file": "p16.pddl",
+      "problem_id": 2683,
+      "source_url": "https://www.haz.ca/planning-domains/classical/scanalyzer-opt11-strips/p16.pddl"
+    },
+    {
+      "file": "p17.pddl",
+      "problem_id": 2684,
+      "source_url": "https://www.haz.ca/planning-domains/classical/scanalyzer-opt11-strips/p17.pddl"
+    },
+    {
+      "file": "p18.pddl",
+      "problem_id": 2685,
+      "source_url": "https://www.haz.ca/planning-domains/classical/scanalyzer-opt11-strips/p18.pddl"
+    },
+    {
+      "file": "p19.pddl",
+      "problem_id": 2686,
+      "source_url": "https://www.haz.ca/planning-domains/classical/scanalyzer-opt11-strips/p19.pddl"
+    },
+    {
+      "file": "p20.pddl",
+      "problem_id": 2687,
+      "source_url": "https://www.haz.ca/planning-domains/classical/scanalyzer-opt11-strips/p20.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-09-02T08:46:26+00:00"
+}

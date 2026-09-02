@@ -497,11 +497,46 @@
       "path": "domains/ipc-2011/visitall-sat11-strips",
       "problems": 20
     },
+    "78": {
+      "collection": "IPC-2008",
+      "fetched_at": "2026-09-02T08:46:20+00:00",
+      "name": "woodworking-sat08-strips",
+      "path": "domains/ipc-2008/woodworking-sat08-strips",
+      "problems": 1
+    },
+    "79": {
+      "collection": "IPC-2011",
+      "fetched_at": "2026-09-02T08:46:20+00:00",
+      "name": "openstacks-sat11-strips",
+      "path": "domains/ipc-2011/openstacks-sat11-strips",
+      "problems": 1
+    },
     "8": {
       "collection": "IPC-2011",
       "fetched_at": "2026-08-20T14:35:03+00:00",
       "name": "sokoban",
       "path": "domains/ipc-2011/sokoban",
+      "problems": 20
+    },
+    "80": {
+      "collection": "All-IPC (STRIPS)",
+      "fetched_at": "2026-09-02T08:46:22+00:00",
+      "name": "cybersec",
+      "path": "domains/all-ipc-strips/cybersec",
+      "problems": 1
+    },
+    "81": {
+      "collection": "IPC-2011",
+      "fetched_at": "2026-09-02T08:46:24+00:00",
+      "name": "parking-opt11-strips",
+      "path": "domains/ipc-2011/parking-opt11-strips",
+      "problems": 20
+    },
+    "82": {
+      "collection": "IPC-2011",
+      "fetched_at": "2026-09-02T08:46:26+00:00",
+      "name": "scanalyzer-opt11-strips",
+      "path": "domains/ipc-2011/scanalyzer-opt11-strips",
       "problems": 20
     },
     "9": {

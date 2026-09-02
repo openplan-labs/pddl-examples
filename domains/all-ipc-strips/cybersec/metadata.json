@@ -1,0 +1,23 @@
+{
+  "domain_id": 80,
+  "name": "cybersec",
+  "collection": "All-IPC (STRIPS)",
+  "description": "A domain that models the cyber security model of vulnerability analysis for cyber defense.",
+  "tags": [
+    ":action-costs"
+  ],
+  "requirements": ":action-costs :strips",
+  "source_api": "https://api.planning.domains/json/classical/domain/80",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/cybersec/p01-domain.pddl",
+  "problems_available": 30,
+  "problems_matching_domain_file": 1,
+  "problems": [
+    {
+      "file": "p01.pddl",
+      "problem_id": 2708,
+      "source_url": "https://www.haz.ca/planning-domains/classical/cybersec/p01.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-09-02T08:46:22+00:00"
+}

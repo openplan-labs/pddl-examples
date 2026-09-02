@@ -1,0 +1,24 @@
+{
+  "domain_id": 78,
+  "name": "woodworking",
+  "collection": "IPC-2008",
+  "description": "(sat08) Simulates the works in a woodworking workshop where there is some quantity of wood that has to be polished, coloured, etc. using different tools with different costs. Parameters of each problem are the parts to be done and the quantity (in % of necessary) of available wood (boards). The higher the number of parts and the boards the more difficult the problem is.",
+  "tags": [
+    ":action-costs",
+    ":typing"
+  ],
+  "requirements": ":action-costs :typing",
+  "source_api": "https://api.planning.domains/json/classical/domain/78",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/woodworking-sat08-strips/p01-domain.pddl",
+  "problems_available": 30,
+  "problems_matching_domain_file": 1,
+  "problems": [
+    {
+      "file": "p01.pddl",
+      "problem_id": 2598,
+      "source_url": "https://www.haz.ca/planning-domains/classical/woodworking-sat08-strips/p01.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-09-02T08:46:20+00:00"
+}
