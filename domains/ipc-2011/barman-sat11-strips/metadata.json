@@ -1,0 +1,119 @@
+{
+  "domain_id": 87,
+  "name": "barman",
+  "collection": "IPC-2011",
+  "description": "(sat11) In this domain there is a robot barman that manipulates drink dispensers, glasses and a shaker. The goal is to find a plan of the robots actions that serves a desired set of drinks. In this domain deletes of actions encode relevant knowledge given that robot hands can only grasp one object at a time and given that glasses need to be empty and clean to be filled.",
+  "tags": [
+    ":action-costs",
+    ":typing"
+  ],
+  "requirements": ":action-costs :strips :typing",
+  "source_api": "https://api.planning.domains/json/classical/domain/87",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/barman-sat11-strips/domain.pddl",
+  "problems_available": 20,
+  "problems_matching_domain_file": 20,
+  "problems": [
+    {
+      "file": "pfile06-021.pddl",
+      "problem_id": 2808,
+      "source_url": "https://www.haz.ca/planning-domains/classical/barman-sat11-strips/pfile06-021.pddl"
+    },
+    {
+      "file": "pfile06-022.pddl",
+      "problem_id": 2809,
+      "source_url": "https://www.haz.ca/planning-domains/classical/barman-sat11-strips/pfile06-022.pddl"
+    },
+    {
+      "file": "pfile06-023.pddl",
+      "problem_id": 2810,
+      "source_url": "https://www.haz.ca/planning-domains/classical/barman-sat11-strips/pfile06-023.pddl"
+    },
+    {
+      "file": "pfile06-024.pddl",
+      "problem_id": 2811,
+      "source_url": "https://www.haz.ca/planning-domains/classical/barman-sat11-strips/pfile06-024.pddl"
+    },
+    {
+      "file": "pfile07-025.pddl",
+      "problem_id": 2812,
+      "source_url": "https://www.haz.ca/planning-domains/classical/barman-sat11-strips/pfile07-025.pddl"
+    },
+    {
+      "file": "pfile07-026.pddl",
+      "problem_id": 2813,
+      "source_url": "https://www.haz.ca/planning-domains/classical/barman-sat11-strips/pfile07-026.pddl"
+    },
+    {
+      "file": "pfile07-027.pddl",
+      "problem_id": 2814,
+      "source_url": "https://www.haz.ca/planning-domains/classical/barman-sat11-strips/pfile07-027.pddl"
+    },
+    {
+      "file": "pfile07-028.pddl",
+      "problem_id": 2815,
+      "source_url": "https://www.haz.ca/planning-domains/classical/barman-sat11-strips/pfile07-028.pddl"
+    },
+    {
+      "file": "pfile08-029.pddl",
+      "problem_id": 2816,
+      "source_url": "https://www.haz.ca/planning-domains/classical/barman-sat11-strips/pfile08-029.pddl"
+    },
+    {
+      "file": "pfile08-030.pddl",
+      "problem_id": 2817,
+      "source_url": "https://www.haz.ca/planning-domains/classical/barman-sat11-strips/pfile08-030.pddl"
+    },
+    {
+      "file": "pfile08-031.pddl",
+      "problem_id": 2818,
+      "source_url": "https://www.haz.ca/planning-domains/classical/barman-sat11-strips/pfile08-031.pddl"
+    },
+    {
+      "file": "pfile08-032.pddl",
+      "problem_id": 2819,
+      "source_url": "https://www.haz.ca/planning-domains/classical/barman-sat11-strips/pfile08-032.pddl"
+    },
+    {
+      "file": "pfile09-033.pddl",
+      "problem_id": 2820,
+      "source_url": "https://www.haz.ca/planning-domains/classical/barman-sat11-strips/pfile09-033.pddl"
+    },
+    {
+      "file": "pfile09-034.pddl",
+      "problem_id": 2821,
+      "source_url": "https://www.haz.ca/planning-domains/classical/barman-sat11-strips/pfile09-034.pddl"
+    },
+    {
+      "file": "pfile09-035.pddl",
+      "problem_id": 2822,
+      "source_url": "https://www.haz.ca/planning-domains/classical/barman-sat11-strips/pfile09-035.pddl"
+    },
+    {
+      "file": "pfile09-036.pddl",
+      "problem_id": 2823,
+      "source_url": "https://www.haz.ca/planning-domains/classical/barman-sat11-strips/pfile09-036.pddl"
+    },
+    {
+      "file": "pfile10-037.pddl",
+      "problem_id": 2824,
+      "source_url": "https://www.haz.ca/planning-domains/classical/barman-sat11-strips/pfile10-037.pddl"
+    },
+    {
+      "file": "pfile10-038.pddl",
+      "problem_id": 2825,
+      "source_url": "https://www.haz.ca/planning-domains/classical/barman-sat11-strips/pfile10-038.pddl"
+    },
+    {
+      "file": "pfile10-039.pddl",
+      "problem_id": 2826,
+      "source_url": "https://www.haz.ca/planning-domains/classical/barman-sat11-strips/pfile10-039.pddl"
+    },
+    {
+      "file": "pfile10-040.pddl",
+      "problem_id": 2827,
+      "source_url": "https://www.haz.ca/planning-domains/classical/barman-sat11-strips/pfile10-040.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-09-03T08:55:58+00:00"
+}

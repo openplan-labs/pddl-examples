@@ -1,0 +1,118 @@
+{
+  "domain_id": 83,
+  "name": "driverlog",
+  "collection": "Fast Downward All Problem Suite",
+  "description": "This domain involves driving trucks around delivering packages between locations. The complication is that the trucks require drivers who must walk between trucks in order to drive them. The paths for walking and the roads for driving form different maps on the locations.",
+  "tags": [
+    ":strips"
+  ],
+  "requirements": ":strips",
+  "source_api": "https://api.planning.domains/json/classical/domain/83",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/driverlog/domain.pddl",
+  "problems_available": 20,
+  "problems_matching_domain_file": 20,
+  "problems": [
+    {
+      "file": "pfile1.pddl",
+      "problem_id": 2688,
+      "source_url": "https://www.haz.ca/planning-domains/classical/driverlog/pfile1.pddl"
+    },
+    {
+      "file": "pfile10.pddl",
+      "problem_id": 2689,
+      "source_url": "https://www.haz.ca/planning-domains/classical/driverlog/pfile10.pddl"
+    },
+    {
+      "file": "pfile11.pddl",
+      "problem_id": 2690,
+      "source_url": "https://www.haz.ca/planning-domains/classical/driverlog/pfile11.pddl"
+    },
+    {
+      "file": "pfile12.pddl",
+      "problem_id": 2691,
+      "source_url": "https://www.haz.ca/planning-domains/classical/driverlog/pfile12.pddl"
+    },
+    {
+      "file": "pfile13.pddl",
+      "problem_id": 2692,
+      "source_url": "https://www.haz.ca/planning-domains/classical/driverlog/pfile13.pddl"
+    },
+    {
+      "file": "pfile14.pddl",
+      "problem_id": 2693,
+      "source_url": "https://www.haz.ca/planning-domains/classical/driverlog/pfile14.pddl"
+    },
+    {
+      "file": "pfile15.pddl",
+      "problem_id": 2694,
+      "source_url": "https://www.haz.ca/planning-domains/classical/driverlog/pfile15.pddl"
+    },
+    {
+      "file": "pfile16.pddl",
+      "problem_id": 2695,
+      "source_url": "https://www.haz.ca/planning-domains/classical/driverlog/pfile16.pddl"
+    },
+    {
+      "file": "pfile17.pddl",
+      "problem_id": 2696,
+      "source_url": "https://www.haz.ca/planning-domains/classical/driverlog/pfile17.pddl"
+    },
+    {
+      "file": "pfile18.pddl",
+      "problem_id": 2697,
+      "source_url": "https://www.haz.ca/planning-domains/classical/driverlog/pfile18.pddl"
+    },
+    {
+      "file": "pfile19.pddl",
+      "problem_id": 2698,
+      "source_url": "https://www.haz.ca/planning-domains/classical/driverlog/pfile19.pddl"
+    },
+    {
+      "file": "pfile2.pddl",
+      "problem_id": 2699,
+      "source_url": "https://www.haz.ca/planning-domains/classical/driverlog/pfile2.pddl"
+    },
+    {
+      "file": "pfile20.pddl",
+      "problem_id": 2700,
+      "source_url": "https://www.haz.ca/planning-domains/classical/driverlog/pfile20.pddl"
+    },
+    {
+      "file": "pfile3.pddl",
+      "problem_id": 2701,
+      "source_url": "https://www.haz.ca/planning-domains/classical/driverlog/pfile3.pddl"
+    },
+    {
+      "file": "pfile4.pddl",
+      "problem_id": 2702,
+      "source_url": "https://www.haz.ca/planning-domains/classical/driverlog/pfile4.pddl"
+    },
+    {
+      "file": "pfile5.pddl",
+      "problem_id": 2703,
+      "source_url": "https://www.haz.ca/planning-domains/classical/driverlog/pfile5.pddl"
+    },
+    {
+      "file": "pfile6.pddl",
+      "problem_id": 2704,
+      "source_url": "https://www.haz.ca/planning-domains/classical/driverlog/pfile6.pddl"
+    },
+    {
+      "file": "pfile7.pddl",
+      "problem_id": 2705,
+      "source_url": "https://www.haz.ca/planning-domains/classical/driverlog/pfile7.pddl"
+    },
+    {
+      "file": "pfile8.pddl",
+      "problem_id": 2706,
+      "source_url": "https://www.haz.ca/planning-domains/classical/driverlog/pfile8.pddl"
+    },
+    {
+      "file": "pfile9.pddl",
+      "problem_id": 2707,
+      "source_url": "https://www.haz.ca/planning-domains/classical/driverlog/pfile9.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-09-03T08:55:48+00:00"
+}

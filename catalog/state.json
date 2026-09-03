@@ -539,6 +539,41 @@
       "path": "domains/ipc-2011/scanalyzer-opt11-strips",
       "problems": 20
     },
+    "83": {
+      "collection": "Fast Downward All Problem Suite",
+      "fetched_at": "2026-09-03T08:55:48+00:00",
+      "name": "driverlog",
+      "path": "domains/fast-downward-all-problem-suite/driverlog",
+      "problems": 20
+    },
+    "84": {
+      "collection": "All-IPC (STRIPS)",
+      "fetched_at": "2026-09-03T08:55:51+00:00",
+      "name": "barman-sat14-strips",
+      "path": "domains/all-ipc-strips/barman-sat14-strips",
+      "problems": 20
+    },
+    "85": {
+      "collection": "IPC-2008",
+      "fetched_at": "2026-09-03T08:55:52+00:00",
+      "name": "parcprinter-08-strips",
+      "path": "domains/ipc-2008/parcprinter-08-strips",
+      "problems": 1
+    },
+    "86": {
+      "collection": "IPC-2011",
+      "fetched_at": "2026-09-03T08:55:55+00:00",
+      "name": "sokoban-opt11-strips",
+      "path": "domains/ipc-2011/sokoban-opt11-strips",
+      "problems": 20
+    },
+    "87": {
+      "collection": "IPC-2011",
+      "fetched_at": "2026-09-03T08:55:58+00:00",
+      "name": "barman-sat11-strips",
+      "path": "domains/ipc-2011/barman-sat11-strips",
+      "problems": 20
+    },
     "9": {
       "collection": "IPC-2008",
       "fetched_at": "2026-08-20T14:35:06+00:00",
