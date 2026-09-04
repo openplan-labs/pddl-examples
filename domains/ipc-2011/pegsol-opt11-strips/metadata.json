@@ -1,0 +1,119 @@
+{
+  "domain_id": 88,
+  "name": "pegsol",
+  "collection": "IPC-2011",
+  "description": "(opt11) This domain models the Peg Solitaire game. (http://en.wikipedia.org/wiki/Peg_solitaire)",
+  "tags": [
+    ":action-costs",
+    ":typing"
+  ],
+  "requirements": ":action-costs :typing",
+  "source_api": "https://api.planning.domains/json/classical/domain/88",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/pegsol-opt11-strips/domain.pddl",
+  "problems_available": 20,
+  "problems_matching_domain_file": 20,
+  "problems": [
+    {
+      "file": "p01.pddl",
+      "problem_id": 2828,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pegsol-opt11-strips/p01.pddl"
+    },
+    {
+      "file": "p02.pddl",
+      "problem_id": 2829,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pegsol-opt11-strips/p02.pddl"
+    },
+    {
+      "file": "p03.pddl",
+      "problem_id": 2830,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pegsol-opt11-strips/p03.pddl"
+    },
+    {
+      "file": "p04.pddl",
+      "problem_id": 2831,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pegsol-opt11-strips/p04.pddl"
+    },
+    {
+      "file": "p05.pddl",
+      "problem_id": 2832,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pegsol-opt11-strips/p05.pddl"
+    },
+    {
+      "file": "p06.pddl",
+      "problem_id": 2833,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pegsol-opt11-strips/p06.pddl"
+    },
+    {
+      "file": "p07.pddl",
+      "problem_id": 2834,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pegsol-opt11-strips/p07.pddl"
+    },
+    {
+      "file": "p08.pddl",
+      "problem_id": 2835,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pegsol-opt11-strips/p08.pddl"
+    },
+    {
+      "file": "p09.pddl",
+      "problem_id": 2836,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pegsol-opt11-strips/p09.pddl"
+    },
+    {
+      "file": "p10.pddl",
+      "problem_id": 2837,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pegsol-opt11-strips/p10.pddl"
+    },
+    {
+      "file": "p11.pddl",
+      "problem_id": 2838,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pegsol-opt11-strips/p11.pddl"
+    },
+    {
+      "file": "p12.pddl",
+      "problem_id": 2839,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pegsol-opt11-strips/p12.pddl"
+    },
+    {
+      "file": "p13.pddl",
+      "problem_id": 2840,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pegsol-opt11-strips/p13.pddl"
+    },
+    {
+      "file": "p14.pddl",
+      "problem_id": 2841,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pegsol-opt11-strips/p14.pddl"
+    },
+    {
+      "file": "p15.pddl",
+      "problem_id": 2842,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pegsol-opt11-strips/p15.pddl"
+    },
+    {
+      "file": "p16.pddl",
+      "problem_id": 2843,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pegsol-opt11-strips/p16.pddl"
+    },
+    {
+      "file": "p17.pddl",
+      "problem_id": 2844,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pegsol-opt11-strips/p17.pddl"
+    },
+    {
+      "file": "p18.pddl",
+      "problem_id": 2845,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pegsol-opt11-strips/p18.pddl"
+    },
+    {
+      "file": "p19.pddl",
+      "problem_id": 2846,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pegsol-opt11-strips/p19.pddl"
+    },
+    {
+      "file": "p20.pddl",
+      "problem_id": 2847,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pegsol-opt11-strips/p20.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-09-04T08:50:31+00:00"
+}

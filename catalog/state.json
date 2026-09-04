@@ -574,12 +574,47 @@
       "path": "domains/ipc-2011/barman-sat11-strips",
       "problems": 20
     },
+    "88": {
+      "collection": "IPC-2011",
+      "fetched_at": "2026-09-04T08:50:31+00:00",
+      "name": "pegsol-opt11-strips",
+      "path": "domains/ipc-2011/pegsol-opt11-strips",
+      "problems": 20
+    },
+    "89": {
+      "collection": "IPC-2014",
+      "fetched_at": "2026-09-04T08:50:34+00:00",
+      "name": "hiking-opt14-strips",
+      "path": "domains/ipc-2014/hiking-opt14-strips",
+      "problems": 20
+    },
     "9": {
       "collection": "IPC-2008",
       "fetched_at": "2026-08-20T14:35:06+00:00",
       "name": "pegsol",
       "path": "domains/ipc-2008/pegsol",
       "problems": 1
+    },
+    "90": {
+      "collection": "Fast Downward All Problem Suite",
+      "fetched_at": "2026-09-04T08:50:37+00:00",
+      "name": "pipesworld-notankage",
+      "path": "domains/fast-downward-all-problem-suite/pipesworld-notankage",
+      "problems": 20
+    },
+    "91": {
+      "collection": "IPC-2011",
+      "fetched_at": "2026-09-04T08:50:39+00:00",
+      "name": "scanalyzer-sat11-strips",
+      "path": "domains/ipc-2011/scanalyzer-sat11-strips",
+      "problems": 20
+    },
+    "92": {
+      "collection": "Fast Downward All Problem Suite",
+      "fetched_at": "2026-09-04T08:50:43+00:00",
+      "name": "optical-telegraphs",
+      "path": "domains/fast-downward-all-problem-suite/optical-telegraphs",
+      "problems": 20
     }
   },
   "source": "https://api.planning.domains/json/classical"

@@ -1,0 +1,122 @@
+{
+  "domain_id": 92,
+  "name": "optical-telegraphs",
+  "collection": "Fast Downward All Problem Suite",
+  "description": "Developed by Stefan Edelkamp. Planners are asked to find deadlocks in communication protocols, translated into PDDL from the Promela specification language. Deadlocks were specified via blocked transitions and processes. The representation chosen for the processes are finite state transition systems, while communication channels are modelled by queues with moving head and tail pointers. The communication protocols used in IPC-4 were the dining philosophers problem, as well as an optical telegraph routing problem.",
+  "tags": [
+    ":derived-predicates",
+    ":equality",
+    ":negative-preconditions",
+    ":typing",
+    ":disjunctive-preconditions"
+  ],
+  "requirements": ":equality :typing",
+  "source_api": "https://api.planning.domains/json/classical/domain/92",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/optical-telegraphs/domain.pddl",
+  "problems_available": 48,
+  "problems_matching_domain_file": 48,
+  "problems": [
+    {
+      "file": "p01-opt2.pddl",
+      "problem_id": 2938,
+      "source_url": "https://www.haz.ca/planning-domains/classical/optical-telegraphs/p01-opt2.pddl"
+    },
+    {
+      "file": "p02-opt3.pddl",
+      "problem_id": 2939,
+      "source_url": "https://www.haz.ca/planning-domains/classical/optical-telegraphs/p02-opt3.pddl"
+    },
+    {
+      "file": "p03-opt4.pddl",
+      "problem_id": 2940,
+      "source_url": "https://www.haz.ca/planning-domains/classical/optical-telegraphs/p03-opt4.pddl"
+    },
+    {
+      "file": "p04-opt5.pddl",
+      "problem_id": 2941,
+      "source_url": "https://www.haz.ca/planning-domains/classical/optical-telegraphs/p04-opt5.pddl"
+    },
+    {
+      "file": "p05-opt6.pddl",
+      "problem_id": 2942,
+      "source_url": "https://www.haz.ca/planning-domains/classical/optical-telegraphs/p05-opt6.pddl"
+    },
+    {
+      "file": "p06-opt7.pddl",
+      "problem_id": 2943,
+      "source_url": "https://www.haz.ca/planning-domains/classical/optical-telegraphs/p06-opt7.pddl"
+    },
+    {
+      "file": "p07-opt8.pddl",
+      "problem_id": 2944,
+      "source_url": "https://www.haz.ca/planning-domains/classical/optical-telegraphs/p07-opt8.pddl"
+    },
+    {
+      "file": "p08-opt9.pddl",
+      "problem_id": 2945,
+      "source_url": "https://www.haz.ca/planning-domains/classical/optical-telegraphs/p08-opt9.pddl"
+    },
+    {
+      "file": "p09-opt10.pddl",
+      "problem_id": 2946,
+      "source_url": "https://www.haz.ca/planning-domains/classical/optical-telegraphs/p09-opt10.pddl"
+    },
+    {
+      "file": "p10-opt11.pddl",
+      "problem_id": 2947,
+      "source_url": "https://www.haz.ca/planning-domains/classical/optical-telegraphs/p10-opt11.pddl"
+    },
+    {
+      "file": "p11-opt12.pddl",
+      "problem_id": 2948,
+      "source_url": "https://www.haz.ca/planning-domains/classical/optical-telegraphs/p11-opt12.pddl"
+    },
+    {
+      "file": "p12-opt13.pddl",
+      "problem_id": 2949,
+      "source_url": "https://www.haz.ca/planning-domains/classical/optical-telegraphs/p12-opt13.pddl"
+    },
+    {
+      "file": "p13-opt14.pddl",
+      "problem_id": 2950,
+      "source_url": "https://www.haz.ca/planning-domains/classical/optical-telegraphs/p13-opt14.pddl"
+    },
+    {
+      "file": "p14-opt15.pddl",
+      "problem_id": 2951,
+      "source_url": "https://www.haz.ca/planning-domains/classical/optical-telegraphs/p14-opt15.pddl"
+    },
+    {
+      "file": "p15-opt16.pddl",
+      "problem_id": 2952,
+      "source_url": "https://www.haz.ca/planning-domains/classical/optical-telegraphs/p15-opt16.pddl"
+    },
+    {
+      "file": "p16-opt17.pddl",
+      "problem_id": 2953,
+      "source_url": "https://www.haz.ca/planning-domains/classical/optical-telegraphs/p16-opt17.pddl"
+    },
+    {
+      "file": "p17-opt18.pddl",
+      "problem_id": 2954,
+      "source_url": "https://www.haz.ca/planning-domains/classical/optical-telegraphs/p17-opt18.pddl"
+    },
+    {
+      "file": "p18-opt19.pddl",
+      "problem_id": 2955,
+      "source_url": "https://www.haz.ca/planning-domains/classical/optical-telegraphs/p18-opt19.pddl"
+    },
+    {
+      "file": "p19-opt20.pddl",
+      "problem_id": 2956,
+      "source_url": "https://www.haz.ca/planning-domains/classical/optical-telegraphs/p19-opt20.pddl"
+    },
+    {
+      "file": "p20-opt21.pddl",
+      "problem_id": 2957,
+      "source_url": "https://www.haz.ca/planning-domains/classical/optical-telegraphs/p20-opt21.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-09-04T08:50:43+00:00"
+}

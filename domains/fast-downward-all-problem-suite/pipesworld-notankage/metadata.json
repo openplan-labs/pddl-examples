@@ -1,0 +1,119 @@
+{
+  "domain_id": 90,
+  "name": "pipesworld-notankage",
+  "collection": "Fast Downward All Problem Suite",
+  "description": "Developed by Frederico Liporace and Jorg Hoffmann. Planners control the flow of oil derivatives through a pipeline network, obeying various constraints such as product compatibility, tankage restrictions, and (in the most complex domain version) goal deadlines. One interesting aspect of the domain is that, if one inserts something into the one end of a pipeline segment, something potentially completely different comes out at the other end. This gives rise to several subtle phenomena that can arise in the creation of a plan.",
+  "tags": [
+    ":strips",
+    ":typing"
+  ],
+  "requirements": ":strips :typing",
+  "source_api": "https://api.planning.domains/json/classical/domain/90",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-notankage/domain.pddl",
+  "problems_available": 50,
+  "problems_matching_domain_file": 50,
+  "problems": [
+    {
+      "file": "p01-net1-b6-g2.pddl",
+      "problem_id": 2868,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-notankage/p01-net1-b6-g2.pddl"
+    },
+    {
+      "file": "p02-net1-b6-g4.pddl",
+      "problem_id": 2869,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-notankage/p02-net1-b6-g4.pddl"
+    },
+    {
+      "file": "p03-net1-b8-g3.pddl",
+      "problem_id": 2870,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-notankage/p03-net1-b8-g3.pddl"
+    },
+    {
+      "file": "p04-net1-b8-g5.pddl",
+      "problem_id": 2871,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-notankage/p04-net1-b8-g5.pddl"
+    },
+    {
+      "file": "p05-net1-b10-g4.pddl",
+      "problem_id": 2872,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-notankage/p05-net1-b10-g4.pddl"
+    },
+    {
+      "file": "p06-net1-b10-g6.pddl",
+      "problem_id": 2873,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-notankage/p06-net1-b10-g6.pddl"
+    },
+    {
+      "file": "p07-net1-b12-g5.pddl",
+      "problem_id": 2874,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-notankage/p07-net1-b12-g5.pddl"
+    },
+    {
+      "file": "p08-net1-b12-g7.pddl",
+      "problem_id": 2875,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-notankage/p08-net1-b12-g7.pddl"
+    },
+    {
+      "file": "p09-net1-b14-g6.pddl",
+      "problem_id": 2876,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-notankage/p09-net1-b14-g6.pddl"
+    },
+    {
+      "file": "p10-net1-b14-g8.pddl",
+      "problem_id": 2877,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-notankage/p10-net1-b14-g8.pddl"
+    },
+    {
+      "file": "p11-net2-b10-g2.pddl",
+      "problem_id": 2878,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-notankage/p11-net2-b10-g2.pddl"
+    },
+    {
+      "file": "p12-net2-b10-g4.pddl",
+      "problem_id": 2879,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-notankage/p12-net2-b10-g4.pddl"
+    },
+    {
+      "file": "p15-net2-b14-g4.pddl",
+      "problem_id": 2880,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-notankage/p15-net2-b14-g4.pddl"
+    },
+    {
+      "file": "p14-net2-b12-g5.pddl",
+      "problem_id": 2881,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-notankage/p14-net2-b12-g5.pddl"
+    },
+    {
+      "file": "p16-net2-b14-g6.pddl",
+      "problem_id": 2882,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-notankage/p16-net2-b14-g6.pddl"
+    },
+    {
+      "file": "p13-net2-b12-g3.pddl",
+      "problem_id": 2883,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-notankage/p13-net2-b12-g3.pddl"
+    },
+    {
+      "file": "p17-net2-b16-g5.pddl",
+      "problem_id": 2884,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-notankage/p17-net2-b16-g5.pddl"
+    },
+    {
+      "file": "p18-net2-b16-g7.pddl",
+      "problem_id": 2885,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-notankage/p18-net2-b16-g7.pddl"
+    },
+    {
+      "file": "p19-net2-b18-g6.pddl",
+      "problem_id": 2886,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-notankage/p19-net2-b18-g6.pddl"
+    },
+    {
+      "file": "p20-net2-b18-g8.pddl",
+      "problem_id": 2887,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-notankage/p20-net2-b18-g8.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-09-04T08:50:37+00:00"
+}
