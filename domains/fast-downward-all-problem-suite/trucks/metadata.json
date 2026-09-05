@@ -1,0 +1,119 @@
+{
+  "domain_id": 94,
+  "name": "trucks",
+  "collection": "Fast Downward All Problem Suite",
+  "description": "Moving packages between locations by trucks under certain spatial constraints and delivering deadlines.",
+  "tags": [
+    ":typing",
+    ":disjunctive-preconditions"
+  ],
+  "requirements": ":adl :typing",
+  "source_api": "https://api.planning.domains/json/classical/domain/94",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/trucks/domain.pddl",
+  "problems_available": 30,
+  "problems_matching_domain_file": 30,
+  "problems": [
+    {
+      "file": "p01.pddl",
+      "problem_id": 3156,
+      "source_url": "https://www.haz.ca/planning-domains/classical/trucks/p01.pddl"
+    },
+    {
+      "file": "p02.pddl",
+      "problem_id": 3157,
+      "source_url": "https://www.haz.ca/planning-domains/classical/trucks/p02.pddl"
+    },
+    {
+      "file": "p03.pddl",
+      "problem_id": 3158,
+      "source_url": "https://www.haz.ca/planning-domains/classical/trucks/p03.pddl"
+    },
+    {
+      "file": "p04.pddl",
+      "problem_id": 3159,
+      "source_url": "https://www.haz.ca/planning-domains/classical/trucks/p04.pddl"
+    },
+    {
+      "file": "p05.pddl",
+      "problem_id": 3160,
+      "source_url": "https://www.haz.ca/planning-domains/classical/trucks/p05.pddl"
+    },
+    {
+      "file": "p06.pddl",
+      "problem_id": 3161,
+      "source_url": "https://www.haz.ca/planning-domains/classical/trucks/p06.pddl"
+    },
+    {
+      "file": "p07.pddl",
+      "problem_id": 3162,
+      "source_url": "https://www.haz.ca/planning-domains/classical/trucks/p07.pddl"
+    },
+    {
+      "file": "p08.pddl",
+      "problem_id": 3163,
+      "source_url": "https://www.haz.ca/planning-domains/classical/trucks/p08.pddl"
+    },
+    {
+      "file": "p09.pddl",
+      "problem_id": 3164,
+      "source_url": "https://www.haz.ca/planning-domains/classical/trucks/p09.pddl"
+    },
+    {
+      "file": "p10.pddl",
+      "problem_id": 3165,
+      "source_url": "https://www.haz.ca/planning-domains/classical/trucks/p10.pddl"
+    },
+    {
+      "file": "p11.pddl",
+      "problem_id": 3166,
+      "source_url": "https://www.haz.ca/planning-domains/classical/trucks/p11.pddl"
+    },
+    {
+      "file": "p12.pddl",
+      "problem_id": 3167,
+      "source_url": "https://www.haz.ca/planning-domains/classical/trucks/p12.pddl"
+    },
+    {
+      "file": "p13.pddl",
+      "problem_id": 3168,
+      "source_url": "https://www.haz.ca/planning-domains/classical/trucks/p13.pddl"
+    },
+    {
+      "file": "p14.pddl",
+      "problem_id": 3169,
+      "source_url": "https://www.haz.ca/planning-domains/classical/trucks/p14.pddl"
+    },
+    {
+      "file": "p15.pddl",
+      "problem_id": 3170,
+      "source_url": "https://www.haz.ca/planning-domains/classical/trucks/p15.pddl"
+    },
+    {
+      "file": "p16.pddl",
+      "problem_id": 3171,
+      "source_url": "https://www.haz.ca/planning-domains/classical/trucks/p16.pddl"
+    },
+    {
+      "file": "p17.pddl",
+      "problem_id": 3172,
+      "source_url": "https://www.haz.ca/planning-domains/classical/trucks/p17.pddl"
+    },
+    {
+      "file": "p18.pddl",
+      "problem_id": 3173,
+      "source_url": "https://www.haz.ca/planning-domains/classical/trucks/p18.pddl"
+    },
+    {
+      "file": "p19.pddl",
+      "problem_id": 3174,
+      "source_url": "https://www.haz.ca/planning-domains/classical/trucks/p19.pddl"
+    },
+    {
+      "file": "p20.pddl",
+      "problem_id": 3175,
+      "source_url": "https://www.haz.ca/planning-domains/classical/trucks/p20.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-09-05T08:21:10+00:00"
+}

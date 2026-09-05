@@ -1,0 +1,119 @@
+{
+  "domain_id": 97,
+  "name": "pipesworld",
+  "collection": "All-IPC (STRIPS)",
+  "description": "Developed by Frederico Liporace and Jorg Hoffmann. Planners control the flow of oil derivatives through a pipeline network, obeying various constraints such as product compatibility, tankage restrictions, and (in the most complex domain version) goal deadlines. One interesting aspect of the domain is that, if one inserts something into the one end of a pipeline segment, something potentially completely different comes out at the other end. This gives rise to several subtle phenomena that can arise in the creation of a plan.",
+  "tags": [
+    ":strips",
+    ":typing"
+  ],
+  "requirements": ":strips :typing",
+  "source_api": "https://api.planning.domains/json/classical/domain/97",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-06/domain.pddl",
+  "problems_available": 50,
+  "problems_matching_domain_file": 50,
+  "problems": [
+    {
+      "file": "p01.pddl",
+      "problem_id": 3056,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-06/p01.pddl"
+    },
+    {
+      "file": "p02.pddl",
+      "problem_id": 3057,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-06/p02.pddl"
+    },
+    {
+      "file": "p03.pddl",
+      "problem_id": 3058,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-06/p03.pddl"
+    },
+    {
+      "file": "p04.pddl",
+      "problem_id": 3059,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-06/p04.pddl"
+    },
+    {
+      "file": "p05.pddl",
+      "problem_id": 3060,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-06/p05.pddl"
+    },
+    {
+      "file": "p06.pddl",
+      "problem_id": 3061,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-06/p06.pddl"
+    },
+    {
+      "file": "p07.pddl",
+      "problem_id": 3062,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-06/p07.pddl"
+    },
+    {
+      "file": "p08.pddl",
+      "problem_id": 3063,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-06/p08.pddl"
+    },
+    {
+      "file": "p09.pddl",
+      "problem_id": 3064,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-06/p09.pddl"
+    },
+    {
+      "file": "p10.pddl",
+      "problem_id": 3065,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-06/p10.pddl"
+    },
+    {
+      "file": "p11.pddl",
+      "problem_id": 3066,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-06/p11.pddl"
+    },
+    {
+      "file": "p12.pddl",
+      "problem_id": 3067,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-06/p12.pddl"
+    },
+    {
+      "file": "p13.pddl",
+      "problem_id": 3068,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-06/p13.pddl"
+    },
+    {
+      "file": "p14.pddl",
+      "problem_id": 3069,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-06/p14.pddl"
+    },
+    {
+      "file": "p15.pddl",
+      "problem_id": 3070,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-06/p15.pddl"
+    },
+    {
+      "file": "p16.pddl",
+      "problem_id": 3071,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-06/p16.pddl"
+    },
+    {
+      "file": "p17.pddl",
+      "problem_id": 3072,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-06/p17.pddl"
+    },
+    {
+      "file": "p18.pddl",
+      "problem_id": 3073,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-06/p18.pddl"
+    },
+    {
+      "file": "p19.pddl",
+      "problem_id": 3074,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-06/p19.pddl"
+    },
+    {
+      "file": "p20.pddl",
+      "problem_id": 3075,
+      "source_url": "https://www.haz.ca/planning-domains/classical/pipesworld-06/p20.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-09-05T08:21:14+00:00"
+}

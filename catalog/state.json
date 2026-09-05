@@ -615,6 +615,41 @@
       "name": "optical-telegraphs",
       "path": "domains/fast-downward-all-problem-suite/optical-telegraphs",
       "problems": 20
+    },
+    "93": {
+      "collection": "IPC-2011",
+      "fetched_at": "2026-09-05T08:21:07+00:00",
+      "name": "elevators-opt11-strips",
+      "path": "domains/ipc-2011/elevators-opt11-strips",
+      "problems": 20
+    },
+    "94": {
+      "collection": "Fast Downward All Problem Suite",
+      "fetched_at": "2026-09-05T08:21:10+00:00",
+      "name": "trucks",
+      "path": "domains/fast-downward-all-problem-suite/trucks",
+      "problems": 20
+    },
+    "95": {
+      "collection": "IPC-2008",
+      "fetched_at": "2026-09-05T08:21:10+00:00",
+      "name": "elevators-sat08-strips",
+      "path": "domains/ipc-2008/elevators-sat08-strips",
+      "problems": 1
+    },
+    "96": {
+      "collection": "All-IPC (STRIPS)",
+      "fetched_at": "2026-09-05T08:21:11+00:00",
+      "name": "openstacks-sat14-strips",
+      "path": "domains/all-ipc-strips/openstacks-sat14-strips",
+      "problems": 1
+    },
+    "97": {
+      "collection": "All-IPC (STRIPS)",
+      "fetched_at": "2026-09-05T08:21:14+00:00",
+      "name": "pipesworld-06",
+      "path": "domains/all-ipc-strips/pipesworld-06",
+      "problems": 20
     }
   },
   "source": "https://api.planning.domains/json/classical"
