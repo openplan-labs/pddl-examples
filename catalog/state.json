@@ -7,6 +7,27 @@
       "path": "domains/ipc-2014/floortile",
       "problems": 20
     },
+    "100": {
+      "collection": "Fast Downward All Problem Suite",
+      "fetched_at": "2026-09-06T08:39:36+00:00",
+      "name": "airport",
+      "path": "domains/fast-downward-all-problem-suite/airport",
+      "problems": 1
+    },
+    "101": {
+      "collection": "Fast Downward All Problem Suite",
+      "fetched_at": "2026-09-06T08:39:43+00:00",
+      "name": "mprime",
+      "path": "domains/fast-downward-all-problem-suite/mprime",
+      "problems": 20
+    },
+    "103": {
+      "collection": "IPC-2000",
+      "fetched_at": "2026-09-06T08:39:49+00:00",
+      "name": "elevators-00-full",
+      "path": "domains/ipc-2000/elevators-00-full",
+      "problems": 20
+    },
     "11": {
       "collection": "IPC-2014",
       "fetched_at": "2026-08-20T14:35:30+00:00",
@@ -649,6 +670,20 @@
       "fetched_at": "2026-09-05T08:21:14+00:00",
       "name": "pipesworld-06",
       "path": "domains/all-ipc-strips/pipesworld-06",
+      "problems": 20
+    },
+    "98": {
+      "collection": "Fast Downward All Problem Suite",
+      "fetched_at": "2026-09-06T08:39:28+00:00",
+      "name": "pathways",
+      "path": "domains/fast-downward-all-problem-suite/pathways",
+      "problems": 1
+    },
+    "99": {
+      "collection": "Fast Downward All Problem Suite",
+      "fetched_at": "2026-09-06T08:39:35+00:00",
+      "name": "miconic-simpleadl",
+      "path": "domains/fast-downward-all-problem-suite/miconic-simpleadl",
       "problems": 20
     }
   },
