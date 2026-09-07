@@ -1,0 +1,122 @@
+{
+  "domain_id": 106,
+  "name": "philosophers",
+  "collection": "Fast Downward All Problem Suite",
+  "description": "Developed by Stefan Edelkamp. Planners are asked to find deadlocks in communication protocols, translated into PDDL from the Promela specification language. Deadlocks were specified via blocked transitions and processes. The representation chosen for the processes are finite state transition systems, while communication channels are modelled by queues with moving head and tail pointers. The communication protocols used in IPC-4 were the dining philosophers problem, as well as an optical telegraph routing problem.",
+  "tags": [
+    ":derived-predicates",
+    ":equality",
+    ":negative-preconditions",
+    ":typing",
+    ":disjunctive-preconditions"
+  ],
+  "requirements": ":equality :typing",
+  "source_api": "https://api.planning.domains/json/classical/domain/106",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/philosophers/domain.pddl",
+  "problems_available": 48,
+  "problems_matching_domain_file": 48,
+  "problems": [
+    {
+      "file": "p01-phil2.pddl",
+      "problem_id": 3641,
+      "source_url": "https://www.haz.ca/planning-domains/classical/philosophers/p01-phil2.pddl"
+    },
+    {
+      "file": "p02-phil3.pddl",
+      "problem_id": 3642,
+      "source_url": "https://www.haz.ca/planning-domains/classical/philosophers/p02-phil3.pddl"
+    },
+    {
+      "file": "p03-phil4.pddl",
+      "problem_id": 3643,
+      "source_url": "https://www.haz.ca/planning-domains/classical/philosophers/p03-phil4.pddl"
+    },
+    {
+      "file": "p04-phil5.pddl",
+      "problem_id": 3644,
+      "source_url": "https://www.haz.ca/planning-domains/classical/philosophers/p04-phil5.pddl"
+    },
+    {
+      "file": "p05-phil6.pddl",
+      "problem_id": 3645,
+      "source_url": "https://www.haz.ca/planning-domains/classical/philosophers/p05-phil6.pddl"
+    },
+    {
+      "file": "p06-phil7.pddl",
+      "problem_id": 3646,
+      "source_url": "https://www.haz.ca/planning-domains/classical/philosophers/p06-phil7.pddl"
+    },
+    {
+      "file": "p07-phil8.pddl",
+      "problem_id": 3647,
+      "source_url": "https://www.haz.ca/planning-domains/classical/philosophers/p07-phil8.pddl"
+    },
+    {
+      "file": "p08-phil9.pddl",
+      "problem_id": 3648,
+      "source_url": "https://www.haz.ca/planning-domains/classical/philosophers/p08-phil9.pddl"
+    },
+    {
+      "file": "p09-phil10.pddl",
+      "problem_id": 3649,
+      "source_url": "https://www.haz.ca/planning-domains/classical/philosophers/p09-phil10.pddl"
+    },
+    {
+      "file": "p10-phil11.pddl",
+      "problem_id": 3650,
+      "source_url": "https://www.haz.ca/planning-domains/classical/philosophers/p10-phil11.pddl"
+    },
+    {
+      "file": "p11-phil12.pddl",
+      "problem_id": 3651,
+      "source_url": "https://www.haz.ca/planning-domains/classical/philosophers/p11-phil12.pddl"
+    },
+    {
+      "file": "p12-phil13.pddl",
+      "problem_id": 3652,
+      "source_url": "https://www.haz.ca/planning-domains/classical/philosophers/p12-phil13.pddl"
+    },
+    {
+      "file": "p13-phil14.pddl",
+      "problem_id": 3653,
+      "source_url": "https://www.haz.ca/planning-domains/classical/philosophers/p13-phil14.pddl"
+    },
+    {
+      "file": "p14-phil15.pddl",
+      "problem_id": 3654,
+      "source_url": "https://www.haz.ca/planning-domains/classical/philosophers/p14-phil15.pddl"
+    },
+    {
+      "file": "p15-phil16.pddl",
+      "problem_id": 3655,
+      "source_url": "https://www.haz.ca/planning-domains/classical/philosophers/p15-phil16.pddl"
+    },
+    {
+      "file": "p17-phil18.pddl",
+      "problem_id": 3656,
+      "source_url": "https://www.haz.ca/planning-domains/classical/philosophers/p17-phil18.pddl"
+    },
+    {
+      "file": "p16-phil17.pddl",
+      "problem_id": 3657,
+      "source_url": "https://www.haz.ca/planning-domains/classical/philosophers/p16-phil17.pddl"
+    },
+    {
+      "file": "p18-phil19.pddl",
+      "problem_id": 3658,
+      "source_url": "https://www.haz.ca/planning-domains/classical/philosophers/p18-phil19.pddl"
+    },
+    {
+      "file": "p19-phil20.pddl",
+      "problem_id": 3659,
+      "source_url": "https://www.haz.ca/planning-domains/classical/philosophers/p19-phil20.pddl"
+    },
+    {
+      "file": "p20-phil21.pddl",
+      "problem_id": 3660,
+      "source_url": "https://www.haz.ca/planning-domains/classical/philosophers/p20-phil21.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-09-07T09:19:44+00:00"
+}

@@ -28,6 +28,41 @@
       "path": "domains/ipc-2000/elevators-00-full",
       "problems": 20
     },
+    "104": {
+      "collection": "IPC-2011",
+      "fetched_at": "2026-09-07T09:19:39+00:00",
+      "name": "openstacks-opt11-strips",
+      "path": "domains/ipc-2011/openstacks-opt11-strips",
+      "problems": 1
+    },
+    "105": {
+      "collection": "IPC-2014",
+      "fetched_at": "2026-09-07T09:19:42+00:00",
+      "name": "tidybot-opt14-strips",
+      "path": "domains/ipc-2014/tidybot-opt14-strips",
+      "problems": 20
+    },
+    "106": {
+      "collection": "Fast Downward All Problem Suite",
+      "fetched_at": "2026-09-07T09:19:44+00:00",
+      "name": "philosophers",
+      "path": "domains/fast-downward-all-problem-suite/philosophers",
+      "problems": 20
+    },
+    "107": {
+      "collection": "IPC-2014",
+      "fetched_at": "2026-09-07T09:19:46+00:00",
+      "name": "parking-opt14-strips",
+      "path": "domains/ipc-2014/parking-opt14-strips",
+      "problems": 20
+    },
+    "108": {
+      "collection": "IPC-2011",
+      "fetched_at": "2026-09-07T09:19:47+00:00",
+      "name": "parcprinter-sat11-strips",
+      "path": "domains/ipc-2011/parcprinter-sat11-strips",
+      "problems": 1
+    },
     "11": {
       "collection": "IPC-2014",
       "fetched_at": "2026-08-20T14:35:30+00:00",
