@@ -63,11 +63,46 @@
       "path": "domains/ipc-2011/parcprinter-sat11-strips",
       "problems": 1
     },
+    "109": {
+      "collection": "IPC-2011",
+      "fetched_at": "2026-09-08T08:51:33+00:00",
+      "name": "tidybot-opt11-strips",
+      "path": "domains/ipc-2011/tidybot-opt11-strips",
+      "problems": 20
+    },
     "11": {
       "collection": "IPC-2014",
       "fetched_at": "2026-08-20T14:35:30+00:00",
       "name": "transport",
       "path": "domains/ipc-2014/transport",
+      "problems": 20
+    },
+    "110": {
+      "collection": "Fast Downward All Problem Suite",
+      "fetched_at": "2026-09-08T08:51:41+00:00",
+      "name": "assembly",
+      "path": "domains/fast-downward-all-problem-suite/assembly",
+      "problems": 20
+    },
+    "111": {
+      "collection": "IPC-2011",
+      "fetched_at": "2026-09-08T08:51:48+00:00",
+      "name": "woodworking-opt11-strips",
+      "path": "domains/ipc-2011/woodworking-opt11-strips",
+      "problems": 20
+    },
+    "112": {
+      "collection": "Fast Downward All Problem Suite",
+      "fetched_at": "2026-09-08T08:51:55+00:00",
+      "name": "blocks",
+      "path": "domains/fast-downward-all-problem-suite/blocks",
+      "problems": 20
+    },
+    "114": {
+      "collection": "Fast Downward All Problem Suite",
+      "fetched_at": "2026-09-08T08:52:03+00:00",
+      "name": "miconic-fulladl",
+      "path": "domains/fast-downward-all-problem-suite/miconic-fulladl",
       "problems": 20
     },
     "12": {

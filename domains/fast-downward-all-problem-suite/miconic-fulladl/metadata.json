@@ -1,0 +1,121 @@
+{
+  "domain_id": 114,
+  "name": "miconic",
+  "collection": "Fast Downward All Problem Suite",
+  "description": "A domain that models the problem of elevator control. Originally introduced by Jana Koehler and Kilian Schuster from Schindler Lifts  Ltd.",
+  "tags": [
+    ":conditional-effects",
+    ":negative-preconditions",
+    ":typing",
+    ":disjunctive-preconditions"
+  ],
+  "requirements": ":adl",
+  "source_api": "https://api.planning.domains/json/classical/domain/114",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/miconic-fulladl/domain.pddl",
+  "problems_available": 150,
+  "problems_matching_domain_file": 150,
+  "problems": [
+    {
+      "file": "f1-0.pddl",
+      "problem_id": 3764,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic-fulladl/f1-0.pddl"
+    },
+    {
+      "file": "f1-1.pddl",
+      "problem_id": 3765,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic-fulladl/f1-1.pddl"
+    },
+    {
+      "file": "f1-2.pddl",
+      "problem_id": 3766,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic-fulladl/f1-2.pddl"
+    },
+    {
+      "file": "f1-3.pddl",
+      "problem_id": 3767,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic-fulladl/f1-3.pddl"
+    },
+    {
+      "file": "f1-4.pddl",
+      "problem_id": 3768,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic-fulladl/f1-4.pddl"
+    },
+    {
+      "file": "f10-0.pddl",
+      "problem_id": 3769,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic-fulladl/f10-0.pddl"
+    },
+    {
+      "file": "f10-1.pddl",
+      "problem_id": 3770,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic-fulladl/f10-1.pddl"
+    },
+    {
+      "file": "f10-2.pddl",
+      "problem_id": 3771,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic-fulladl/f10-2.pddl"
+    },
+    {
+      "file": "f10-3.pddl",
+      "problem_id": 3772,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic-fulladl/f10-3.pddl"
+    },
+    {
+      "file": "f10-4.pddl",
+      "problem_id": 3773,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic-fulladl/f10-4.pddl"
+    },
+    {
+      "file": "f11-0.pddl",
+      "problem_id": 3774,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic-fulladl/f11-0.pddl"
+    },
+    {
+      "file": "f11-1.pddl",
+      "problem_id": 3775,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic-fulladl/f11-1.pddl"
+    },
+    {
+      "file": "f11-2.pddl",
+      "problem_id": 3776,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic-fulladl/f11-2.pddl"
+    },
+    {
+      "file": "f11-4.pddl",
+      "problem_id": 3777,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic-fulladl/f11-4.pddl"
+    },
+    {
+      "file": "f11-3.pddl",
+      "problem_id": 3778,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic-fulladl/f11-3.pddl"
+    },
+    {
+      "file": "f12-0.pddl",
+      "problem_id": 3779,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic-fulladl/f12-0.pddl"
+    },
+    {
+      "file": "f12-1.pddl",
+      "problem_id": 3780,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic-fulladl/f12-1.pddl"
+    },
+    {
+      "file": "f12-2.pddl",
+      "problem_id": 3781,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic-fulladl/f12-2.pddl"
+    },
+    {
+      "file": "f12-3.pddl",
+      "problem_id": 3782,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic-fulladl/f12-3.pddl"
+    },
+    {
+      "file": "f12-4.pddl",
+      "problem_id": 3783,
+      "source_url": "https://www.haz.ca/planning-domains/classical/miconic-fulladl/f12-4.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-09-08T08:52:03+00:00"
+}

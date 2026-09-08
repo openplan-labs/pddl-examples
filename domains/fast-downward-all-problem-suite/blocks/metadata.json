@@ -1,0 +1,118 @@
+{
+  "domain_id": 112,
+  "name": "blocks",
+  "collection": "Fast Downward All Problem Suite",
+  "description": "The blocks world is one of the most famous planning domains in artificial intelligence. Imagine a set of cubes (blocks) sitting on a table. The goal is to build one or more vertical stacks of blocks. The catch is that only one block may be moved at a time: it may either be placed on the table or placed atop another block. Because of this, any blocks that are, at a given time, under another block cannot be moved.",
+  "tags": [
+    ":strips"
+  ],
+  "requirements": ":strips",
+  "source_api": "https://api.planning.domains/json/classical/domain/112",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/blocks/domain.pddl",
+  "problems_available": 136,
+  "problems_matching_domain_file": 136,
+  "problems": [
+    {
+      "file": "probblocks-10-1.pddl",
+      "problem_id": 3934,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-10-1.pddl"
+    },
+    {
+      "file": "probblocks-10-0.pddl",
+      "problem_id": 3935,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-10-0.pddl"
+    },
+    {
+      "file": "probblocks-10-2.pddl",
+      "problem_id": 3936,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-10-2.pddl"
+    },
+    {
+      "file": "probblocks-11-0.pddl",
+      "problem_id": 3937,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-11-0.pddl"
+    },
+    {
+      "file": "probblocks-11-1.pddl",
+      "problem_id": 3938,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-11-1.pddl"
+    },
+    {
+      "file": "probblocks-11-2.pddl",
+      "problem_id": 3939,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-11-2.pddl"
+    },
+    {
+      "file": "probblocks-12-0.pddl",
+      "problem_id": 3940,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-12-0.pddl"
+    },
+    {
+      "file": "probblocks-12-1.pddl",
+      "problem_id": 3941,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-12-1.pddl"
+    },
+    {
+      "file": "probblocks-13-0.pddl",
+      "problem_id": 3942,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-13-0.pddl"
+    },
+    {
+      "file": "probblocks-13-1.pddl",
+      "problem_id": 3943,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-13-1.pddl"
+    },
+    {
+      "file": "probblocks-14-0.pddl",
+      "problem_id": 3944,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-14-0.pddl"
+    },
+    {
+      "file": "probblocks-14-1.pddl",
+      "problem_id": 3945,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-14-1.pddl"
+    },
+    {
+      "file": "probblocks-15-0.pddl",
+      "problem_id": 3946,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-15-0.pddl"
+    },
+    {
+      "file": "probblocks-15-1.pddl",
+      "problem_id": 3947,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-15-1.pddl"
+    },
+    {
+      "file": "probblocks-16-1.pddl",
+      "problem_id": 3948,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-16-1.pddl"
+    },
+    {
+      "file": "probblocks-16-2.pddl",
+      "problem_id": 3949,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-16-2.pddl"
+    },
+    {
+      "file": "probblocks-17-0.pddl",
+      "problem_id": 3950,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-17-0.pddl"
+    },
+    {
+      "file": "probblocks-17-1.pddl",
+      "problem_id": 3951,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-17-1.pddl"
+    },
+    {
+      "file": "probblocks-18-0.pddl",
+      "problem_id": 3952,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-18-0.pddl"
+    },
+    {
+      "file": "probblocks-18-1.pddl",
+      "problem_id": 3953,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-18-1.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-09-08T08:51:55+00:00"
+}
