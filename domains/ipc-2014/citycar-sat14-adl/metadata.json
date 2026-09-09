@@ -1,0 +1,122 @@
+{
+  "domain_id": 117,
+  "name": "citycar",
+  "collection": "IPC-2014",
+  "description": "(sat14) This model aims to simulate the impact of road building / demolition on traffic flows. A city is represented as an acyclic graph, in which each node is a junction and edges are \"potential\" roads. Some cars start from different positions and have to reach their final destination as soon as possible. The agent has a finite number of roads available, which can be built for connecting two junctions and allowing a car to move between them. Roads can also be removed, and placed somewhere else, if needed. In order to place roads or to move cars, the destination junction must be clear, i.e., no cars should be in there.",
+  "tags": [
+    ":conditional-effects",
+    ":action-costs",
+    ":equality",
+    ":negative-preconditions",
+    ":typing"
+  ],
+  "requirements": ":action-costs :conditional-effects :equality :negative-preconditions :typing",
+  "source_api": "https://api.planning.domains/json/classical/domain/117",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/citycar-sat14-adl/domain.pddl",
+  "problems_available": 20,
+  "problems_matching_domain_file": 20,
+  "problems": [
+    {
+      "file": "p3-2-2-0-1.pddl",
+      "problem_id": 4093,
+      "source_url": "https://www.haz.ca/planning-domains/classical/citycar-sat14-adl/p3-2-2-0-1.pddl"
+    },
+    {
+      "file": "p3-3-2-0-1.pddl",
+      "problem_id": 4095,
+      "source_url": "https://www.haz.ca/planning-domains/classical/citycar-sat14-adl/p3-3-2-0-1.pddl"
+    },
+    {
+      "file": "p3-4-2-0-1.pddl",
+      "problem_id": 4096,
+      "source_url": "https://www.haz.ca/planning-domains/classical/citycar-sat14-adl/p3-4-2-0-1.pddl"
+    },
+    {
+      "file": "p3-5-2-0-1.pddl",
+      "problem_id": 4097,
+      "source_url": "https://www.haz.ca/planning-domains/classical/citycar-sat14-adl/p3-5-2-0-1.pddl"
+    },
+    {
+      "file": "p3-5-2-0-2.pddl",
+      "problem_id": 4098,
+      "source_url": "https://www.haz.ca/planning-domains/classical/citycar-sat14-adl/p3-5-2-0-2.pddl"
+    },
+    {
+      "file": "p4-2-2-0-1.pddl",
+      "problem_id": 4099,
+      "source_url": "https://www.haz.ca/planning-domains/classical/citycar-sat14-adl/p4-2-2-0-1.pddl"
+    },
+    {
+      "file": "p4-2-3-0-1.pddl",
+      "problem_id": 4100,
+      "source_url": "https://www.haz.ca/planning-domains/classical/citycar-sat14-adl/p4-2-3-0-1.pddl"
+    },
+    {
+      "file": "p4-2-3-0-2.pddl",
+      "problem_id": 4101,
+      "source_url": "https://www.haz.ca/planning-domains/classical/citycar-sat14-adl/p4-2-3-0-2.pddl"
+    },
+    {
+      "file": "p4-3-2-0-1.pddl",
+      "problem_id": 4102,
+      "source_url": "https://www.haz.ca/planning-domains/classical/citycar-sat14-adl/p4-3-2-0-1.pddl"
+    },
+    {
+      "file": "p4-3-2-0-2.pddl",
+      "problem_id": 4103,
+      "source_url": "https://www.haz.ca/planning-domains/classical/citycar-sat14-adl/p4-3-2-0-2.pddl"
+    },
+    {
+      "file": "p4-3-3-0-1.pddl",
+      "problem_id": 4104,
+      "source_url": "https://www.haz.ca/planning-domains/classical/citycar-sat14-adl/p4-3-3-0-1.pddl"
+    },
+    {
+      "file": "p4-3-3-0-2.pddl",
+      "problem_id": 4105,
+      "source_url": "https://www.haz.ca/planning-domains/classical/citycar-sat14-adl/p4-3-3-0-2.pddl"
+    },
+    {
+      "file": "p4-4-2-0-1.pddl",
+      "problem_id": 4106,
+      "source_url": "https://www.haz.ca/planning-domains/classical/citycar-sat14-adl/p4-4-2-0-1.pddl"
+    },
+    {
+      "file": "p4-4-2-0-2.pddl",
+      "problem_id": 4107,
+      "source_url": "https://www.haz.ca/planning-domains/classical/citycar-sat14-adl/p4-4-2-0-2.pddl"
+    },
+    {
+      "file": "p4-4-3-0-1.pddl",
+      "problem_id": 4108,
+      "source_url": "https://www.haz.ca/planning-domains/classical/citycar-sat14-adl/p4-4-3-0-1.pddl"
+    },
+    {
+      "file": "p4-4-3-0-2.pddl",
+      "problem_id": 4109,
+      "source_url": "https://www.haz.ca/planning-domains/classical/citycar-sat14-adl/p4-4-3-0-2.pddl"
+    },
+    {
+      "file": "p4-5-2-0-1.pddl",
+      "problem_id": 4110,
+      "source_url": "https://www.haz.ca/planning-domains/classical/citycar-sat14-adl/p4-5-2-0-1.pddl"
+    },
+    {
+      "file": "p4-5-2-0-2.pddl",
+      "problem_id": 4111,
+      "source_url": "https://www.haz.ca/planning-domains/classical/citycar-sat14-adl/p4-5-2-0-2.pddl"
+    },
+    {
+      "file": "p4-5-3-0-1.pddl",
+      "problem_id": 4112,
+      "source_url": "https://www.haz.ca/planning-domains/classical/citycar-sat14-adl/p4-5-3-0-1.pddl"
+    },
+    {
+      "file": "p4-5-3-0-2.pddl",
+      "problem_id": 4113,
+      "source_url": "https://www.haz.ca/planning-domains/classical/citycar-sat14-adl/p4-5-3-0-2.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-09-09T08:57:52+00:00"
+}

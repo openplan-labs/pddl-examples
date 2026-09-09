@@ -105,6 +105,41 @@
       "path": "domains/fast-downward-all-problem-suite/miconic-fulladl",
       "problems": 20
     },
+    "115": {
+      "collection": "IPC-2014",
+      "fetched_at": "2026-09-09T08:57:40+00:00",
+      "name": "citycar-opt14-adl",
+      "path": "domains/ipc-2014/citycar-opt14-adl",
+      "problems": 20
+    },
+    "116": {
+      "collection": "IPC-2014",
+      "fetched_at": "2026-09-09T08:57:46+00:00",
+      "name": "childsnack-opt14-strips",
+      "path": "domains/ipc-2014/childsnack-opt14-strips",
+      "problems": 20
+    },
+    "117": {
+      "collection": "IPC-2014",
+      "fetched_at": "2026-09-09T08:57:52+00:00",
+      "name": "citycar-sat14-adl",
+      "path": "domains/ipc-2014/citycar-sat14-adl",
+      "problems": 20
+    },
+    "118": {
+      "collection": "All-IPC (STRIPS)",
+      "fetched_at": "2026-09-09T08:58:01+00:00",
+      "name": "transport-sat14-strips",
+      "path": "domains/all-ipc-strips/transport-sat14-strips",
+      "problems": 20
+    },
+    "119": {
+      "collection": "Fast Downward All Problem Suite",
+      "fetched_at": "2026-09-09T08:58:07+00:00",
+      "name": "gripper",
+      "path": "domains/fast-downward-all-problem-suite/gripper",
+      "problems": 20
+    },
     "12": {
       "collection": "Fast Downward All Problem Suite",
       "fetched_at": "2026-08-20T14:39:45+00:00",

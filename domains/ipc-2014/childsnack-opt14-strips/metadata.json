@@ -1,0 +1,119 @@
+{
+  "domain_id": 116,
+  "name": "childsnack",
+  "collection": "IPC-2014",
+  "description": "(opt14) This domain is to plan how to make and serve sandwiches for a group of children in which some are allergic to gluten. There are two actions for making sandwiches from their ingredients. The first one makes a sandwich and the second one makes a sandwich taking into account that all ingredients are gluten-free. There are also actions to put a sandwich on a tray and to serve sandwiches. Problems in this domain define the ingredients to make sandwiches at the initial state. Goals consist of having all kids served with a sandwich to which they are not allergic.",
+  "tags": [
+    ":strips",
+    ":typing"
+  ],
+  "requirements": ":equality :typing",
+  "source_api": "https://api.planning.domains/json/classical/domain/116",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/childsnack-opt14-strips/domain.pddl",
+  "problems_available": 20,
+  "problems_matching_domain_file": 20,
+  "problems": [
+    {
+      "file": "child-snack-pfile01-2.pddl",
+      "problem_id": 4074,
+      "source_url": "https://www.haz.ca/planning-domains/classical/childsnack-opt14-strips/child-snack_pfile01-2.pddl"
+    },
+    {
+      "file": "child-snack-pfile01.pddl",
+      "problem_id": 4075,
+      "source_url": "https://www.haz.ca/planning-domains/classical/childsnack-opt14-strips/child-snack_pfile01.pddl"
+    },
+    {
+      "file": "child-snack-pfile02-2.pddl",
+      "problem_id": 4076,
+      "source_url": "https://www.haz.ca/planning-domains/classical/childsnack-opt14-strips/child-snack_pfile02-2.pddl"
+    },
+    {
+      "file": "child-snack-pfile02.pddl",
+      "problem_id": 4077,
+      "source_url": "https://www.haz.ca/planning-domains/classical/childsnack-opt14-strips/child-snack_pfile02.pddl"
+    },
+    {
+      "file": "child-snack-pfile03-2.pddl",
+      "problem_id": 4078,
+      "source_url": "https://www.haz.ca/planning-domains/classical/childsnack-opt14-strips/child-snack_pfile03-2.pddl"
+    },
+    {
+      "file": "child-snack-pfile03.pddl",
+      "problem_id": 4079,
+      "source_url": "https://www.haz.ca/planning-domains/classical/childsnack-opt14-strips/child-snack_pfile03.pddl"
+    },
+    {
+      "file": "child-snack-pfile04-2.pddl",
+      "problem_id": 4080,
+      "source_url": "https://www.haz.ca/planning-domains/classical/childsnack-opt14-strips/child-snack_pfile04-2.pddl"
+    },
+    {
+      "file": "child-snack-pfile04.pddl",
+      "problem_id": 4081,
+      "source_url": "https://www.haz.ca/planning-domains/classical/childsnack-opt14-strips/child-snack_pfile04.pddl"
+    },
+    {
+      "file": "child-snack-pfile05-2.pddl",
+      "problem_id": 4082,
+      "source_url": "https://www.haz.ca/planning-domains/classical/childsnack-opt14-strips/child-snack_pfile05-2.pddl"
+    },
+    {
+      "file": "child-snack-pfile05.pddl",
+      "problem_id": 4083,
+      "source_url": "https://www.haz.ca/planning-domains/classical/childsnack-opt14-strips/child-snack_pfile05.pddl"
+    },
+    {
+      "file": "child-snack-pfile06-2.pddl",
+      "problem_id": 4084,
+      "source_url": "https://www.haz.ca/planning-domains/classical/childsnack-opt14-strips/child-snack_pfile06-2.pddl"
+    },
+    {
+      "file": "child-snack-pfile06.pddl",
+      "problem_id": 4085,
+      "source_url": "https://www.haz.ca/planning-domains/classical/childsnack-opt14-strips/child-snack_pfile06.pddl"
+    },
+    {
+      "file": "child-snack-pfile07-2.pddl",
+      "problem_id": 4086,
+      "source_url": "https://www.haz.ca/planning-domains/classical/childsnack-opt14-strips/child-snack_pfile07-2.pddl"
+    },
+    {
+      "file": "child-snack-pfile07.pddl",
+      "problem_id": 4087,
+      "source_url": "https://www.haz.ca/planning-domains/classical/childsnack-opt14-strips/child-snack_pfile07.pddl"
+    },
+    {
+      "file": "child-snack-pfile08-2.pddl",
+      "problem_id": 4088,
+      "source_url": "https://www.haz.ca/planning-domains/classical/childsnack-opt14-strips/child-snack_pfile08-2.pddl"
+    },
+    {
+      "file": "child-snack-pfile08.pddl",
+      "problem_id": 4089,
+      "source_url": "https://www.haz.ca/planning-domains/classical/childsnack-opt14-strips/child-snack_pfile08.pddl"
+    },
+    {
+      "file": "child-snack-pfile09-2.pddl",
+      "problem_id": 4090,
+      "source_url": "https://www.haz.ca/planning-domains/classical/childsnack-opt14-strips/child-snack_pfile09-2.pddl"
+    },
+    {
+      "file": "child-snack-pfile10-2.pddl",
+      "problem_id": 4091,
+      "source_url": "https://www.haz.ca/planning-domains/classical/childsnack-opt14-strips/child-snack_pfile10-2.pddl"
+    },
+    {
+      "file": "child-snack-pfile09.pddl",
+      "problem_id": 4092,
+      "source_url": "https://www.haz.ca/planning-domains/classical/childsnack-opt14-strips/child-snack_pfile09.pddl"
+    },
+    {
+      "file": "child-snack-pfile10.pddl",
+      "problem_id": 4094,
+      "source_url": "https://www.haz.ca/planning-domains/classical/childsnack-opt14-strips/child-snack_pfile10.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-09-09T08:57:46+00:00"
+}
