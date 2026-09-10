@@ -1,0 +1,118 @@
+{
+  "domain_id": 124,
+  "name": "hanoi",
+  "collection": "FF Benchmark Set",
+  "description": "Untyped STRIPS encoding of the well-known Towers of Hanoi problem.",
+  "tags": [
+    ":strips"
+  ],
+  "requirements": ":strips",
+  "source_api": "https://api.planning.domains/json/classical/domain/124",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/hanoi/domain.pddl",
+  "problems_available": 30,
+  "problems_matching_domain_file": 30,
+  "problems": [
+    {
+      "file": "pfile1.pddl",
+      "problem_id": 4269,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hanoi/pfile1.pddl"
+    },
+    {
+      "file": "pfile10.pddl",
+      "problem_id": 4270,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hanoi/pfile10.pddl"
+    },
+    {
+      "file": "pfile11.pddl",
+      "problem_id": 4271,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hanoi/pfile11.pddl"
+    },
+    {
+      "file": "pfile12.pddl",
+      "problem_id": 4272,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hanoi/pfile12.pddl"
+    },
+    {
+      "file": "pfile13.pddl",
+      "problem_id": 4273,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hanoi/pfile13.pddl"
+    },
+    {
+      "file": "pfile14.pddl",
+      "problem_id": 4274,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hanoi/pfile14.pddl"
+    },
+    {
+      "file": "pfile15.pddl",
+      "problem_id": 4275,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hanoi/pfile15.pddl"
+    },
+    {
+      "file": "pfile16.pddl",
+      "problem_id": 4276,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hanoi/pfile16.pddl"
+    },
+    {
+      "file": "pfile17.pddl",
+      "problem_id": 4277,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hanoi/pfile17.pddl"
+    },
+    {
+      "file": "pfile18.pddl",
+      "problem_id": 4278,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hanoi/pfile18.pddl"
+    },
+    {
+      "file": "pfile19.pddl",
+      "problem_id": 4279,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hanoi/pfile19.pddl"
+    },
+    {
+      "file": "pfile2.pddl",
+      "problem_id": 4280,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hanoi/pfile2.pddl"
+    },
+    {
+      "file": "pfile20.pddl",
+      "problem_id": 4281,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hanoi/pfile20.pddl"
+    },
+    {
+      "file": "pfile21.pddl",
+      "problem_id": 4282,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hanoi/pfile21.pddl"
+    },
+    {
+      "file": "pfile22.pddl",
+      "problem_id": 4283,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hanoi/pfile22.pddl"
+    },
+    {
+      "file": "pfile23.pddl",
+      "problem_id": 4284,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hanoi/pfile23.pddl"
+    },
+    {
+      "file": "pfile24.pddl",
+      "problem_id": 4285,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hanoi/pfile24.pddl"
+    },
+    {
+      "file": "pfile25.pddl",
+      "problem_id": 4286,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hanoi/pfile25.pddl"
+    },
+    {
+      "file": "pfile26.pddl",
+      "problem_id": 4287,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hanoi/pfile26.pddl"
+    },
+    {
+      "file": "pfile27.pddl",
+      "problem_id": 4288,
+      "source_url": "https://www.haz.ca/planning-domains/classical/hanoi/pfile27.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-09-10T08:56:37+00:00"
+}

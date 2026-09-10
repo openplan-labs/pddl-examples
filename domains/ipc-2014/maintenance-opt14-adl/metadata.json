@@ -1,0 +1,44 @@
+{
+  "domain_id": 120,
+  "name": "maintenance",
+  "collection": "IPC-2014",
+  "description": "(opt14) This is a simple planning/scheduling problem. There are mechanics/equipment who on any day may work at one of several airports (hubs) where the maintenance facilities are present. There are airplanes each of which has to be checked or repaired during the given time period. The airplanes are guaranteed to visit some of the airports on given days. The problem is to schedule the presence of the mechanics/equipment so that each plane will get maintenance once during the time period.",
+  "tags": [
+    ":conditional-effects",
+    ":typing"
+  ],
+  "requirements": ":adl :conditional-effects :typing",
+  "source_api": "https://api.planning.domains/json/classical/domain/120",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/maintenance-opt14-adl/domain.pddl",
+  "problems_available": 5,
+  "problems_matching_domain_file": 5,
+  "problems": [
+    {
+      "file": "maintenance-1-3-010-010-2-000.pddl",
+      "problem_id": 4174,
+      "source_url": "https://www.haz.ca/planning-domains/classical/maintenance-opt14-adl/maintenance.1.3.010.010.2-000.pddl"
+    },
+    {
+      "file": "maintenance-1-3-010-010-2-001.pddl",
+      "problem_id": 4175,
+      "source_url": "https://www.haz.ca/planning-domains/classical/maintenance-opt14-adl/maintenance.1.3.010.010.2-001.pddl"
+    },
+    {
+      "file": "maintenance-1-3-010-010-2-002.pddl",
+      "problem_id": 4176,
+      "source_url": "https://www.haz.ca/planning-domains/classical/maintenance-opt14-adl/maintenance.1.3.010.010.2-002.pddl"
+    },
+    {
+      "file": "maintenance-1-3-015-020-2-001.pddl",
+      "problem_id": 4177,
+      "source_url": "https://www.haz.ca/planning-domains/classical/maintenance-opt14-adl/maintenance.1.3.015.020.2-001.pddl"
+    },
+    {
+      "file": "maintenance-1-3-015-020-2-002.pddl",
+      "problem_id": 4178,
+      "source_url": "https://www.haz.ca/planning-domains/classical/maintenance-opt14-adl/maintenance.1.3.015.020.2-002.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-09-10T08:56:28+00:00"
+}

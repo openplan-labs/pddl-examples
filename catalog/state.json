@@ -147,6 +147,41 @@
       "path": "domains/fast-downward-all-problem-suite/miconic",
       "problems": 20
     },
+    "120": {
+      "collection": "IPC-2014",
+      "fetched_at": "2026-09-10T08:56:28+00:00",
+      "name": "maintenance-opt14-adl",
+      "path": "domains/ipc-2014/maintenance-opt14-adl",
+      "problems": 5
+    },
+    "121": {
+      "collection": "FF Benchmark Set",
+      "fetched_at": "2026-09-10T08:56:31+00:00",
+      "name": "tyreworld",
+      "path": "domains/ff-benchmark-set/tyreworld",
+      "problems": 20
+    },
+    "122": {
+      "collection": "FF Benchmark Set",
+      "fetched_at": "2026-09-10T08:56:33+00:00",
+      "name": "tsp",
+      "path": "domains/ff-benchmark-set/tsp",
+      "problems": 20
+    },
+    "123": {
+      "collection": "FF Benchmark Set",
+      "fetched_at": "2026-09-10T08:56:35+00:00",
+      "name": "briefcaseworld",
+      "path": "domains/ff-benchmark-set/briefcaseworld",
+      "problems": 20
+    },
+    "124": {
+      "collection": "FF Benchmark Set",
+      "fetched_at": "2026-09-10T08:56:37+00:00",
+      "name": "hanoi",
+      "path": "domains/ff-benchmark-set/hanoi",
+      "problems": 20
+    },
     "13": {
       "collection": "IPC-2011",
       "fetched_at": "2026-08-20T14:39:47+00:00",

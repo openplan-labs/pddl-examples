@@ -1,0 +1,120 @@
+{
+  "domain_id": 123,
+  "name": "briefcaseworld",
+  "collection": "FF Benchmark Set",
+  "description": "Typed classical ADL domain, using conditional effects. Transport a number of objects from their start- to their goal-locations, using a briefcase. Each location is accessible from each other location, objects can be put into the briefcase or taken out of the briefcase. When a move is made between locations, then all objects inside the briefcase are also moved, which is encoded by a conditional effect.",
+  "tags": [
+    ":conditional-effects",
+    ":negative-preconditions",
+    ":typing"
+  ],
+  "requirements": ":adl",
+  "source_api": "https://api.planning.domains/json/classical/domain/123",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/briefcaseworld/domain.pddl",
+  "problems_available": 30,
+  "problems_matching_domain_file": 30,
+  "problems": [
+    {
+      "file": "pfile1.pddl",
+      "problem_id": 4239,
+      "source_url": "https://www.haz.ca/planning-domains/classical/briefcaseworld/pfile1.pddl"
+    },
+    {
+      "file": "pfile10.pddl",
+      "problem_id": 4240,
+      "source_url": "https://www.haz.ca/planning-domains/classical/briefcaseworld/pfile10.pddl"
+    },
+    {
+      "file": "pfile11.pddl",
+      "problem_id": 4241,
+      "source_url": "https://www.haz.ca/planning-domains/classical/briefcaseworld/pfile11.pddl"
+    },
+    {
+      "file": "pfile12.pddl",
+      "problem_id": 4242,
+      "source_url": "https://www.haz.ca/planning-domains/classical/briefcaseworld/pfile12.pddl"
+    },
+    {
+      "file": "pfile13.pddl",
+      "problem_id": 4243,
+      "source_url": "https://www.haz.ca/planning-domains/classical/briefcaseworld/pfile13.pddl"
+    },
+    {
+      "file": "pfile14.pddl",
+      "problem_id": 4244,
+      "source_url": "https://www.haz.ca/planning-domains/classical/briefcaseworld/pfile14.pddl"
+    },
+    {
+      "file": "pfile15.pddl",
+      "problem_id": 4245,
+      "source_url": "https://www.haz.ca/planning-domains/classical/briefcaseworld/pfile15.pddl"
+    },
+    {
+      "file": "pfile16.pddl",
+      "problem_id": 4246,
+      "source_url": "https://www.haz.ca/planning-domains/classical/briefcaseworld/pfile16.pddl"
+    },
+    {
+      "file": "pfile18.pddl",
+      "problem_id": 4247,
+      "source_url": "https://www.haz.ca/planning-domains/classical/briefcaseworld/pfile18.pddl"
+    },
+    {
+      "file": "pfile19.pddl",
+      "problem_id": 4248,
+      "source_url": "https://www.haz.ca/planning-domains/classical/briefcaseworld/pfile19.pddl"
+    },
+    {
+      "file": "pfile2.pddl",
+      "problem_id": 4249,
+      "source_url": "https://www.haz.ca/planning-domains/classical/briefcaseworld/pfile2.pddl"
+    },
+    {
+      "file": "pfile20.pddl",
+      "problem_id": 4250,
+      "source_url": "https://www.haz.ca/planning-domains/classical/briefcaseworld/pfile20.pddl"
+    },
+    {
+      "file": "pfile21.pddl",
+      "problem_id": 4251,
+      "source_url": "https://www.haz.ca/planning-domains/classical/briefcaseworld/pfile21.pddl"
+    },
+    {
+      "file": "pfile22.pddl",
+      "problem_id": 4252,
+      "source_url": "https://www.haz.ca/planning-domains/classical/briefcaseworld/pfile22.pddl"
+    },
+    {
+      "file": "pfile23.pddl",
+      "problem_id": 4253,
+      "source_url": "https://www.haz.ca/planning-domains/classical/briefcaseworld/pfile23.pddl"
+    },
+    {
+      "file": "pfile17.pddl",
+      "problem_id": 4254,
+      "source_url": "https://www.haz.ca/planning-domains/classical/briefcaseworld/pfile17.pddl"
+    },
+    {
+      "file": "pfile24.pddl",
+      "problem_id": 4255,
+      "source_url": "https://www.haz.ca/planning-domains/classical/briefcaseworld/pfile24.pddl"
+    },
+    {
+      "file": "pfile25.pddl",
+      "problem_id": 4256,
+      "source_url": "https://www.haz.ca/planning-domains/classical/briefcaseworld/pfile25.pddl"
+    },
+    {
+      "file": "pfile26.pddl",
+      "problem_id": 4257,
+      "source_url": "https://www.haz.ca/planning-domains/classical/briefcaseworld/pfile26.pddl"
+    },
+    {
+      "file": "pfile27.pddl",
+      "problem_id": 4258,
+      "source_url": "https://www.haz.ca/planning-domains/classical/briefcaseworld/pfile27.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-09-10T08:56:35+00:00"
+}

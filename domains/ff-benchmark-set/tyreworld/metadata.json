@@ -1,0 +1,119 @@
+{
+  "domain_id": 121,
+  "name": "tyreworld",
+  "collection": "FF Benchmark Set",
+  "description": "Typed STRIPS domain. Replace a flat tyre with a spare one. This involves fetching the tools (wrench, jack, pump) from the boot, undoing the nuts on the flat tyre, jacking up the (appropriate) hub(s), removing the tyre, doing up the spare one, etc. Adapted for several tyres by simply increasing the number of flat tyres to be replaced.",
+  "tags": [
+    ":strips",
+    ":typing"
+  ],
+  "requirements": null,
+  "source_api": "https://api.planning.domains/json/classical/domain/121",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/tyreworld/domain.pddl",
+  "problems_available": 30,
+  "problems_matching_domain_file": 30,
+  "problems": [
+    {
+      "file": "pfile10.pddl",
+      "problem_id": 4179,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tyreworld/pfile10.pddl"
+    },
+    {
+      "file": "pfile1.pddl",
+      "problem_id": 4180,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tyreworld/pfile1.pddl"
+    },
+    {
+      "file": "pfile11.pddl",
+      "problem_id": 4181,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tyreworld/pfile11.pddl"
+    },
+    {
+      "file": "pfile17.pddl",
+      "problem_id": 4182,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tyreworld/pfile17.pddl"
+    },
+    {
+      "file": "pfile12.pddl",
+      "problem_id": 4183,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tyreworld/pfile12.pddl"
+    },
+    {
+      "file": "pfile15.pddl",
+      "problem_id": 4184,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tyreworld/pfile15.pddl"
+    },
+    {
+      "file": "pfile18.pddl",
+      "problem_id": 4185,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tyreworld/pfile18.pddl"
+    },
+    {
+      "file": "pfile13.pddl",
+      "problem_id": 4186,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tyreworld/pfile13.pddl"
+    },
+    {
+      "file": "pfile2.pddl",
+      "problem_id": 4187,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tyreworld/pfile2.pddl"
+    },
+    {
+      "file": "pfile20.pddl",
+      "problem_id": 4188,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tyreworld/pfile20.pddl"
+    },
+    {
+      "file": "pfile14.pddl",
+      "problem_id": 4189,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tyreworld/pfile14.pddl"
+    },
+    {
+      "file": "pfile19.pddl",
+      "problem_id": 4190,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tyreworld/pfile19.pddl"
+    },
+    {
+      "file": "pfile16.pddl",
+      "problem_id": 4191,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tyreworld/pfile16.pddl"
+    },
+    {
+      "file": "pfile21.pddl",
+      "problem_id": 4192,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tyreworld/pfile21.pddl"
+    },
+    {
+      "file": "pfile22.pddl",
+      "problem_id": 4193,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tyreworld/pfile22.pddl"
+    },
+    {
+      "file": "pfile23.pddl",
+      "problem_id": 4194,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tyreworld/pfile23.pddl"
+    },
+    {
+      "file": "pfile24.pddl",
+      "problem_id": 4195,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tyreworld/pfile24.pddl"
+    },
+    {
+      "file": "pfile25.pddl",
+      "problem_id": 4196,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tyreworld/pfile25.pddl"
+    },
+    {
+      "file": "pfile26.pddl",
+      "problem_id": 4197,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tyreworld/pfile26.pddl"
+    },
+    {
+      "file": "pfile27.pddl",
+      "problem_id": 4198,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tyreworld/pfile27.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-09-10T08:56:31+00:00"
+}

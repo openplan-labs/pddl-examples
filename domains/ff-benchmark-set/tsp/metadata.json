@@ -1,0 +1,118 @@
+{
+  "domain_id": 122,
+  "name": "tsp",
+  "collection": "FF Benchmark Set",
+  "description": "Untyped STRIPS domain. Extremely simple version of TSP. The locations are connected by a complete graph, i.e. each location is accessible from each other location. The edges all have equal cost---one moving operation---and the goal is simply to have all locations visited. An optimal solution simply visits all locations once in an arbitrary ordering.",
+  "tags": [
+    ":strips"
+  ],
+  "requirements": null,
+  "source_api": "https://api.planning.domains/json/classical/domain/122",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/tsp/domain.pddl",
+  "problems_available": 30,
+  "problems_matching_domain_file": 30,
+  "problems": [
+    {
+      "file": "pfile1.pddl",
+      "problem_id": 4209,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tsp/pfile1.pddl"
+    },
+    {
+      "file": "pfile10.pddl",
+      "problem_id": 4210,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tsp/pfile10.pddl"
+    },
+    {
+      "file": "pfile11.pddl",
+      "problem_id": 4211,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tsp/pfile11.pddl"
+    },
+    {
+      "file": "pfile12.pddl",
+      "problem_id": 4212,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tsp/pfile12.pddl"
+    },
+    {
+      "file": "pfile13.pddl",
+      "problem_id": 4213,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tsp/pfile13.pddl"
+    },
+    {
+      "file": "pfile14.pddl",
+      "problem_id": 4214,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tsp/pfile14.pddl"
+    },
+    {
+      "file": "pfile15.pddl",
+      "problem_id": 4215,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tsp/pfile15.pddl"
+    },
+    {
+      "file": "pfile16.pddl",
+      "problem_id": 4216,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tsp/pfile16.pddl"
+    },
+    {
+      "file": "pfile17.pddl",
+      "problem_id": 4217,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tsp/pfile17.pddl"
+    },
+    {
+      "file": "pfile18.pddl",
+      "problem_id": 4218,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tsp/pfile18.pddl"
+    },
+    {
+      "file": "pfile19.pddl",
+      "problem_id": 4219,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tsp/pfile19.pddl"
+    },
+    {
+      "file": "pfile2.pddl",
+      "problem_id": 4220,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tsp/pfile2.pddl"
+    },
+    {
+      "file": "pfile20.pddl",
+      "problem_id": 4221,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tsp/pfile20.pddl"
+    },
+    {
+      "file": "pfile21.pddl",
+      "problem_id": 4222,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tsp/pfile21.pddl"
+    },
+    {
+      "file": "pfile22.pddl",
+      "problem_id": 4223,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tsp/pfile22.pddl"
+    },
+    {
+      "file": "pfile23.pddl",
+      "problem_id": 4224,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tsp/pfile23.pddl"
+    },
+    {
+      "file": "pfile24.pddl",
+      "problem_id": 4225,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tsp/pfile24.pddl"
+    },
+    {
+      "file": "pfile25.pddl",
+      "problem_id": 4226,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tsp/pfile25.pddl"
+    },
+    {
+      "file": "pfile26.pddl",
+      "problem_id": 4227,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tsp/pfile26.pddl"
+    },
+    {
+      "file": "pfile27.pddl",
+      "problem_id": 4228,
+      "source_url": "https://www.haz.ca/planning-domains/classical/tsp/pfile27.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-09-10T08:56:33+00:00"
+}
