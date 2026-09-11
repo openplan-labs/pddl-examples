@@ -1,0 +1,118 @@
+{
+  "domain_id": 127,
+  "name": "blocks-3op",
+  "collection": "FF Benchmark Set",
+  "description": "Classical untyped STRIPS domain, where stackable blocks need to be re-assembled on a table with unlimited space. Representation uses 3 operators, moving a block from the table to another block, a block from another block to the table, or a block from a block to another block. Semantically, the representation does not use a robot arm, in difference to the 4 operator representation. The initial state specifies a complete state, the goal state specifies only the on relations required between any two blocks.",
+  "tags": [
+    ":strips"
+  ],
+  "requirements": null,
+  "source_api": "https://api.planning.domains/json/classical/domain/127",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/blocks-3op/domain.pddl",
+  "problems_available": 30,
+  "problems_matching_domain_file": 30,
+  "problems": [
+    {
+      "file": "pfile1.pddl",
+      "problem_id": 4359,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks-3op/pfile1.pddl"
+    },
+    {
+      "file": "pfile10.pddl",
+      "problem_id": 4360,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks-3op/pfile10.pddl"
+    },
+    {
+      "file": "pfile11.pddl",
+      "problem_id": 4361,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks-3op/pfile11.pddl"
+    },
+    {
+      "file": "pfile12.pddl",
+      "problem_id": 4362,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks-3op/pfile12.pddl"
+    },
+    {
+      "file": "pfile13.pddl",
+      "problem_id": 4363,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks-3op/pfile13.pddl"
+    },
+    {
+      "file": "pfile14.pddl",
+      "problem_id": 4364,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks-3op/pfile14.pddl"
+    },
+    {
+      "file": "pfile15.pddl",
+      "problem_id": 4365,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks-3op/pfile15.pddl"
+    },
+    {
+      "file": "pfile16.pddl",
+      "problem_id": 4366,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks-3op/pfile16.pddl"
+    },
+    {
+      "file": "pfile17.pddl",
+      "problem_id": 4367,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks-3op/pfile17.pddl"
+    },
+    {
+      "file": "pfile18.pddl",
+      "problem_id": 4368,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks-3op/pfile18.pddl"
+    },
+    {
+      "file": "pfile19.pddl",
+      "problem_id": 4369,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks-3op/pfile19.pddl"
+    },
+    {
+      "file": "pfile2.pddl",
+      "problem_id": 4370,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks-3op/pfile2.pddl"
+    },
+    {
+      "file": "pfile20.pddl",
+      "problem_id": 4371,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks-3op/pfile20.pddl"
+    },
+    {
+      "file": "pfile21.pddl",
+      "problem_id": 4372,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks-3op/pfile21.pddl"
+    },
+    {
+      "file": "pfile22.pddl",
+      "problem_id": 4373,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks-3op/pfile22.pddl"
+    },
+    {
+      "file": "pfile23.pddl",
+      "problem_id": 4374,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks-3op/pfile23.pddl"
+    },
+    {
+      "file": "pfile24.pddl",
+      "problem_id": 4375,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks-3op/pfile24.pddl"
+    },
+    {
+      "file": "pfile25.pddl",
+      "problem_id": 4376,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks-3op/pfile25.pddl"
+    },
+    {
+      "file": "pfile26.pddl",
+      "problem_id": 4377,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks-3op/pfile26.pddl"
+    },
+    {
+      "file": "pfile27.pddl",
+      "problem_id": 4378,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks-3op/pfile27.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-09-11T08:54:54+00:00"
+}

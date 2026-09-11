@@ -182,6 +182,41 @@
       "path": "domains/ff-benchmark-set/hanoi",
       "problems": 20
     },
+    "125": {
+      "collection": "FF Benchmark Set",
+      "fetched_at": "2026-09-11T08:54:49+00:00",
+      "name": "fridge",
+      "path": "domains/ff-benchmark-set/fridge",
+      "problems": 20
+    },
+    "126": {
+      "collection": "FF Benchmark Set",
+      "fetched_at": "2026-09-11T08:54:51+00:00",
+      "name": "ferry",
+      "path": "domains/ff-benchmark-set/ferry",
+      "problems": 20
+    },
+    "127": {
+      "collection": "FF Benchmark Set",
+      "fetched_at": "2026-09-11T08:54:54+00:00",
+      "name": "blocks-3op",
+      "path": "domains/ff-benchmark-set/blocks-3op",
+      "problems": 20
+    },
+    "128": {
+      "collection": "All-IPC (STRIPS)",
+      "fetched_at": "2026-09-11T08:54:57+00:00",
+      "name": "blocks",
+      "path": "domains/all-ipc-strips/blocks",
+      "problems": 20
+    },
+    "129": {
+      "collection": "All-IPC (STRIPS)",
+      "fetched_at": "2026-09-11T08:54:59+00:00",
+      "name": "logistics00",
+      "path": "domains/all-ipc-strips/logistics00",
+      "problems": 20
+    },
     "13": {
       "collection": "IPC-2011",
       "fetched_at": "2026-08-20T14:39:47+00:00",

@@ -1,0 +1,118 @@
+{
+  "domain_id": 126,
+  "name": "ferry",
+  "collection": "FF Benchmark Set",
+  "description": "Untyped STRIPS domain. Transport a number of cars from their start- to their goal-locations, using a ferry. Each location is accessible from each other location, cars can be debarked or boarded, the ferry can always carry only one car at a time.",
+  "tags": [
+    ":strips"
+  ],
+  "requirements": null,
+  "source_api": "https://api.planning.domains/json/classical/domain/126",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/ferry/domain.pddl",
+  "problems_available": 30,
+  "problems_matching_domain_file": 30,
+  "problems": [
+    {
+      "file": "p-10locs-5cars.pddl",
+      "problem_id": 4299,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ferry/p-10locs-5cars.pddl"
+    },
+    {
+      "file": "p-10locs-6cars.pddl",
+      "problem_id": 4300,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ferry/p-10locs-6cars.pddl"
+    },
+    {
+      "file": "p-10locs-7cars.pddl",
+      "problem_id": 4301,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ferry/p-10locs-7cars.pddl"
+    },
+    {
+      "file": "p-10locs-8cars.pddl",
+      "problem_id": 4302,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ferry/p-10locs-8cars.pddl"
+    },
+    {
+      "file": "p-10locs-9cars.pddl",
+      "problem_id": 4303,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ferry/p-10locs-9cars.pddl"
+    },
+    {
+      "file": "p-11locs-5cars.pddl",
+      "problem_id": 4304,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ferry/p-11locs-5cars.pddl"
+    },
+    {
+      "file": "p-11locs-6cars.pddl",
+      "problem_id": 4305,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ferry/p-11locs-6cars.pddl"
+    },
+    {
+      "file": "p-11locs-7cars.pddl",
+      "problem_id": 4306,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ferry/p-11locs-7cars.pddl"
+    },
+    {
+      "file": "p-11locs-8cars.pddl",
+      "problem_id": 4307,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ferry/p-11locs-8cars.pddl"
+    },
+    {
+      "file": "p-11locs-9cars.pddl",
+      "problem_id": 4308,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ferry/p-11locs-9cars.pddl"
+    },
+    {
+      "file": "p-12locs-5cars.pddl",
+      "problem_id": 4309,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ferry/p-12locs-5cars.pddl"
+    },
+    {
+      "file": "p-12locs-6cars.pddl",
+      "problem_id": 4310,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ferry/p-12locs-6cars.pddl"
+    },
+    {
+      "file": "p-12locs-7cars.pddl",
+      "problem_id": 4311,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ferry/p-12locs-7cars.pddl"
+    },
+    {
+      "file": "p-12locs-8cars.pddl",
+      "problem_id": 4312,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ferry/p-12locs-8cars.pddl"
+    },
+    {
+      "file": "p-12locs-9cars.pddl",
+      "problem_id": 4313,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ferry/p-12locs-9cars.pddl"
+    },
+    {
+      "file": "p-13locs-5cars.pddl",
+      "problem_id": 4314,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ferry/p-13locs-5cars.pddl"
+    },
+    {
+      "file": "p-13locs-6cars.pddl",
+      "problem_id": 4315,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ferry/p-13locs-6cars.pddl"
+    },
+    {
+      "file": "p-13locs-7cars.pddl",
+      "problem_id": 4316,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ferry/p-13locs-7cars.pddl"
+    },
+    {
+      "file": "p-13locs-8cars.pddl",
+      "problem_id": 4317,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ferry/p-13locs-8cars.pddl"
+    },
+    {
+      "file": "p-13locs-9cars.pddl",
+      "problem_id": 4318,
+      "source_url": "https://www.haz.ca/planning-domains/classical/ferry/p-13locs-9cars.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-09-11T08:54:51+00:00"
+}

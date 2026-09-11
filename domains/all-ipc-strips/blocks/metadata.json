@@ -1,0 +1,118 @@
+{
+  "domain_id": 128,
+  "name": "blocks-reduced",
+  "collection": "All-IPC (STRIPS)",
+  "description": "This is a subset of the problems from the blocksworld benchmark in IPC-2000.",
+  "tags": [
+    ":strips"
+  ],
+  "requirements": ":strips",
+  "source_api": "https://api.planning.domains/json/classical/domain/128",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/blocks/domain.pddl",
+  "problems_available": 45,
+  "problems_matching_domain_file": 45,
+  "problems": [
+    {
+      "file": "probblocks-4-0.pddl",
+      "problem_id": 4389,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-4-0.pddl"
+    },
+    {
+      "file": "probblocks-4-2.pddl",
+      "problem_id": 4390,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-4-2.pddl"
+    },
+    {
+      "file": "probblocks-5-1.pddl",
+      "problem_id": 4391,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-5-1.pddl"
+    },
+    {
+      "file": "probblocks-6-0.pddl",
+      "problem_id": 4392,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-6-0.pddl"
+    },
+    {
+      "file": "probblocks-6-2.pddl",
+      "problem_id": 4393,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-6-2.pddl"
+    },
+    {
+      "file": "probblocks-7-1.pddl",
+      "problem_id": 4394,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-7-1.pddl"
+    },
+    {
+      "file": "probblocks-8-0.pddl",
+      "problem_id": 4395,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-8-0.pddl"
+    },
+    {
+      "file": "probblocks-8-2.pddl",
+      "problem_id": 4396,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-8-2.pddl"
+    },
+    {
+      "file": "probblocks-9-1.pddl",
+      "problem_id": 4397,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-9-1.pddl"
+    },
+    {
+      "file": "probblocks-10-0.pddl",
+      "problem_id": 4398,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-10-0.pddl"
+    },
+    {
+      "file": "probblocks-10-2.pddl",
+      "problem_id": 4399,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-10-2.pddl"
+    },
+    {
+      "file": "probblocks-11-1.pddl",
+      "problem_id": 4400,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-11-1.pddl"
+    },
+    {
+      "file": "probblocks-12-0.pddl",
+      "problem_id": 4401,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-12-0.pddl"
+    },
+    {
+      "file": "probblocks-13-0.pddl",
+      "problem_id": 4402,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-13-0.pddl"
+    },
+    {
+      "file": "probblocks-14-0.pddl",
+      "problem_id": 4403,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-14-0.pddl"
+    },
+    {
+      "file": "probblocks-15-0.pddl",
+      "problem_id": 4404,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-15-0.pddl"
+    },
+    {
+      "file": "probblocks-16-1.pddl",
+      "problem_id": 4405,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-16-1.pddl"
+    },
+    {
+      "file": "probblocks-17-0.pddl",
+      "problem_id": 4406,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-17-0.pddl"
+    },
+    {
+      "file": "probblocks-18-0.pddl",
+      "problem_id": 4407,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-18-0.pddl"
+    },
+    {
+      "file": "probblocks-19-0.pddl",
+      "problem_id": 4408,
+      "source_url": "https://www.haz.ca/planning-domains/classical/blocks/probBLOCKS-19-0.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-09-11T08:54:57+00:00"
+}

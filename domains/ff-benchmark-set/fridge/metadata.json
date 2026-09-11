@@ -1,0 +1,120 @@
+{
+  "domain_id": 125,
+  "name": "fridge",
+  "collection": "FF Benchmark Set",
+  "description": "Typed ADL domain using comlex ADL preconditions (that simplify to STRIPS constructs after instantiation). Original was STRIPS domain, adaption uses quantification over all screws in precondititions, to allow for a flexible number of those. For a number of fridges, unfasten the screws holding the backplane, then remove the backplanes and exchange the broken compressor with a new one, then re-assemble the fridge and turn it on.",
+  "tags": [
+    ":negative-preconditions",
+    ":typing",
+    ":disjunctive-preconditions"
+  ],
+  "requirements": ":quanitfied-precondition :strips :typing",
+  "source_api": "https://api.planning.domains/json/classical/domain/125",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/fridge/domain.pddl",
+  "problems_available": 30,
+  "problems_matching_domain_file": 30,
+  "problems": [
+    {
+      "file": "p-5fridges-10screws.pddl",
+      "problem_id": 4329,
+      "source_url": "https://www.haz.ca/planning-domains/classical/fridge/p-5fridges-10screws.pddl"
+    },
+    {
+      "file": "p-5fridges-5screws.pddl",
+      "problem_id": 4330,
+      "source_url": "https://www.haz.ca/planning-domains/classical/fridge/p-5fridges-5screws.pddl"
+    },
+    {
+      "file": "p-5fridges-6screws.pddl",
+      "problem_id": 4331,
+      "source_url": "https://www.haz.ca/planning-domains/classical/fridge/p-5fridges-6screws.pddl"
+    },
+    {
+      "file": "p-5fridges-7screws.pddl",
+      "problem_id": 4332,
+      "source_url": "https://www.haz.ca/planning-domains/classical/fridge/p-5fridges-7screws.pddl"
+    },
+    {
+      "file": "p-5fridges-8screws.pddl",
+      "problem_id": 4333,
+      "source_url": "https://www.haz.ca/planning-domains/classical/fridge/p-5fridges-8screws.pddl"
+    },
+    {
+      "file": "p-5fridges-9screws.pddl",
+      "problem_id": 4334,
+      "source_url": "https://www.haz.ca/planning-domains/classical/fridge/p-5fridges-9screws.pddl"
+    },
+    {
+      "file": "p-6fridges-10screws.pddl",
+      "problem_id": 4335,
+      "source_url": "https://www.haz.ca/planning-domains/classical/fridge/p-6fridges-10screws.pddl"
+    },
+    {
+      "file": "p-6fridges-5screws.pddl",
+      "problem_id": 4336,
+      "source_url": "https://www.haz.ca/planning-domains/classical/fridge/p-6fridges-5screws.pddl"
+    },
+    {
+      "file": "p-6fridges-6screws.pddl",
+      "problem_id": 4337,
+      "source_url": "https://www.haz.ca/planning-domains/classical/fridge/p-6fridges-6screws.pddl"
+    },
+    {
+      "file": "p-6fridges-7screws.pddl",
+      "problem_id": 4338,
+      "source_url": "https://www.haz.ca/planning-domains/classical/fridge/p-6fridges-7screws.pddl"
+    },
+    {
+      "file": "p-6fridges-8screws.pddl",
+      "problem_id": 4339,
+      "source_url": "https://www.haz.ca/planning-domains/classical/fridge/p-6fridges-8screws.pddl"
+    },
+    {
+      "file": "p-6fridges-9screws.pddl",
+      "problem_id": 4340,
+      "source_url": "https://www.haz.ca/planning-domains/classical/fridge/p-6fridges-9screws.pddl"
+    },
+    {
+      "file": "p-7fridges-10screws.pddl",
+      "problem_id": 4341,
+      "source_url": "https://www.haz.ca/planning-domains/classical/fridge/p-7fridges-10screws.pddl"
+    },
+    {
+      "file": "p-7fridges-5screws.pddl",
+      "problem_id": 4342,
+      "source_url": "https://www.haz.ca/planning-domains/classical/fridge/p-7fridges-5screws.pddl"
+    },
+    {
+      "file": "p-7fridges-6screws.pddl",
+      "problem_id": 4343,
+      "source_url": "https://www.haz.ca/planning-domains/classical/fridge/p-7fridges-6screws.pddl"
+    },
+    {
+      "file": "p-7fridges-7screws.pddl",
+      "problem_id": 4344,
+      "source_url": "https://www.haz.ca/planning-domains/classical/fridge/p-7fridges-7screws.pddl"
+    },
+    {
+      "file": "p-7fridges-8screws.pddl",
+      "problem_id": 4345,
+      "source_url": "https://www.haz.ca/planning-domains/classical/fridge/p-7fridges-8screws.pddl"
+    },
+    {
+      "file": "p-7fridges-9screws.pddl",
+      "problem_id": 4346,
+      "source_url": "https://www.haz.ca/planning-domains/classical/fridge/p-7fridges-9screws.pddl"
+    },
+    {
+      "file": "p-8fridges-10screws.pddl",
+      "problem_id": 4347,
+      "source_url": "https://www.haz.ca/planning-domains/classical/fridge/p-8fridges-10screws.pddl"
+    },
+    {
+      "file": "p-8fridges-5screws.pddl",
+      "problem_id": 4348,
+      "source_url": "https://www.haz.ca/planning-domains/classical/fridge/p-8fridges-5screws.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-09-11T08:54:49+00:00"
+}
