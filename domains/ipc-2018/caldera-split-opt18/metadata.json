@@ -1,0 +1,122 @@
+{
+  "domain_id": 132,
+  "name": "caldera-split",
+  "collection": "IPC-2018",
+  "description": "(opt18) Name: Caldera\r\nSubmitted by: Andy Applebaum, Doug Miller, and Blake Strom from MITRE.\r\n\r\nDescription: Cybersecurity domain based on the CALDERA project with certain\r\nsimplifications like assuming that the network is fully known. Actions are taken from the\r\nMITRE ATT&CK framework which is a taxonomy of attacker behaviors observed in the real\r\nworld. The basic paradigm of the included actions is to steal credentials from hosts we\r\nhave access to and use them to laterally move across the network, which is representative\r\nof real adversary behavior: many adversaries tend to leverage existing, benign\r\ncapabilities for malicious ends, which is in contrast with some threat models that assume\r\nthat attackers are exploiting box-to-box. The instances were generated dynamically based\r\non a simulator that uses a few parameters to emulate a real network. These parameters\r\ncontrol the number of hosts, the number of users, the number of domains, and the\r\nprobability of credential overlap among others.\r\n\r\nInteresting properties: quantified conditional effects, hard to ground (some action schemas\r\nhave 10 parameters or more). To alleviate grounding issues we have two versions of the\r\ndomain, one that applies action splitting and one that does not.\r\n\r\nMiller, Doug, et al. \u201cAutomated Adversary Emulation: A Case for Planning and Acting with Unknowns.\u201d IntEx 2018. Available online at\r\n- https://www.mitre.org/publications/technical-papers/automated-adversary-emulation-a-case-for-planning-and-acting-with",
+  "tags": [
+    ":conditional-effects",
+    ":action-costs",
+    ":equality",
+    ":negative-preconditions",
+    ":typing"
+  ],
+  "requirements": null,
+  "source_api": "https://api.planning.domains/json/classical/domain/132",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/caldera-split-opt18/domain.pddl",
+  "problems_available": 20,
+  "problems_matching_domain_file": 20,
+  "problems": [
+    {
+      "file": "p11.pddl",
+      "problem_id": 4562,
+      "source_url": "https://www.haz.ca/planning-domains/classical/caldera-split-opt18/p11.pddl"
+    },
+    {
+      "file": "p07.pddl",
+      "problem_id": 4563,
+      "source_url": "https://www.haz.ca/planning-domains/classical/caldera-split-opt18/p07.pddl"
+    },
+    {
+      "file": "p06.pddl",
+      "problem_id": 4564,
+      "source_url": "https://www.haz.ca/planning-domains/classical/caldera-split-opt18/p06.pddl"
+    },
+    {
+      "file": "p10.pddl",
+      "problem_id": 4565,
+      "source_url": "https://www.haz.ca/planning-domains/classical/caldera-split-opt18/p10.pddl"
+    },
+    {
+      "file": "p17.pddl",
+      "problem_id": 4566,
+      "source_url": "https://www.haz.ca/planning-domains/classical/caldera-split-opt18/p17.pddl"
+    },
+    {
+      "file": "p01.pddl",
+      "problem_id": 4567,
+      "source_url": "https://www.haz.ca/planning-domains/classical/caldera-split-opt18/p01.pddl"
+    },
+    {
+      "file": "p16.pddl",
+      "problem_id": 4568,
+      "source_url": "https://www.haz.ca/planning-domains/classical/caldera-split-opt18/p16.pddl"
+    },
+    {
+      "file": "p20.pddl",
+      "problem_id": 4569,
+      "source_url": "https://www.haz.ca/planning-domains/classical/caldera-split-opt18/p20.pddl"
+    },
+    {
+      "file": "p19.pddl",
+      "problem_id": 4570,
+      "source_url": "https://www.haz.ca/planning-domains/classical/caldera-split-opt18/p19.pddl"
+    },
+    {
+      "file": "p03.pddl",
+      "problem_id": 4571,
+      "source_url": "https://www.haz.ca/planning-domains/classical/caldera-split-opt18/p03.pddl"
+    },
+    {
+      "file": "p15.pddl",
+      "problem_id": 4572,
+      "source_url": "https://www.haz.ca/planning-domains/classical/caldera-split-opt18/p15.pddl"
+    },
+    {
+      "file": "p14.pddl",
+      "problem_id": 4573,
+      "source_url": "https://www.haz.ca/planning-domains/classical/caldera-split-opt18/p14.pddl"
+    },
+    {
+      "file": "p02.pddl",
+      "problem_id": 4574,
+      "source_url": "https://www.haz.ca/planning-domains/classical/caldera-split-opt18/p02.pddl"
+    },
+    {
+      "file": "p18.pddl",
+      "problem_id": 4575,
+      "source_url": "https://www.haz.ca/planning-domains/classical/caldera-split-opt18/p18.pddl"
+    },
+    {
+      "file": "p05.pddl",
+      "problem_id": 4576,
+      "source_url": "https://www.haz.ca/planning-domains/classical/caldera-split-opt18/p05.pddl"
+    },
+    {
+      "file": "p13.pddl",
+      "problem_id": 4577,
+      "source_url": "https://www.haz.ca/planning-domains/classical/caldera-split-opt18/p13.pddl"
+    },
+    {
+      "file": "p09.pddl",
+      "problem_id": 4578,
+      "source_url": "https://www.haz.ca/planning-domains/classical/caldera-split-opt18/p09.pddl"
+    },
+    {
+      "file": "p08.pddl",
+      "problem_id": 4579,
+      "source_url": "https://www.haz.ca/planning-domains/classical/caldera-split-opt18/p08.pddl"
+    },
+    {
+      "file": "p12.pddl",
+      "problem_id": 4580,
+      "source_url": "https://www.haz.ca/planning-domains/classical/caldera-split-opt18/p12.pddl"
+    },
+    {
+      "file": "p04.pddl",
+      "problem_id": 4581,
+      "source_url": "https://www.haz.ca/planning-domains/classical/caldera-split-opt18/p04.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-09-12T08:38:14+00:00"
+}

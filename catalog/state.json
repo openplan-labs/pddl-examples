@@ -224,6 +224,41 @@
       "path": "domains/ipc-2011/transport-13",
       "problems": 20
     },
+    "130": {
+      "collection": "IPC-2018",
+      "fetched_at": "2026-09-12T08:38:04+00:00",
+      "name": "agricola-opt18",
+      "path": "domains/ipc-2018/agricola-opt18",
+      "problems": 20
+    },
+    "131": {
+      "collection": "IPC-2018",
+      "fetched_at": "2026-09-12T08:38:09+00:00",
+      "name": "caldera-opt18",
+      "path": "domains/ipc-2018/caldera-opt18",
+      "problems": 20
+    },
+    "132": {
+      "collection": "IPC-2018",
+      "fetched_at": "2026-09-12T08:38:14+00:00",
+      "name": "caldera-split-opt18",
+      "path": "domains/ipc-2018/caldera-split-opt18",
+      "problems": 20
+    },
+    "133": {
+      "collection": "IPC-2018",
+      "fetched_at": "2026-09-12T08:38:19+00:00",
+      "name": "data-network-opt18",
+      "path": "domains/ipc-2018/data-network-opt18",
+      "problems": 20
+    },
+    "134": {
+      "collection": "IPC-2018",
+      "fetched_at": "2026-09-12T08:38:20+00:00",
+      "name": "organic-synthesis-opt18",
+      "path": "domains/ipc-2018/organic-synthesis-opt18",
+      "problems": 1
+    },
     "14": {
       "collection": "Fast Downward All Problem Suite",
       "fetched_at": "2026-08-20T14:39:50+00:00",
