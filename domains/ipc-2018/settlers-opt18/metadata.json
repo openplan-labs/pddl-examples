@@ -1,0 +1,122 @@
+{
+  "domain_id": 137,
+  "name": "settlers",
+  "collection": "IPC-2018",
+  "description": "(opt18) Settlers:\r\nsubmitted by Marcel Steinmetz\r\nSettlers was a numeric domain originally developed by Patrik Haslum and included in IPC\r\n2002. This is a variant where numeric resources are discretized and numeric effects are\r\nencoded using quantified conditional effects. Moreover, this is a resource-constrained\r\nversion where amount of available resources is decided taking into account the minimal\r\namount of resources needed to solve the instance.\r\n\r\nDescription of the original domain: This one was for the numeric track and proved to be a\r\nvery tough resource management domain. Several interesting issues in encoding arise as\r\nwell as the subsequent problem of planning with the domain. In particular, resources can\r\nbe combined to construct vehicles of various kinds. Since these vehicles are not available\r\ninitially, this is an example of a problem in which new objects are created. PDDL does not\r\nconveniently support this concept at present, so it is necessary to name \"potential\"\r\nvehicles at the outset, which can be realised through construction. A very high degree of\r\nredundant symmetry exists between these \"potential\" vehicles, since it does not matter\r\nwhich vehicle names are actually used for the vehicles that are realised in a\r\nplan. Planners that begin by grounding all actions can be swamped by the large numbers of\r\npotential actions involving these potential vehicles, which could be realised as one of\r\nseveral different types of actual vehicles.\r\n\r\nPlan quality is judged by a linear combination of labour use, pollution creation and\r\nresource consumption. There is scope for constructing very hard metrics that involve\r\nmaximising housing construction subject to an increasing pollution penalty (say), to\r\nensure that optimal plan quality is bounded.",
+  "tags": [
+    ":conditional-effects",
+    ":action-costs",
+    ":equality",
+    ":negative-preconditions",
+    ":typing"
+  ],
+  "requirements": null,
+  "source_api": "https://api.planning.domains/json/classical/domain/137",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/settlers-opt18/domain.pddl",
+  "problems_available": 20,
+  "problems_matching_domain_file": 20,
+  "problems": [
+    {
+      "file": "p11.pddl",
+      "problem_id": 4662,
+      "source_url": "https://www.haz.ca/planning-domains/classical/settlers-opt18/p11.pddl"
+    },
+    {
+      "file": "p07.pddl",
+      "problem_id": 4663,
+      "source_url": "https://www.haz.ca/planning-domains/classical/settlers-opt18/p07.pddl"
+    },
+    {
+      "file": "p06.pddl",
+      "problem_id": 4664,
+      "source_url": "https://www.haz.ca/planning-domains/classical/settlers-opt18/p06.pddl"
+    },
+    {
+      "file": "p10.pddl",
+      "problem_id": 4665,
+      "source_url": "https://www.haz.ca/planning-domains/classical/settlers-opt18/p10.pddl"
+    },
+    {
+      "file": "p17.pddl",
+      "problem_id": 4666,
+      "source_url": "https://www.haz.ca/planning-domains/classical/settlers-opt18/p17.pddl"
+    },
+    {
+      "file": "p01.pddl",
+      "problem_id": 4667,
+      "source_url": "https://www.haz.ca/planning-domains/classical/settlers-opt18/p01.pddl"
+    },
+    {
+      "file": "p16.pddl",
+      "problem_id": 4668,
+      "source_url": "https://www.haz.ca/planning-domains/classical/settlers-opt18/p16.pddl"
+    },
+    {
+      "file": "p20.pddl",
+      "problem_id": 4669,
+      "source_url": "https://www.haz.ca/planning-domains/classical/settlers-opt18/p20.pddl"
+    },
+    {
+      "file": "p19.pddl",
+      "problem_id": 4670,
+      "source_url": "https://www.haz.ca/planning-domains/classical/settlers-opt18/p19.pddl"
+    },
+    {
+      "file": "p03.pddl",
+      "problem_id": 4671,
+      "source_url": "https://www.haz.ca/planning-domains/classical/settlers-opt18/p03.pddl"
+    },
+    {
+      "file": "p15.pddl",
+      "problem_id": 4672,
+      "source_url": "https://www.haz.ca/planning-domains/classical/settlers-opt18/p15.pddl"
+    },
+    {
+      "file": "p14.pddl",
+      "problem_id": 4673,
+      "source_url": "https://www.haz.ca/planning-domains/classical/settlers-opt18/p14.pddl"
+    },
+    {
+      "file": "p02.pddl",
+      "problem_id": 4674,
+      "source_url": "https://www.haz.ca/planning-domains/classical/settlers-opt18/p02.pddl"
+    },
+    {
+      "file": "p18.pddl",
+      "problem_id": 4675,
+      "source_url": "https://www.haz.ca/planning-domains/classical/settlers-opt18/p18.pddl"
+    },
+    {
+      "file": "p05.pddl",
+      "problem_id": 4676,
+      "source_url": "https://www.haz.ca/planning-domains/classical/settlers-opt18/p05.pddl"
+    },
+    {
+      "file": "p13.pddl",
+      "problem_id": 4677,
+      "source_url": "https://www.haz.ca/planning-domains/classical/settlers-opt18/p13.pddl"
+    },
+    {
+      "file": "p09.pddl",
+      "problem_id": 4678,
+      "source_url": "https://www.haz.ca/planning-domains/classical/settlers-opt18/p09.pddl"
+    },
+    {
+      "file": "p08.pddl",
+      "problem_id": 4679,
+      "source_url": "https://www.haz.ca/planning-domains/classical/settlers-opt18/p08.pddl"
+    },
+    {
+      "file": "p12.pddl",
+      "problem_id": 4680,
+      "source_url": "https://www.haz.ca/planning-domains/classical/settlers-opt18/p12.pddl"
+    },
+    {
+      "file": "p04.pddl",
+      "problem_id": 4681,
+      "source_url": "https://www.haz.ca/planning-domains/classical/settlers-opt18/p04.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-09-13T09:32:37+00:00"
+}

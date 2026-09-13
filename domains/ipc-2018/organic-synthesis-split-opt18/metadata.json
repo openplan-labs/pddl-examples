@@ -1,0 +1,25 @@
+{
+  "domain_id": 136,
+  "name": "organic-synthesis-split",
+  "collection": "IPC-2018",
+  "description": "(opt18) Organic Synthesis:\r\nsubmitted by Hadi Qovaizi, Arman Masoumi, Anne Johnson, Russell Viirre, Andrew McWilliams, and Mikhail Soutchanski, Ryerson University\r\n\r\nDescription: Computer Assisted Organic Synthesis Planning. Description taken from the\r\npaper: The organic synthesis problem is a common chemistry problem that requires finding a\r\nsequence of reactions that produces the target molecule from given initial molecules. The\r\ninstances are based on real chemistry exam questions that can vary in difficulty from\r\nrelatively simple problems that can be solved in 2 or 3 steps to more complex problems\r\nthat may require finding a sequence of 10-12 reactions.\r\n\r\nIf you would like to write a paper related to this research, please cite the following\r\npublications:\r\n        Arman Masoumi, Megan Antoniazzi and Mikhail Soutchanski\r\n        Modeling Organic Chemistry and Planning Organic Synthesis.\r\n        Proceedings of the 1st Global Conference on Artificial Intelligence\r\n        (GCAI 2015): Tbilisi, Georgia, October 16-19, 2015. This paper was\r\n        published in the EasyChair Proceedings in Computing:\r\n        Volume 36, pages 176-195, 2015 (issn 2040-557X).\r\n\r\n        Rami Matloob and Mikhail Soutchanski\r\n        Exploring Organic Synthesis With State-of-the-Art Planners.\r\n        Proceedings of Scheduling and Planning Applications woRKshop (SPARK),\r\n        pages 52-61, held on June 13, 2016 in conjunction with the 26th\r\n        Intern. Conference on Automated Planning and Scheduling, London, UK.",
+  "tags": [
+    ":action-costs",
+    ":equality",
+    ":typing"
+  ],
+  "requirements": null,
+  "source_api": "https://api.planning.domains/json/classical/domain/136",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/organic-synthesis-split-opt18/domain-p11.pddl",
+  "problems_available": 20,
+  "problems_matching_domain_file": 1,
+  "problems": [
+    {
+      "file": "p11.pddl",
+      "problem_id": 4642,
+      "source_url": "https://www.haz.ca/planning-domains/classical/organic-synthesis-split-opt18/p11.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-09-13T09:32:34+00:00"
+}

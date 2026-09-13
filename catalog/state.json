@@ -259,6 +259,41 @@
       "path": "domains/ipc-2018/organic-synthesis-opt18",
       "problems": 1
     },
+    "135": {
+      "collection": "IPC-2018",
+      "fetched_at": "2026-09-13T09:32:34+00:00",
+      "name": "nurikabe-opt18",
+      "path": "domains/ipc-2018/nurikabe-opt18",
+      "problems": 20
+    },
+    "136": {
+      "collection": "IPC-2018",
+      "fetched_at": "2026-09-13T09:32:34+00:00",
+      "name": "organic-synthesis-split-opt18",
+      "path": "domains/ipc-2018/organic-synthesis-split-opt18",
+      "problems": 1
+    },
+    "137": {
+      "collection": "IPC-2018",
+      "fetched_at": "2026-09-13T09:32:37+00:00",
+      "name": "settlers-opt18",
+      "path": "domains/ipc-2018/settlers-opt18",
+      "problems": 20
+    },
+    "138": {
+      "collection": "IPC-2018",
+      "fetched_at": "2026-09-13T09:32:39+00:00",
+      "name": "snake-opt18",
+      "path": "domains/ipc-2018/snake-opt18",
+      "problems": 20
+    },
+    "139": {
+      "collection": "IPC-2018",
+      "fetched_at": "2026-09-13T09:32:41+00:00",
+      "name": "termes-opt18",
+      "path": "domains/ipc-2018/termes-opt18",
+      "problems": 20
+    },
     "14": {
       "collection": "Fast Downward All Problem Suite",
       "fetched_at": "2026-08-20T14:39:50+00:00",
