@@ -1,0 +1,120 @@
+{
+  "domain_id": 146,
+  "name": "nurikabe",
+  "collection": "IPC-2018",
+  "description": "(sat18) Nurikabe:\r\n\r\nThis is a version of the Floortile domain where a robot must paint a certain pattern in a\r\ngrid and cannot move into locations that have already been painted. The pattern is not\r\ndecided in advance, but instead it must fulfill the constraints of a simplified Nurikabe\r\npuzzle. The grid has some positions marked with a number. When the robot is on top of a\r\ncell with a number N on it, it can start the paint action so that the next N cells\r\n(including the current position) will be painted. There is an additional constraint that\r\ntwo adjacent cells cannot belong to cells of different groups.",
+  "tags": [
+    ":conditional-effects",
+    ":negative-preconditions",
+    ":typing"
+  ],
+  "requirements": null,
+  "source_api": "https://api.planning.domains/json/classical/domain/146",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/nurikabe-sat18/domain.pddl",
+  "problems_available": 20,
+  "problems_matching_domain_file": 20,
+  "problems": [
+    {
+      "file": "p11.pddl",
+      "problem_id": 4842,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nurikabe-sat18/p11.pddl"
+    },
+    {
+      "file": "p07.pddl",
+      "problem_id": 4843,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nurikabe-sat18/p07.pddl"
+    },
+    {
+      "file": "p06.pddl",
+      "problem_id": 4844,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nurikabe-sat18/p06.pddl"
+    },
+    {
+      "file": "p10.pddl",
+      "problem_id": 4845,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nurikabe-sat18/p10.pddl"
+    },
+    {
+      "file": "p17.pddl",
+      "problem_id": 4846,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nurikabe-sat18/p17.pddl"
+    },
+    {
+      "file": "p01.pddl",
+      "problem_id": 4847,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nurikabe-sat18/p01.pddl"
+    },
+    {
+      "file": "p16.pddl",
+      "problem_id": 4848,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nurikabe-sat18/p16.pddl"
+    },
+    {
+      "file": "p20.pddl",
+      "problem_id": 4849,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nurikabe-sat18/p20.pddl"
+    },
+    {
+      "file": "p19.pddl",
+      "problem_id": 4850,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nurikabe-sat18/p19.pddl"
+    },
+    {
+      "file": "p03.pddl",
+      "problem_id": 4851,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nurikabe-sat18/p03.pddl"
+    },
+    {
+      "file": "p15.pddl",
+      "problem_id": 4852,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nurikabe-sat18/p15.pddl"
+    },
+    {
+      "file": "p14.pddl",
+      "problem_id": 4853,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nurikabe-sat18/p14.pddl"
+    },
+    {
+      "file": "p02.pddl",
+      "problem_id": 4854,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nurikabe-sat18/p02.pddl"
+    },
+    {
+      "file": "p18.pddl",
+      "problem_id": 4855,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nurikabe-sat18/p18.pddl"
+    },
+    {
+      "file": "p05.pddl",
+      "problem_id": 4856,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nurikabe-sat18/p05.pddl"
+    },
+    {
+      "file": "p13.pddl",
+      "problem_id": 4857,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nurikabe-sat18/p13.pddl"
+    },
+    {
+      "file": "p09.pddl",
+      "problem_id": 4858,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nurikabe-sat18/p09.pddl"
+    },
+    {
+      "file": "p08.pddl",
+      "problem_id": 4859,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nurikabe-sat18/p08.pddl"
+    },
+    {
+      "file": "p12.pddl",
+      "problem_id": 4860,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nurikabe-sat18/p12.pddl"
+    },
+    {
+      "file": "p04.pddl",
+      "problem_id": 4861,
+      "source_url": "https://www.haz.ca/planning-domains/classical/nurikabe-sat18/p04.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-09-15T09:25:05+00:00"
+}

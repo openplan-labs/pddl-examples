@@ -1,0 +1,120 @@
+{
+  "domain_id": 145,
+  "name": "data-network",
+  "collection": "IPC-2018",
+  "description": "(sat18) Data Network:\r\nsubmitted by: Manuel Heusner\r\n\r\nIn a given network of servers, each server can produce data by processing\r\nexisting data and send the data to connected servers. Each server has a disk\r\nand random access memory (RAM). Data that is saved on the disk of a server\r\nmust be loaded into RAM of the server in order to be processed or sent to the\r\nRAM of another server.\r\n\r\nThe ability to process and distribute the data in the network is constrained by\r\n    - the connections between servers,\r\n    - the capacity of RAM on a server,\r\n    - the availability of scripts on servers, and\r\n    - the cost of\r\n        - loading and saving data, which depends on the data size and the (disk io performance of a) server,\r\n        - sending data, which depends on the data size and (bandwidth of a) connection, and\r\n        - processing data, which depends on the script and (clock rate and numbers of processors of a) server.",
+  "tags": [
+    ":action-costs",
+    ":negative-preconditions",
+    ":typing"
+  ],
+  "requirements": null,
+  "source_api": "https://api.planning.domains/json/classical/domain/145",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/data-network-sat18/domain.pddl",
+  "problems_available": 20,
+  "problems_matching_domain_file": 20,
+  "problems": [
+    {
+      "file": "p11.pddl",
+      "problem_id": 4822,
+      "source_url": "https://www.haz.ca/planning-domains/classical/data-network-sat18/p11.pddl"
+    },
+    {
+      "file": "p07.pddl",
+      "problem_id": 4823,
+      "source_url": "https://www.haz.ca/planning-domains/classical/data-network-sat18/p07.pddl"
+    },
+    {
+      "file": "p06.pddl",
+      "problem_id": 4824,
+      "source_url": "https://www.haz.ca/planning-domains/classical/data-network-sat18/p06.pddl"
+    },
+    {
+      "file": "p10.pddl",
+      "problem_id": 4825,
+      "source_url": "https://www.haz.ca/planning-domains/classical/data-network-sat18/p10.pddl"
+    },
+    {
+      "file": "p17.pddl",
+      "problem_id": 4826,
+      "source_url": "https://www.haz.ca/planning-domains/classical/data-network-sat18/p17.pddl"
+    },
+    {
+      "file": "p01.pddl",
+      "problem_id": 4827,
+      "source_url": "https://www.haz.ca/planning-domains/classical/data-network-sat18/p01.pddl"
+    },
+    {
+      "file": "p16.pddl",
+      "problem_id": 4828,
+      "source_url": "https://www.haz.ca/planning-domains/classical/data-network-sat18/p16.pddl"
+    },
+    {
+      "file": "p20.pddl",
+      "problem_id": 4829,
+      "source_url": "https://www.haz.ca/planning-domains/classical/data-network-sat18/p20.pddl"
+    },
+    {
+      "file": "p19.pddl",
+      "problem_id": 4830,
+      "source_url": "https://www.haz.ca/planning-domains/classical/data-network-sat18/p19.pddl"
+    },
+    {
+      "file": "p03.pddl",
+      "problem_id": 4831,
+      "source_url": "https://www.haz.ca/planning-domains/classical/data-network-sat18/p03.pddl"
+    },
+    {
+      "file": "p15.pddl",
+      "problem_id": 4832,
+      "source_url": "https://www.haz.ca/planning-domains/classical/data-network-sat18/p15.pddl"
+    },
+    {
+      "file": "p14.pddl",
+      "problem_id": 4833,
+      "source_url": "https://www.haz.ca/planning-domains/classical/data-network-sat18/p14.pddl"
+    },
+    {
+      "file": "p02.pddl",
+      "problem_id": 4834,
+      "source_url": "https://www.haz.ca/planning-domains/classical/data-network-sat18/p02.pddl"
+    },
+    {
+      "file": "p18.pddl",
+      "problem_id": 4835,
+      "source_url": "https://www.haz.ca/planning-domains/classical/data-network-sat18/p18.pddl"
+    },
+    {
+      "file": "p05.pddl",
+      "problem_id": 4836,
+      "source_url": "https://www.haz.ca/planning-domains/classical/data-network-sat18/p05.pddl"
+    },
+    {
+      "file": "p13.pddl",
+      "problem_id": 4837,
+      "source_url": "https://www.haz.ca/planning-domains/classical/data-network-sat18/p13.pddl"
+    },
+    {
+      "file": "p09.pddl",
+      "problem_id": 4838,
+      "source_url": "https://www.haz.ca/planning-domains/classical/data-network-sat18/p09.pddl"
+    },
+    {
+      "file": "p08.pddl",
+      "problem_id": 4839,
+      "source_url": "https://www.haz.ca/planning-domains/classical/data-network-sat18/p08.pddl"
+    },
+    {
+      "file": "p12.pddl",
+      "problem_id": 4840,
+      "source_url": "https://www.haz.ca/planning-domains/classical/data-network-sat18/p12.pddl"
+    },
+    {
+      "file": "p04.pddl",
+      "problem_id": 4841,
+      "source_url": "https://www.haz.ca/planning-domains/classical/data-network-sat18/p04.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-09-15T09:25:02+00:00"
+}

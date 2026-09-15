@@ -336,6 +336,41 @@
       "path": "domains/ipc-2018/caldera-split-sat18",
       "problems": 20
     },
+    "145": {
+      "collection": "IPC-2018",
+      "fetched_at": "2026-09-15T09:25:02+00:00",
+      "name": "data-network-sat18",
+      "path": "domains/ipc-2018/data-network-sat18",
+      "problems": 20
+    },
+    "146": {
+      "collection": "IPC-2018",
+      "fetched_at": "2026-09-15T09:25:05+00:00",
+      "name": "nurikabe-sat18",
+      "path": "domains/ipc-2018/nurikabe-sat18",
+      "problems": 20
+    },
+    "147": {
+      "collection": "IPC-2018",
+      "fetched_at": "2026-09-15T09:25:05+00:00",
+      "name": "organic-synthesis-sat18",
+      "path": "domains/ipc-2018/organic-synthesis-sat18",
+      "problems": 1
+    },
+    "148": {
+      "collection": "IPC-2018",
+      "fetched_at": "2026-09-15T09:25:06+00:00",
+      "name": "organic-synthesis-split-sat18",
+      "path": "domains/ipc-2018/organic-synthesis-split-sat18",
+      "problems": 1
+    },
+    "149": {
+      "collection": "IPC-2018",
+      "fetched_at": "2026-09-15T09:25:08+00:00",
+      "name": "settlers-sat18",
+      "path": "domains/ipc-2018/settlers-sat18",
+      "problems": 20
+    },
     "15": {
       "collection": "Fast Downward All Problem Suite",
       "fetched_at": "2026-08-20T14:39:52+00:00",
