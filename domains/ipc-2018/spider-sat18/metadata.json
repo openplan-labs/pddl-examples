@@ -1,0 +1,121 @@
+{
+  "domain_id": 151,
+  "name": "spider",
+  "collection": "IPC-2018",
+  "description": "(sat18) Spider:\r\n\r\nIn the solitaire game \"Spider solitaire\" stacks of cards of the same suit can be moved\r\nfrom a pile to another and cards can be placed on a card with a value that is higher by\r\none (of any suit). In contrast to the real game, all cards are face-up from the start, to\r\nremove uncertainty. Movement of stacks of cards could be easily modeled with derived\r\npredicates but here we use auxiliary 0-cost actions that update the state.",
+  "tags": [
+    ":conditional-effects",
+    ":action-costs",
+    ":negative-preconditions",
+    ":typing"
+  ],
+  "requirements": null,
+  "source_api": "https://api.planning.domains/json/classical/domain/151",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/spider-sat18/domain.pddl",
+  "problems_available": 20,
+  "problems_matching_domain_file": 20,
+  "problems": [
+    {
+      "file": "p11.pddl",
+      "problem_id": 4942,
+      "source_url": "https://www.haz.ca/planning-domains/classical/spider-sat18/p11.pddl"
+    },
+    {
+      "file": "p07.pddl",
+      "problem_id": 4943,
+      "source_url": "https://www.haz.ca/planning-domains/classical/spider-sat18/p07.pddl"
+    },
+    {
+      "file": "p06.pddl",
+      "problem_id": 4944,
+      "source_url": "https://www.haz.ca/planning-domains/classical/spider-sat18/p06.pddl"
+    },
+    {
+      "file": "p10.pddl",
+      "problem_id": 4945,
+      "source_url": "https://www.haz.ca/planning-domains/classical/spider-sat18/p10.pddl"
+    },
+    {
+      "file": "p17.pddl",
+      "problem_id": 4946,
+      "source_url": "https://www.haz.ca/planning-domains/classical/spider-sat18/p17.pddl"
+    },
+    {
+      "file": "p01.pddl",
+      "problem_id": 4947,
+      "source_url": "https://www.haz.ca/planning-domains/classical/spider-sat18/p01.pddl"
+    },
+    {
+      "file": "p16.pddl",
+      "problem_id": 4948,
+      "source_url": "https://www.haz.ca/planning-domains/classical/spider-sat18/p16.pddl"
+    },
+    {
+      "file": "p20.pddl",
+      "problem_id": 4949,
+      "source_url": "https://www.haz.ca/planning-domains/classical/spider-sat18/p20.pddl"
+    },
+    {
+      "file": "p19.pddl",
+      "problem_id": 4950,
+      "source_url": "https://www.haz.ca/planning-domains/classical/spider-sat18/p19.pddl"
+    },
+    {
+      "file": "p03.pddl",
+      "problem_id": 4951,
+      "source_url": "https://www.haz.ca/planning-domains/classical/spider-sat18/p03.pddl"
+    },
+    {
+      "file": "p15.pddl",
+      "problem_id": 4952,
+      "source_url": "https://www.haz.ca/planning-domains/classical/spider-sat18/p15.pddl"
+    },
+    {
+      "file": "p14.pddl",
+      "problem_id": 4953,
+      "source_url": "https://www.haz.ca/planning-domains/classical/spider-sat18/p14.pddl"
+    },
+    {
+      "file": "p02.pddl",
+      "problem_id": 4954,
+      "source_url": "https://www.haz.ca/planning-domains/classical/spider-sat18/p02.pddl"
+    },
+    {
+      "file": "p18.pddl",
+      "problem_id": 4955,
+      "source_url": "https://www.haz.ca/planning-domains/classical/spider-sat18/p18.pddl"
+    },
+    {
+      "file": "p05.pddl",
+      "problem_id": 4956,
+      "source_url": "https://www.haz.ca/planning-domains/classical/spider-sat18/p05.pddl"
+    },
+    {
+      "file": "p13.pddl",
+      "problem_id": 4957,
+      "source_url": "https://www.haz.ca/planning-domains/classical/spider-sat18/p13.pddl"
+    },
+    {
+      "file": "p09.pddl",
+      "problem_id": 4958,
+      "source_url": "https://www.haz.ca/planning-domains/classical/spider-sat18/p09.pddl"
+    },
+    {
+      "file": "p08.pddl",
+      "problem_id": 4959,
+      "source_url": "https://www.haz.ca/planning-domains/classical/spider-sat18/p08.pddl"
+    },
+    {
+      "file": "p12.pddl",
+      "problem_id": 4960,
+      "source_url": "https://www.haz.ca/planning-domains/classical/spider-sat18/p12.pddl"
+    },
+    {
+      "file": "p04.pddl",
+      "problem_id": 4961,
+      "source_url": "https://www.haz.ca/planning-domains/classical/spider-sat18/p04.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-09-16T09:17:38+00:00"
+}

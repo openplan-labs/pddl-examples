@@ -1,0 +1,119 @@
+{
+  "domain_id": 152,
+  "name": "termes",
+  "collection": "IPC-2018",
+  "description": "(sat18) Termes:\r\nsubmitted by Sven Koenig and Satish Kumar\r\n\r\nThis domain models the Harvard TERMES robots, based on termites. They cannot only carry\r\nblocks but also climb on them so that they can build complex structures. This domain, in\r\nits full generality, is a multi-agent planning benchmark, but here we model only a single\r\nrobot.\r\n\r\n\r\nPublication: S. Koenig and S. Kumar. A Case for Collaborative Construction as Testbed for Cooperative\r\nMulti-Agent Planning. In Proceedings of the ICAPS-17 Scheduling and Planning Applications\r\nWorkshop (SPARK), 2017.",
+  "tags": [
+    ":negative-preconditions",
+    ":typing"
+  ],
+  "requirements": null,
+  "source_api": "https://api.planning.domains/json/classical/domain/152",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/termes-sat18/domain.pddl",
+  "problems_available": 20,
+  "problems_matching_domain_file": 20,
+  "problems": [
+    {
+      "file": "p11.pddl",
+      "problem_id": 4962,
+      "source_url": "https://www.haz.ca/planning-domains/classical/termes-sat18/p11.pddl"
+    },
+    {
+      "file": "p07.pddl",
+      "problem_id": 4963,
+      "source_url": "https://www.haz.ca/planning-domains/classical/termes-sat18/p07.pddl"
+    },
+    {
+      "file": "p06.pddl",
+      "problem_id": 4964,
+      "source_url": "https://www.haz.ca/planning-domains/classical/termes-sat18/p06.pddl"
+    },
+    {
+      "file": "p10.pddl",
+      "problem_id": 4965,
+      "source_url": "https://www.haz.ca/planning-domains/classical/termes-sat18/p10.pddl"
+    },
+    {
+      "file": "p17.pddl",
+      "problem_id": 4966,
+      "source_url": "https://www.haz.ca/planning-domains/classical/termes-sat18/p17.pddl"
+    },
+    {
+      "file": "p01.pddl",
+      "problem_id": 4967,
+      "source_url": "https://www.haz.ca/planning-domains/classical/termes-sat18/p01.pddl"
+    },
+    {
+      "file": "p16.pddl",
+      "problem_id": 4968,
+      "source_url": "https://www.haz.ca/planning-domains/classical/termes-sat18/p16.pddl"
+    },
+    {
+      "file": "p20.pddl",
+      "problem_id": 4969,
+      "source_url": "https://www.haz.ca/planning-domains/classical/termes-sat18/p20.pddl"
+    },
+    {
+      "file": "p19.pddl",
+      "problem_id": 4970,
+      "source_url": "https://www.haz.ca/planning-domains/classical/termes-sat18/p19.pddl"
+    },
+    {
+      "file": "p03.pddl",
+      "problem_id": 4971,
+      "source_url": "https://www.haz.ca/planning-domains/classical/termes-sat18/p03.pddl"
+    },
+    {
+      "file": "p15.pddl",
+      "problem_id": 4972,
+      "source_url": "https://www.haz.ca/planning-domains/classical/termes-sat18/p15.pddl"
+    },
+    {
+      "file": "p14.pddl",
+      "problem_id": 4973,
+      "source_url": "https://www.haz.ca/planning-domains/classical/termes-sat18/p14.pddl"
+    },
+    {
+      "file": "p02.pddl",
+      "problem_id": 4974,
+      "source_url": "https://www.haz.ca/planning-domains/classical/termes-sat18/p02.pddl"
+    },
+    {
+      "file": "p18.pddl",
+      "problem_id": 4975,
+      "source_url": "https://www.haz.ca/planning-domains/classical/termes-sat18/p18.pddl"
+    },
+    {
+      "file": "p05.pddl",
+      "problem_id": 4976,
+      "source_url": "https://www.haz.ca/planning-domains/classical/termes-sat18/p05.pddl"
+    },
+    {
+      "file": "p13.pddl",
+      "problem_id": 4977,
+      "source_url": "https://www.haz.ca/planning-domains/classical/termes-sat18/p13.pddl"
+    },
+    {
+      "file": "p09.pddl",
+      "problem_id": 4978,
+      "source_url": "https://www.haz.ca/planning-domains/classical/termes-sat18/p09.pddl"
+    },
+    {
+      "file": "p08.pddl",
+      "problem_id": 4979,
+      "source_url": "https://www.haz.ca/planning-domains/classical/termes-sat18/p08.pddl"
+    },
+    {
+      "file": "p12.pddl",
+      "problem_id": 4980,
+      "source_url": "https://www.haz.ca/planning-domains/classical/termes-sat18/p12.pddl"
+    },
+    {
+      "file": "p04.pddl",
+      "problem_id": 4981,
+      "source_url": "https://www.haz.ca/planning-domains/classical/termes-sat18/p04.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-09-16T09:17:44+00:00"
+}

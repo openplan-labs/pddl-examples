@@ -1,0 +1,119 @@
+{
+  "domain_id": 150,
+  "name": "snake",
+  "collection": "IPC-2018",
+  "description": "(sat18) Snake:\r\n\r\nIn the game Snake, a snake moves around a grid. There is a number of apples in some grid\r\ncells and when the snake moves into one of these locations, it eats the apple, extends its\r\nlength by one, and a new apple may spawn. In this version uncertainty has been removed by\r\ndeciding the location where apples will spawn in advance. Except for the end of the game,\r\nthere will be more than one apple on the board at the same time.\r\n\r\nInteresting properties: dead-end states",
+  "tags": [
+    ":equality",
+    ":negative-preconditions"
+  ],
+  "requirements": null,
+  "source_api": "https://api.planning.domains/json/classical/domain/150",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/snake-sat18/domain.pddl",
+  "problems_available": 20,
+  "problems_matching_domain_file": 20,
+  "problems": [
+    {
+      "file": "p11.pddl",
+      "problem_id": 4922,
+      "source_url": "https://www.haz.ca/planning-domains/classical/snake-sat18/p11.pddl"
+    },
+    {
+      "file": "p07.pddl",
+      "problem_id": 4923,
+      "source_url": "https://www.haz.ca/planning-domains/classical/snake-sat18/p07.pddl"
+    },
+    {
+      "file": "p06.pddl",
+      "problem_id": 4924,
+      "source_url": "https://www.haz.ca/planning-domains/classical/snake-sat18/p06.pddl"
+    },
+    {
+      "file": "p10.pddl",
+      "problem_id": 4925,
+      "source_url": "https://www.haz.ca/planning-domains/classical/snake-sat18/p10.pddl"
+    },
+    {
+      "file": "p17.pddl",
+      "problem_id": 4926,
+      "source_url": "https://www.haz.ca/planning-domains/classical/snake-sat18/p17.pddl"
+    },
+    {
+      "file": "p01.pddl",
+      "problem_id": 4927,
+      "source_url": "https://www.haz.ca/planning-domains/classical/snake-sat18/p01.pddl"
+    },
+    {
+      "file": "p16.pddl",
+      "problem_id": 4928,
+      "source_url": "https://www.haz.ca/planning-domains/classical/snake-sat18/p16.pddl"
+    },
+    {
+      "file": "p20.pddl",
+      "problem_id": 4929,
+      "source_url": "https://www.haz.ca/planning-domains/classical/snake-sat18/p20.pddl"
+    },
+    {
+      "file": "p19.pddl",
+      "problem_id": 4930,
+      "source_url": "https://www.haz.ca/planning-domains/classical/snake-sat18/p19.pddl"
+    },
+    {
+      "file": "p03.pddl",
+      "problem_id": 4931,
+      "source_url": "https://www.haz.ca/planning-domains/classical/snake-sat18/p03.pddl"
+    },
+    {
+      "file": "p15.pddl",
+      "problem_id": 4932,
+      "source_url": "https://www.haz.ca/planning-domains/classical/snake-sat18/p15.pddl"
+    },
+    {
+      "file": "p14.pddl",
+      "problem_id": 4933,
+      "source_url": "https://www.haz.ca/planning-domains/classical/snake-sat18/p14.pddl"
+    },
+    {
+      "file": "p02.pddl",
+      "problem_id": 4934,
+      "source_url": "https://www.haz.ca/planning-domains/classical/snake-sat18/p02.pddl"
+    },
+    {
+      "file": "p18.pddl",
+      "problem_id": 4935,
+      "source_url": "https://www.haz.ca/planning-domains/classical/snake-sat18/p18.pddl"
+    },
+    {
+      "file": "p05.pddl",
+      "problem_id": 4936,
+      "source_url": "https://www.haz.ca/planning-domains/classical/snake-sat18/p05.pddl"
+    },
+    {
+      "file": "p13.pddl",
+      "problem_id": 4937,
+      "source_url": "https://www.haz.ca/planning-domains/classical/snake-sat18/p13.pddl"
+    },
+    {
+      "file": "p09.pddl",
+      "problem_id": 4938,
+      "source_url": "https://www.haz.ca/planning-domains/classical/snake-sat18/p09.pddl"
+    },
+    {
+      "file": "p08.pddl",
+      "problem_id": 4939,
+      "source_url": "https://www.haz.ca/planning-domains/classical/snake-sat18/p08.pddl"
+    },
+    {
+      "file": "p12.pddl",
+      "problem_id": 4940,
+      "source_url": "https://www.haz.ca/planning-domains/classical/snake-sat18/p12.pddl"
+    },
+    {
+      "file": "p04.pddl",
+      "problem_id": 4941,
+      "source_url": "https://www.haz.ca/planning-domains/classical/snake-sat18/p04.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-09-16T09:17:31+00:00"
+}

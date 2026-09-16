@@ -378,6 +378,34 @@
       "path": "domains/fast-downward-all-problem-suite/schedule",
       "problems": 20
     },
+    "150": {
+      "collection": "IPC-2018",
+      "fetched_at": "2026-09-16T09:17:31+00:00",
+      "name": "snake-sat18",
+      "path": "domains/ipc-2018/snake-sat18",
+      "problems": 20
+    },
+    "151": {
+      "collection": "IPC-2018",
+      "fetched_at": "2026-09-16T09:17:38+00:00",
+      "name": "spider-sat18",
+      "path": "domains/ipc-2018/spider-sat18",
+      "problems": 20
+    },
+    "152": {
+      "collection": "IPC-2018",
+      "fetched_at": "2026-09-16T09:17:44+00:00",
+      "name": "termes-sat18",
+      "path": "domains/ipc-2018/termes-sat18",
+      "problems": 20
+    },
+    "153": {
+      "collection": "IPC-2018",
+      "fetched_at": "2026-09-16T09:17:45+00:00",
+      "name": "flashfill-sat18",
+      "path": "domains/ipc-2018/flashfill-sat18",
+      "problems": 1
+    },
     "16": {
       "collection": "Fast Downward LM-Cut Problem Suite",
       "fetched_at": "2026-08-20T14:39:53+00:00",

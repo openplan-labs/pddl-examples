@@ -1,0 +1,26 @@
+{
+  "domain_id": 153,
+  "name": "flashfill",
+  "collection": "IPC-2018",
+  "description": "(sat18) Flashfill:\r\nsubmitted by: Javier Segovia, Universitat Pompeu Fabra\r\n\r\nFlashfill models the flashfill feature included in Excel that synthesize programs based on\r\nuser actions. The inputs are strings that must be transformed into other strings\r\n(e.g. extract the capital letters of the name and surname) and the output is a computer\r\nprogram that works on all instances. This can be encoded as a classical planning problem\r\nusing the planning programs compilation by Segovia et al.\r\n\r\nPublications: Javier Segovia Aguas, Sergio Jimenez Celorrio, Anders Jonsson: Generalized\r\nPlanning with Procedural Domain Control Knowledge. ICAPS 2016",
+  "tags": [
+    ":conditional-effects",
+    ":action-costs",
+    ":negative-preconditions",
+    ":typing"
+  ],
+  "requirements": null,
+  "source_api": "https://api.planning.domains/json/classical/domain/153",
+  "domain_source_url": "https://www.haz.ca/planning-domains/classical/flashfill-sat18/domain-p11.pddl",
+  "problems_available": 20,
+  "problems_matching_domain_file": 1,
+  "problems": [
+    {
+      "file": "p11.pddl",
+      "problem_id": 4982,
+      "source_url": "https://www.haz.ca/planning-domains/classical/flashfill-sat18/p11.pddl"
+    }
+  ],
+  "attribution": "Fetched from the planning.domains classical collection (https://api.planning.domains). Domains originate from the International Planning Competitions and community submissions; see the source URLs for the original files.",
+  "fetched_at": "2026-09-16T09:17:45+00:00"
+}
